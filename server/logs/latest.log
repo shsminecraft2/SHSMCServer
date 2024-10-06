@@ -436,3 +436,95 @@ Caused by: java.util.zip.ZipException: zip END header not found
 
 [23:06:23] [Async Chat Thread - #5/INFO]: <BaconMania> aight[m
 
+[23:16:24] [Async Chat Thread - #6/INFO]: <Danny> im gonna make a window[m
+
+[23:16:25] [Async Chat Thread - #6/INFO]: <BaconMania> window there?[m
+
+[23:16:29] [Async Chat Thread - #6/INFO]: <BaconMania> ight[m
+
+[23:16:49] [Async Chat Thread - #6/INFO]: <Danny> i just need wood and sand[m
+
+[23:18:10] [Async Chat Thread - #7/INFO]: <BaconMania> imma add a plugin that makes it so only one player needs to sleep later[m
+
+[23:18:28] [Async Chat Thread - #7/INFO]: <Danny> thats a good idea[m
+
+[23:18:38] [Async Chat Thread - #7/INFO]: <Danny> is there any way to make the game less laggy[m
+
+[23:18:48] [Async Chat Thread - #7/INFO]: <Danny> also go to sleep?[m
+
+[23:19:22] [Async Chat Thread - #7/INFO]: <BaconMania> im gonna make it so you can join the server from normal minecraft[m
+
+[23:19:32] [Async Chat Thread - #7/INFO]: <BaconMania> normal minecraft would run way better than this[m
+
+[23:19:36] [Async Chat Thread - #7/INFO]: <Danny> yess please do[m
+
+[23:19:49] [Async Chat Thread - #7/INFO]: <Danny> and would you be able to login?[m
+
+[23:19:59] [Async Chat Thread - #7/INFO]: <BaconMania> yeah you'd still be forced to log in[m
+
+[23:20:00] [Async Chat Thread - #7/INFO]: <Danny> and play as your charecter from normal mc[m
+
+[23:20:05] [Async Chat Thread - #7/INFO]: <BaconMania> yeah[m
+
+[23:20:16] [Async Chat Thread - #7/INFO]: <Danny> oh but make sure its bedrock edition[m
+
+[23:20:23] [Async Chat Thread - #7/INFO]: <Danny> we all have bedrock[m
+
+[23:20:34] [Async Chat Thread - #7/INFO]: <BaconMania> I might be able to add bedrock support not sure completely tho[m
+
+[23:20:56] [Async Chat Thread - #7/INFO]: <Danny> i dont think sleepings working[m
+
+[23:21:24] [Async Chat Thread - #7/INFO]: <BaconMania> thats weird[m
+
+[23:21:28] [Server thread/INFO]: BaconMania issued server command: /time set day
+[23:21:28] [Server thread/INFO]: [BaconMania: Set the time to 1000]
+[23:21:48] [Async Chat Thread - #7/INFO]: <BaconMania> creeper[m
+
+[23:21:55] [Async Chat Thread - #7/INFO]: <BaconMania> shit[m
+
+[23:22:08] [Async Chat Thread - #7/INFO]: <Danny> mb my game lagged the moment i hit ti[m
+
+[23:22:16] [Async Chat Thread - #7/INFO]: <Danny> i couldnt move[m
+
+[23:23:14] [Async Chat Thread - #7/INFO]: <BaconMania> all good[m
+
+[23:23:16] [Async Chat Thread - #7/INFO]: <Danny> and it would have to be in bedrock edition none of us have java[m
+
+[23:23:33] [Async Chat Thread - #7/INFO]: <Danny> we all play on consle except rocco, but he has bedrock[m
+
+[23:24:09] [Async Chat Thread - #7/INFO]: <BaconMania> this thing runs off of java edition, but theres a plugin that allows bedrock players to connect to..[m
+
+[23:24:12] [Async Chat Thread - #7/INFO]: <BaconMania> java servers[m
+
+[23:24:22] [Async Chat Thread - #7/INFO]: <BaconMania> so it might be possible might not be[m
+
+[23:24:57] [Async Chat Thread - #7/INFO]: <Danny> ok.... its just really laggy for me[m
+
+[23:25:09] [Async Chat Thread - #7/INFO]: <BaconMania> ill try my best to get it compatible with bedrock[m
+
+[23:26:12] [Async Chat Thread - #8/INFO]: <BaconMania> looking into if its possible rn[m
+
+[23:26:56] [Async Chat Thread - #8/INFO]: <Danny> kk[m
+
+[23:29:43] [Async Chat Thread - #9/INFO]: <BaconMania> ok half of what im reading says its possible the other half is telling me to go fuck myself[m
+
+[23:29:57] [Async Chat Thread - #9/INFO]: <Danny> lmaooo so whatchu think[m
+
+[23:30:06] [Async Chat Thread - #9/INFO]: <BaconMania> I mean who knows lol[m
+
+[23:30:09] [Async Chat Thread - #9/INFO]: <BaconMania> ill test later[m
+
+[23:30:13] [Async Chat Thread - #9/INFO]: <Danny> well try it ig[m
+
+[23:30:25] [Async Chat Thread - #9/INFO]: <Danny> but test it on a new server so we dont lose this one[m
+
+[23:30:38] [Async Chat Thread - #9/INFO]: <BaconMania> ill make a backup of the server js in case[m
+
+[23:32:27] [Async Chat Thread - #10/INFO]: <BaconMania> to be able to do it I'd need to restart the server so ill do that later[m
+
+[23:32:39] [Async Chat Thread - #10/INFO]: <BaconMania> actually I could just fork the github repo that would work too[m
+
+[23:33:19] [Async Chat Thread - #10/INFO]: <Danny> whats your last name?[m
+
+[23:33:40] [Async Chat Thread - #10/INFO]: <BaconMania> carlston[m
+
