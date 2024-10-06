@@ -267,3 +267,57 @@ Caused by: java.util.zip.ZipException: zip END header not found
 [18:32:44] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
 
 [18:32:44] [Server thread/INFO]: [Suicide] You are using the latest version of Suicide.
+[18:46:17] [Thread-9/INFO]: UUID of player Danny is ddcda591-f59a-39fa-ae6e-6744024d2256
+[18:46:18] [Server thread/INFO]: Danny[/[0:0:0:0:0:0:0:1]:51240] logged in with entity id 667 at ([world]227.85407228963453, 69.0, 282.8686490556861)
+[18:46:18] [Craft Scheduler Thread - 3/INFO]: [0;31;1mWarning: Danny has the same IP as the following players:
+[0;33;22ma__[m
+
+[18:47:05] [Async Chat Thread - #0/INFO]: <Danny> i hate black people[m
+
+[18:47:09] [Server thread/INFO]: Danny lost connection: Disconnected
+[18:47:09] [Server thread/INFO]: Danny left the game.
+[18:49:33] [Thread-10/INFO]: UUID of player XxTenderFlyxX is 70636b08-fdd5-313c-8d4b-8cd31ac6946a
+[18:49:33] [Server thread/WARN]: Failed to handle packet for /[0:0:0:0:0:0:0:1]:49042
+net.minecraft.server.v1_8_R3.ReportedException: Sending packet
+	at net.minecraft.server.v1_8_R3.PlayerConnection.sendPacket(PlayerConnection.java:925) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.a(EntityPlayer.java:783) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.Container.addSlotListener(Container.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.syncInventory(EntityPlayer.java:177) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerList.a(PlayerList.java:190) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.LoginListener.b(LoginListener.java:144) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.LoginListener.c(LoginListener.java:54) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:231) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.ServerConnection.c(ServerConnection.java:148) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:875) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NullPointerException: type cannot be null
+	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:229) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at com.comphenix.protocol.injector.StructureCache.getStructure(StructureCache.java:138) ~[?:?]
+	at com.comphenix.protocol.events.PacketContainer.<init>(PacketContainer.java:126) ~[?:?]
+	at com.comphenix.protocol.injector.netty.manager.NetworkManagerInjector.onPacketSending(NetworkManagerInjector.java:96) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector.processOutbound(NettyChannelInjector.java:553) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector$2.doProxyRunnable(NettyChannelInjector.java:456) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.proxyRunnable(NettyEventLoopProxy.java:43) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.execute(NettyEventLoopProxy.java:252) ~[?:?]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:192) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.handle(NetworkManager.java:141) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.sendPacket(PlayerConnection.java:911) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 13 more
+[18:49:33] [Server thread/INFO]: XxTenderFlyxX lost connection: Internal server error
+[18:49:33] [Server thread/INFO]: XxTenderFlyxX left the game.
+[18:49:34] [Craft Scheduler Thread - 5/INFO]: [0;31;1mWarning: XxTenderFlyxX has the same IP as the following players:
+[0;33;22ma__, Danny[m
+
+[18:49:41] [Thread-11/INFO]: UUID of player XxTenderFlyxX is 70636b08-fdd5-313c-8d4b-8cd31ac6946a
+[18:49:41] [Server thread/INFO]: XxTenderFlyxX[/[0:0:0:0:0:0:0:1]:34868] logged in with entity id 703 at ([world]226.78527976360368, 69.0, 282.6657807712545)
+[18:49:42] [Craft Scheduler Thread - 5/INFO]: [0;31;1mWarning: XxTenderFlyxX has the same IP as the following players:
+[0;33;22ma__, Danny[m
+
+[18:51:48] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+
+[18:54:43] [Server thread/INFO]: XxTenderFlyxX was slain by Spider
+[19:15:40] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+
