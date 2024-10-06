@@ -60,3 +60,8 @@
 [07:37:05] [Netty Worker IO Thread #2/INFO]: [a__] disconnected with: Server closed
 [07:37:05] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:45964|a__] -> UpstreamBridge has disconnected
 [07:37:05] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:45964|a__] <-> DownstreamBridge <-> [lobby] has disconnected
+[07:44:19] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:49224]: Connected via websocket
+[07:44:19] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:49224]: Origin header is http://localhost:8081
+[07:44:19] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:49224]: Logged in as 'a__'
+[07:44:19] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:49224|a__] -> UpstreamBridge has connected
+[07:44:19] [Netty Worker IO Thread #3/INFO]: [a__|/[0:0:0:0:0:0:0:1%0]:49224] <-> ServerConnector [lobby] has connected
