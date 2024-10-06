@@ -84,3 +84,19 @@
 [08:04:41] [Netty Worker IO Thread #1/INFO]: [a__] disconnected with: Server closed
 [08:04:41] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:60276|a__] -> UpstreamBridge has disconnected
 [08:04:41] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:60276|a__] <-> DownstreamBridge <-> [lobby] has disconnected
+[08:13:12] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:55278]: Connected via websocket
+[08:13:12] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:55278]: Origin header is http://localhost:8081
+[08:13:12] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:55278]: Logged in as 'a__'
+[08:13:12] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:55278|a__] -> UpstreamBridge has connected
+[08:13:12] [Netty Worker IO Thread #2/INFO]: [a__|/[0:0:0:0:0:0:0:1%0]:55278] <-> ServerConnector [lobby] has connected
+[08:13:44] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:55278|a__] -> UpstreamBridge has disconnected
+[08:13:44] [Netty Worker IO Thread #2/INFO]: [a__] disconnected with: Proxy lost connection to server.
+[08:13:44] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:55278|a__] <-> DownstreamBridge <-> [lobby] has disconnected
+[08:13:46] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:36690]: Connected via websocket
+[08:13:46] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:36690]: Origin header is http://localhost:8081
+[08:13:46] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:36690]: Logged in as 'a__'
+[08:13:46] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:36690|a__] -> UpstreamBridge has connected
+[08:13:46] [Netty Worker IO Thread #0/INFO]: [a__|/[0:0:0:0:0:0:0:1%0]:36690] <-> ServerConnector [lobby] has connected
+[08:18:14] [Netty Worker IO Thread #0/INFO]: [a__] disconnected with: Server closed
+[08:18:14] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:36690|a__] -> UpstreamBridge has disconnected
+[08:18:14] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:36690|a__] <-> DownstreamBridge <-> [lobby] has disconnected
