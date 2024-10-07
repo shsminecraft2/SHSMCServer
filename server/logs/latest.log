@@ -290,3 +290,7 @@ Caused by: java.util.zip.ZipException: zip END header not found
 [18:39:54] [Craft Scheduler Thread - 6/INFO]: [0;31;1mWarning: Steven has the same IP as the following players:
 [0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Geep[m
 
+[18:40:50] [Server thread/INFO]: Steven lost connection: Disconnected
+[18:40:50] [Server thread/INFO]: Steven left the game.
+[18:42:04] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+
