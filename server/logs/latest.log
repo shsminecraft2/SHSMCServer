@@ -296,3 +296,35 @@ Caused by: java.util.zip.ZipException: zip END header not found
 
 [18:50:35] [Thread-12/INFO]: UUID of player BaconMania is 94cc9361-df90-3d70-a09d-55ea0279e1a1
 [18:50:35] [Server thread/INFO]: BaconMania[/[0:0:0:0:0:0:0:1]:44186] logged in with entity id 1825 at ([world]730.3498871454885, 66.0, 301.76251835965877)
+[19:13:01] [Thread-14/INFO]: UUID of player Steven is 944d2caf-d932-3441-b30c-7e43d402ec4b
+[19:13:01] [Server thread/INFO]: Steven[/[0:0:0:0:0:0:0:1]:45062] logged in with entity id 3692 at ([world]231.16526934222443, 68.0, 301.22349149018015)
+[19:13:02] [Craft Scheduler Thread - 10/INFO]: [0;31;1mWarning: Steven has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Geep[m
+
+[19:13:13] [Async Chat Thread - #0/INFO]: <BaconMania> hi steven[m
+
+[19:13:19] [Async Chat Thread - #0/INFO]: <Steven> hello friend[m
+
+[19:13:22] [Thread-15/INFO]: UUID of player rocco is 639c7d28-28a7-3e3c-8cd9-745d7da121b0
+[19:13:22] [Server thread/INFO]: rocco[/[0:0:0:0:0:0:0:1]:56284] logged in with entity id 4278 at ([world]231.13586325205577, 64.0, 267.5537652875785)
+[19:13:23] [Craft Scheduler Thread - 11/INFO]: [0;31;1mWarning: rocco has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, BaconMania, the_sigma, Steven, Geep[m
+
+[19:13:37] [Async Chat Thread - #0/INFO]: <BaconMania> hi rocco[m
+
+[19:13:38] [Async Chat Thread - #0/INFO]: <Steven> hello rocco funny seeing you here[m
+
+[19:14:25] [Async Chat Thread - #0/INFO]: <Steven> Hey dont beat him up![m
+
+[19:14:32] [Async Chat Thread - #0/INFO]: <Steven> thats bully behavior![m
+
+[19:15:24] [Server thread/INFO]: Steven lost connection: Disconnected
+[19:15:24] [Server thread/INFO]: Steven left the game.
+[19:15:48] [Server thread/INFO]: BaconMania lost connection: Disconnected
+[19:15:48] [Server thread/INFO]: BaconMania left the game.
+[19:15:50] [Thread-16/INFO]: UUID of player BaconMania is 94cc9361-df90-3d70-a09d-55ea0279e1a1
+[19:15:50] [Server thread/INFO]: BaconMania[/[0:0:0:0:0:0:0:1]:46510] logged in with entity id 5207 at ([world]731.5071685275134, 66.0, 302.5698784714615)
+[19:15:59] [Server thread/INFO]: rocco lost connection: Disconnected
+[19:15:59] [Server thread/INFO]: rocco left the game.
+[19:16:14] [Server thread/INFO]: BaconMania lost connection: Disconnected
+[19:16:14] [Server thread/INFO]: BaconMania left the game.
