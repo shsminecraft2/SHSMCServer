@@ -278,3 +278,15 @@ Caused by: java.util.zip.ZipException: zip END header not found
 [18:30:39] [Server thread/INFO]: [BaconMania: That player cannot be found]
 [18:30:47] [Server thread/INFO]: BaconMania lost connection: Disconnected
 [18:30:47] [Server thread/INFO]: BaconMania left the game.
+[18:34:35] [Thread-10/INFO]: UUID of player the_sigma is 4c9b5d90-a1ae-329e-991c-9e4cd9505024
+[18:34:36] [Server thread/INFO]: the_sigma[/[0:0:0:0:0:0:0:1]:36756] logged in with entity id 1365 at ([world]121.30000001192094, 64.0, 435.69999998807907)
+[18:34:36] [Craft Scheduler Thread - 3/INFO]: [0;31;1mWarning: the_sigma has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, Steven, Geep[m
+
+[18:35:19] [Server thread/INFO]: the_sigma lost connection: Disconnected
+[18:35:19] [Server thread/INFO]: the_sigma left the game.
+[18:39:53] [Thread-11/INFO]: UUID of player Steven is 944d2caf-d932-3441-b30c-7e43d402ec4b
+[18:39:53] [Server thread/INFO]: Steven[/[0:0:0:0:0:0:0:1]:35004] logged in with entity id 1572 at ([world]234.87241902068638, 64.0, 266.7173954973618)
+[18:39:54] [Craft Scheduler Thread - 6/INFO]: [0;31;1mWarning: Steven has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Geep[m
+
