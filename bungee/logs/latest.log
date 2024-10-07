@@ -176,3 +176,17 @@
 [16:52:30] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:57866|BaconMania] -> UpstreamBridge has disconnected
 [16:52:30] [Netty Worker IO Thread #2/INFO]: [BaconMania] disconnected with: Proxy lost connection to server.
 [16:52:30] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:57866|BaconMania] <-> DownstreamBridge <-> [lobby] has disconnected
+[16:53:23] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:34052]: Connected via websocket
+[16:53:23] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:34052]: Origin header is http://localhost:8081
+[16:53:23] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:34052]: Logged in as 'BaconMania'
+[16:53:23] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:34052|BaconMania] -> UpstreamBridge has connected
+[16:53:23] [Netty Worker IO Thread #3/INFO]: [BaconMania|/[0:0:0:0:0:0:0:1%0]:34052] <-> ServerConnector [lobby] has connected
+[16:54:03] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:34052|BaconMania] -> UpstreamBridge has disconnected
+[16:54:03] [Netty Worker IO Thread #3/INFO]: [BaconMania] disconnected with: Proxy lost connection to server.
+[16:54:03] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:34052|BaconMania] <-> DownstreamBridge <-> [lobby] has disconnected
+[16:55:39] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:36502|the_sigma] -> UpstreamBridge has disconnected
+[16:55:39] [Netty Worker IO Thread #2/INFO]: [the_sigma] disconnected with: Proxy lost connection to server.
+[16:55:39] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:36502|the_sigma] <-> DownstreamBridge <-> [lobby] has disconnected
+[16:58:13] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:59452|rocco] -> UpstreamBridge has disconnected
+[16:58:13] [Netty Worker IO Thread #3/INFO]: [rocco] disconnected with: Proxy lost connection to server.
+[16:58:13] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:59452|rocco] <-> DownstreamBridge <-> [lobby] has disconnected

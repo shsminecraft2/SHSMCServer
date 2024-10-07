@@ -804,3 +804,12 @@ Caused by: java.lang.NullPointerException: type cannot be null
 [16:52:30] [Server thread/INFO]: BaconMania left the game.
 [16:52:43] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
 
+[16:53:23] [Thread-27/INFO]: UUID of player BaconMania is 94cc9361-df90-3d70-a09d-55ea0279e1a1
+[16:53:23] [Server thread/INFO]: BaconMania[/[0:0:0:0:0:0:0:1]:39192] logged in with entity id 14392 at ([world]730.027098046289, 66.0, 300.30000001192093)
+[16:54:03] [Server thread/INFO]: BaconMania lost connection: Disconnected
+[16:54:03] [Server thread/INFO]: BaconMania left the game.
+[16:55:39] [Server thread/INFO]: the_sigma lost connection: Disconnected
+[16:55:39] [Server thread/INFO]: the_sigma left the game.
+[16:57:49] [Server thread/INFO]: [Server] rocco are you still playing
+[16:58:13] [Server thread/INFO]: rocco lost connection: Disconnected
+[16:58:13] [Server thread/INFO]: rocco left the game.
