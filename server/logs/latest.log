@@ -294,3 +294,5 @@ Caused by: java.util.zip.ZipException: zip END header not found
 [18:40:50] [Server thread/INFO]: Steven left the game.
 [18:42:04] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
 
+[18:50:35] [Thread-12/INFO]: UUID of player BaconMania is 94cc9361-df90-3d70-a09d-55ea0279e1a1
+[18:50:35] [Server thread/INFO]: BaconMania[/[0:0:0:0:0:0:0:1]:44186] logged in with entity id 1825 at ([world]730.3498871454885, 66.0, 301.76251835965877)
