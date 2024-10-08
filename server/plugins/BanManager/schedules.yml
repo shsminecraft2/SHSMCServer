@@ -17,14 +17,14 @@ scheduler:
   saveLastChecked: 60
 lastChecked:
   externalPlayerNotes: 0
-  playerMutes: 1728363173
-  ipRangeBans: 1728363173
-  expiresCheck: 1728363173
-  nameBans: 1728363173
+  playerMutes: 1728367003
+  ipRangeBans: 1728367004
+  expiresCheck: 1728367004
+  nameBans: 1728367004
   externalPlayerMutes: 0
-  rollbacks: 1728363168
-  playerBans: 1728363173
+  rollbacks: 1728366994
+  playerBans: 1728367004
   externalPlayerBans: 0
   externalIpBans: 0
-  playerWarnings: 1728363173
-  ipBans: 1728363173
+  playerWarnings: 1728367004
+  ipBans: 1728367004
