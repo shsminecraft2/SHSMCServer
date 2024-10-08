@@ -277,3 +277,68 @@ Caused by: java.util.zip.ZipException: zip END header not found
 [15:38:18] [Server thread/INFO]: There are 1/20000 players online:
 [15:38:18] [Server thread/INFO]: rocco
 [15:57:54] [Server thread/INFO]: rocco has just earned the achievement [Cow Tipper]
+[16:06:11] [Server thread/INFO]: [Server] rocco what time does this period end
+[16:06:25] [Async Chat Thread - #0/INFO]: <rocco> like 9:21 i thing[m
+
+[16:06:28] [Async Chat Thread - #0/INFO]: <rocco> think*[m
+
+[16:07:23] [Server thread/INFO]: [Server] aight thanks
+[16:07:40] [Server thread/INFO]: [0;33;1m[ProtocolLib] The updater found an update: 5.2.0 (Running 5.2.0-SNAPSHOT-679). Download at https://www.spigotmc.org/resources/protocollib.1997/[m
+
+[16:11:09] [Thread-12/INFO]: UUID of player Danny is ddcda591-f59a-39fa-ae6e-6744024d2256
+[16:11:09] [Server thread/INFO]: Danny[/[0:0:0:0:0:0:0:1]:57884] logged in with entity id 6050 at ([world]227.73389316086474, 69.0, 282.890261193299)
+[16:11:10] [Craft Scheduler Thread - 6/INFO]: [0;31;1mWarning: Danny has the same IP as the following players:
+[0;33;22ma__, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_[m
+
+[16:11:26] [Async Chat Thread - #1/INFO]: <Danny> did you see the wall i made[m
+
+[16:11:39] [Async Chat Thread - #1/INFO]: <Danny> dinner[m
+
+[16:11:44] [Async Chat Thread - #1/INFO]: <rocco> NO[m
+
+[16:11:56] [Async Chat Thread - #1/INFO]: <Danny> did you see the wall tho[m
+
+[16:12:17] [Async Chat Thread - #1/INFO]: <rocco> what wall[m
+
+[16:12:22] [Async Chat Thread - #1/INFO]: <Danny> follow me[m
+
+[16:13:11] [Async Chat Thread - #1/INFO]: <rocco> why lmao[m
+
+[16:13:14] [Async Chat Thread - #1/INFO]: <Danny> this areas glitched and i cant buid[m
+
+[16:13:23] [Async Chat Thread - #1/INFO]: <rocco> yea ij[m
+
+[16:13:28] [Async Chat Thread - #1/INFO]: <rocco> ik[m
+
+[16:13:41] [Server thread/INFO]: [Server] I think its just spawn protection I'll fix it
+[16:13:55] [Server thread/INFO]: [Server] cuz I can build there
+[16:14:00] [Async Chat Thread - #1/INFO]: <rocco> btw single player server doesnt work[m
+
+[16:14:01] [Async Chat Thread - #1/INFO]: <Danny> oh lol[m
+
+[16:14:17] [Async Chat Thread - #1/INFO]: <Danny> yeah thats why its labled as singleplayer lmao[m
+
+[16:14:31] [Async Chat Thread - #1/INFO]: <rocco> the blocks just break and respawn imediatly when i break them and they dont drop anything[m
+
+[16:15:13] [Server thread/INFO]: [Server] singleplayers laggier than multiplayer cuz your laptop has to handle world generation/handling block updates AND rendering everything
+[16:15:13] [Async Chat Thread - #1/INFO]: <Danny> oh also rocco come to the house[m
+
+[16:15:23] [Server thread/INFO]: Danny fell from a high place
+[16:15:29] [Server thread/INFO]: Danny issued server command: /back
+[16:15:31] [Server thread/INFO]: [Server] on the server your laptop js has to render stuff
+[16:15:45] [Async Chat Thread - #1/INFO]: <Danny> WHO THE FUCK BROKE THE GLASS[m
+
+[16:16:16] [Async Chat Thread - #1/INFO]: <Danny> THERE WAS LAVA AT THE BOTTOM[m
+
+[16:16:25] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+
+[16:16:28] [Async Chat Thread - #1/INFO]: <Danny> I JUST LOST HALF MY INVENTORY[m
+
+[16:16:35] [Server thread/INFO]: [Server] rip items
+[16:17:12] [Server thread/INFO]: Danny issued server command: /home <home>
+[16:17:47] [Server thread/INFO]: Danny lost connection: Disconnected
+[16:17:47] [Server thread/INFO]: Danny left the game.
+[16:20:54] [Server thread/INFO]: rocco lost connection: Disconnected
+[16:20:54] [Server thread/INFO]: rocco left the game.
+[16:23:12] [Server thread/INFO]: There are 0/20000 players online:
+[16:23:12] [Server thread/INFO]: 
