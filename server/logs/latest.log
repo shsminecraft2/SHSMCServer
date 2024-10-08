@@ -269,3 +269,11 @@ Caused by: java.util.zip.ZipException: zip END header not found
 [15:32:14] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
 
 [15:32:14] [Server thread/INFO]: [Suicide] You are using the latest version of Suicide.
+[15:34:15] [Thread-8/INFO]: UUID of player rocco is 639c7d28-28a7-3e3c-8cd9-745d7da121b0
+[15:34:15] [Server thread/INFO]: rocco[/[0:0:0:0:0:0:0:1]:36116] logged in with entity id 940 at ([world]229.948590138649, 68.0, 301.35663560226556)
+[15:34:16] [Craft Scheduler Thread - 0/INFO]: [0;31;1mWarning: rocco has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_[m
+
+[15:38:18] [Server thread/INFO]: There are 1/20000 players online:
+[15:38:18] [Server thread/INFO]: rocco
+[15:57:54] [Server thread/INFO]: rocco has just earned the achievement [Cow Tipper]
