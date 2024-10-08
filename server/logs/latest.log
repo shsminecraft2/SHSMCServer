@@ -590,3 +590,43 @@
 [03:06:09] [Server thread/INFO]: Danny issued server command: /tpa Steven
 [03:06:19] [Server thread/INFO]: Steven issued server command: /tpaaccept
 [03:06:50] [Server thread/INFO]: Steven issued server command: /tpaccept
+[03:09:34] [Server thread/INFO]: Danny issued server command: /tpa Steven
+[03:09:39] [Server thread/INFO]: Steven issued server command: /tpaccept
+[03:09:45] [Server thread/INFO]: Danny issued server command: /tpa Steven
+[03:09:54] [Async Chat Thread - #34/INFO]: <Danny> sorry lol i moved and it canceled it[m
+
+[03:09:56] [Server thread/INFO]: Steven issued server command: /tpaccept
+[03:10:12] [Async Chat Thread - #34/INFO]: <Danny> wow lol[m
+
+[03:10:29] [Async Chat Thread - #34/INFO]: <Danny> if you give me some cobblestone i can help finnish up the roof[m
+
+[03:11:03] [Async Chat Thread - #34/INFO]: <Steven> your gonna have to jump off[m
+
+[03:11:42] [Server thread/INFO]: Danny issued server command: /tpa Steven
+[03:11:48] [Server thread/INFO]: Steven issued server command: /tpaccept
+[03:11:52] [Async Chat Thread - #34/INFO]: <Danny> thx[m
+
+[03:12:00] [Server thread/INFO]: Steven issued server command: /tp danny
+[03:12:05] [Server thread/INFO]: Steven issued server command: /tp Danny
+[03:12:09] [Server thread/INFO]: Steven issued server command: /tpa Danny
+[03:12:09] [Server thread/INFO]: Danny issued server command: /tpaccept
+[03:12:28] [Async Chat Thread - #34/INFO]: <Danny> lol i saw you fall and i had the command ready to enter[m
+
+[03:12:34] [Async Chat Thread - #34/INFO]: <Steven> lol[m
+
+[03:12:50] [Async Chat Thread - #34/INFO]: <Danny> place the last block[m
+
+[03:12:56] [Server thread/INFO]: Steven fell from a high place
+[03:12:56] [Async Chat Thread - #34/INFO]: <Danny> yayyy[m
+
+[03:13:01] [Server thread/INFO]: Steven issued server command: /back
+[03:13:09] [Server thread/INFO]: Danny issued server command: /home <home>
+[03:13:18] [Server thread/INFO]: Danny issued server command: /home <home>
+[03:14:01] [Async Chat Thread - #35/INFO]: <Steven> the spawned in[m
+
+[03:14:04] [Async Chat Thread - #35/INFO]: <Steven> they[m
+
+[03:14:11] [Async Chat Thread - #35/INFO]: <Danny> can you hear them?[m
+
+[03:14:12] [Async Chat Thread - #35/INFO]: <Steven> never mind[m
+
