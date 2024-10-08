@@ -888,3 +888,13 @@
 [04:25:08] [Server thread/INFO]: [Server] steven I hope you get ein durchfall
 [04:25:13] [Server thread/INFO]: Steven issued server command: /home xp
 [04:25:50] [Server thread/INFO]: Steven issued server command: /home xp
+[04:26:53] [Server thread/INFO]: Steven issued server command: /home Steven
+[04:27:38] [Server thread/INFO]: Steven issued server command: /suicide
+[04:27:38] [Server thread/INFO]: Steven died
+[04:27:38] [Server thread/INFO]: [0;31;1m[21mSteven got whacked.[m
+
+[04:27:38] [Server thread/ERROR]: [Suicide] The sound you're trying to play isn't registered in this Minecraft Version: ENTITY_ZOMBIE_HURT
+[04:29:55] [Server thread/INFO]: Steven issued server command: /home checkpoint
+[04:30:13] [Server thread/INFO]: Steven issued server command: /home Steven
+[04:30:45] [Server thread/INFO]: Steven tried to swim in lava
+[04:44:23] [Server thread/INFO]: Steven was shot by Skeleton
