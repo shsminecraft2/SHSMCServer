@@ -1693,3 +1693,5 @@ Caused by: java.lang.NullPointerException: type cannot be null
 [21:04:41] [Craft Scheduler Thread - 61/INFO]: [0;31;1mavaknutsen not found, are you sure they exist?[m
 
 [21:05:19] [Server thread/INFO]: John_Minecraft has just earned the achievement [Getting Wood]
+[21:09:47] [Server thread/INFO]: John_Minecraft lost connection: Disconnected
+[21:09:47] [Server thread/INFO]: John_Minecraft left the game.

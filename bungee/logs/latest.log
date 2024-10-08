@@ -419,3 +419,6 @@
 [20:59:56] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:59640]: Logged in as 'John_Minecraft'
 [20:59:56] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:59640|John_Minecraft] -> UpstreamBridge has connected
 [20:59:56] [Netty Worker IO Thread #3/INFO]: [John_Minecraft|/[0:0:0:0:0:0:0:1%0]:59640] <-> ServerConnector [lobby] has connected
+[21:09:47] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:59640|John_Minecraft] -> UpstreamBridge has disconnected
+[21:09:47] [Netty Worker IO Thread #3/INFO]: [John_Minecraft] disconnected with: Proxy lost connection to server.
+[21:09:47] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:59640|John_Minecraft] <-> DownstreamBridge <-> [lobby] has disconnected
