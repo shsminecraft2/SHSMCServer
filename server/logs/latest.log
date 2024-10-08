@@ -1614,3 +1614,4 @@ Caused by: java.lang.NullPointerException: type cannot be null
 [20:33:32] [Craft Scheduler Thread - 55/INFO]: [0;31;1mWarning: yarquesh has the same IP as the following players:
 [0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet, scarlet_r[m
 
+[20:34:26] [Server thread/INFO]: Steven issued server command: /tpa yarquesh
