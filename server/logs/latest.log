@@ -336,3 +336,10 @@ Caused by: java.lang.NullPointerException: type cannot be null
 [18:50:20] [Server thread/INFO]: rocco left the game.
 [18:52:45] [Server thread/INFO]: Infinity lost connection: Disconnected
 [18:52:45] [Server thread/INFO]: Infinity left the game.
+[19:03:02] [Thread-16/INFO]: UUID of player Steven is 944d2caf-d932-3441-b30c-7e43d402ec4b
+[19:03:03] [Server thread/INFO]: Steven[/[0:0:0:0:0:0:0:1]:54222] logged in with entity id 3838 at ([world]230.83073759726634, 69.0, 296.30000001192093)
+[19:03:04] [Craft Scheduler Thread - 11/INFO]: [0;31;1mWarning: Steven has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity[m
+
+[19:03:46] [Server thread/INFO]: Steven issued server command: /report
+[19:03:52] [Server thread/INFO]: Steven issued server command: /report Meep
