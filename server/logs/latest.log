@@ -343,3 +343,1176 @@ Caused by: java.lang.NullPointerException: type cannot be null
 
 [19:03:46] [Server thread/INFO]: Steven issued server command: /report
 [19:03:52] [Server thread/INFO]: Steven issued server command: /report Meep
+[19:07:14] [Server thread/INFO]: Steven issued server command: /ban
+[19:07:19] [Server thread/INFO]: Steven issued server command: /report meep
+[19:07:52] [Server thread/INFO]: [Server] steven whyre you reporting meep lol
+[19:08:09] [Server thread/INFO]: [Server] who's meep
+[19:12:30] [Thread-17/INFO]: UUID of player YeeVigg971 is c3d6affa-4269-3598-bc66-7d0d84ebe09b
+[19:12:30] [Server thread/INFO]: YeeVigg971[/[0:0:0:0:0:0:0:1]:46624] logged in with entity id 5211 at ([world]174.5, 64.0, 248.5)
+[19:12:31] [Craft Scheduler Thread - 14/INFO]: [0;31;1mWarning: YeeVigg971 has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity[m
+
+[19:13:13] [Thread-18/INFO]: UUID of player BaconMania is 94cc9361-df90-3d70-a09d-55ea0279e1a1
+[19:13:13] [Server thread/INFO]: BaconMania[/[0:0:0:0:0:0:0:1]:55524] logged in with entity id 5342 at ([world]736.1460139706656, 64.0, 287.04722885295956)
+[19:13:17] [Server thread/INFO]: Steven was shot by Skeleton
+[19:13:24] [Thread-19/INFO]: UUID of player the_sigma is 4c9b5d90-a1ae-329e-991c-9e4cd9505024
+[19:13:24] [Server thread/WARN]: Failed to handle packet for /[0:0:0:0:0:0:0:1]:34548
+net.minecraft.server.v1_8_R3.ReportedException: Sending packet
+	at net.minecraft.server.v1_8_R3.PlayerConnection.sendPacket(PlayerConnection.java:925) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.a(EntityPlayer.java:783) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.Container.addSlotListener(Container.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.syncInventory(EntityPlayer.java:177) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerList.a(PlayerList.java:190) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.LoginListener.b(LoginListener.java:144) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.LoginListener.c(LoginListener.java:54) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:231) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.ServerConnection.c(ServerConnection.java:148) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:875) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NullPointerException: type cannot be null
+	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:229) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at com.comphenix.protocol.injector.StructureCache.getStructure(StructureCache.java:138) ~[?:?]
+	at com.comphenix.protocol.events.PacketContainer.<init>(PacketContainer.java:126) ~[?:?]
+	at com.comphenix.protocol.injector.netty.manager.NetworkManagerInjector.onPacketSending(NetworkManagerInjector.java:96) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector.processOutbound(NettyChannelInjector.java:553) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector$2.doProxyRunnable(NettyChannelInjector.java:456) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.proxyRunnable(NettyEventLoopProxy.java:43) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.execute(NettyEventLoopProxy.java:252) ~[?:?]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:192) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.handle(NetworkManager.java:141) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.sendPacket(PlayerConnection.java:911) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 13 more
+[19:13:24] [Server thread/INFO]: the_sigma lost connection: Internal server error
+[19:13:24] [Server thread/INFO]: the_sigma left the game.
+[19:13:25] [Craft Scheduler Thread - 14/INFO]: [0;31;1mWarning: the_sigma has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971[m
+
+[19:13:27] [Thread-20/INFO]: UUID of player the_sigma is 4c9b5d90-a1ae-329e-991c-9e4cd9505024
+[19:13:27] [Server thread/INFO]: the_sigma[/[0:0:0:0:0:0:0:1]:34564] logged in with entity id 5567 at ([world]96.97205842912028, 66.0, 444.90193126339324)
+[19:13:28] [Craft Scheduler Thread - 15/INFO]: [0;31;1mWarning: the_sigma has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971[m
+
+[19:13:43] [Server thread/INFO]: YeeVigg971 has just earned the achievement [Taking Inventory]
+[19:14:04] [Thread-21/INFO]: UUID of player Infinity is 931d936e-dffb-39f9-9c46-ee7fe65211d5
+[19:14:04] [Server thread/INFO]: Infinity[/[0:0:0:0:0:0:0:1]:54806] logged in with entity id 5808 at ([world]-47.69999998807907, 69.0, 393.7751644598895)
+[19:14:05] [Craft Scheduler Thread - 13/INFO]: [0;31;1mWarning: Infinity has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, YeeVigg971[m
+
+[19:14:07] [Async Chat Thread - #3/INFO]: <YeeVigg971> free stuff[m
+
+[19:14:12] [Server thread/INFO]: YeeVigg971 lost connection: Disconnected
+[19:14:12] [Server thread/INFO]: YeeVigg971 left the game.
+[19:14:15] [Async Chat Thread - #3/INFO]: <Steven> shut the fuck up fag[m
+
+[19:14:21] [Server thread/INFO]: the_sigma lost connection: Disconnected
+[19:14:21] [Server thread/INFO]: the_sigma left the game.
+[19:14:59] [Server thread/INFO]: Infinity has just earned the achievement [Taking Inventory]
+[19:15:04] [Server thread/INFO]: Steven lost connection: Disconnected
+[19:15:04] [Server thread/INFO]: Steven left the game.
+[19:15:55] [Server thread/INFO]: Infinity lost connection: Disconnected
+[19:15:55] [Server thread/INFO]: Infinity left the game.
+[19:16:04] [Server thread/INFO]: BaconMania lost connection: Disconnected
+[19:16:04] [Server thread/INFO]: BaconMania left the game.
+[19:19:59] [Thread-22/INFO]: UUID of player Steven is 944d2caf-d932-3441-b30c-7e43d402ec4b
+[19:19:59] [Server thread/INFO]: Steven[/[0:0:0:0:0:0:0:1]:43162] logged in with entity id 7226 at ([world]220.22284095881218, 64.0, 289.2146851726674)
+[19:20:00] [Craft Scheduler Thread - 13/INFO]: [0;31;1mWarning: Steven has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971[m
+
+[19:21:09] [Async Chat Thread - #4/INFO]: <Steven> elliot[m
+
+[19:21:12] [Async Chat Thread - #4/INFO]: <Steven> evan[m
+
+[19:21:14] [Async Chat Thread - #4/INFO]: <Steven> evan[m
+
+[19:22:00] [Async Chat Thread - #4/INFO]: <Steven> elot griefed[m
+
+[19:22:12] [Async Chat Thread - #4/INFO]: <Steven> eliot griefed our base[m
+
+[19:22:22] [Server thread/INFO]: /ban <player> <reason>[m
+
+[19:22:29] [Thread-23/INFO]: UUID of player BaconMania is 94cc9361-df90-3d70-a09d-55ea0279e1a1
+[19:22:29] [Server thread/INFO]: BaconMania[/[0:0:0:0:0:0:0:1]:49048] logged in with entity id 7922 at ([world]725.9908298028906, 64.0, 283.0457270423279)
+[19:22:32] [Async Chat Thread - #4/INFO]: <Steven> bro[m
+
+[19:22:35] [Thread-24/INFO]: UUID of player rocco is 639c7d28-28a7-3e3c-8cd9-745d7da121b0
+[19:22:35] [Server thread/INFO]: rocco[/[0:0:0:0:0:0:0:1]:55992] logged in with entity id 8036 at ([world]232.19589391350726, 68.0, 301.0089194497475)
+[19:22:36] [Craft Scheduler Thread - 16/INFO]: [0;31;1mWarning: rocco has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971[m
+
+[19:22:39] [Async Chat Thread - #4/INFO]: <Steven> elliot griefed us[m
+
+[19:22:47] [Async Chat Thread - #4/INFO]: <BaconMania> ill take a look[m
+
+[19:22:48] [Async Chat Thread - #4/INFO]: <rocco> who?[m
+
+[19:22:50] [Async Chat Thread - #4/INFO]: <Steven> base got griefed[m
+
+[19:22:53] [Async Chat Thread - #4/INFO]: <Steven> some fat kid[m
+
+[19:22:56] [Async Chat Thread - #4/INFO]: <rocco> bro[m
+
+[19:22:56] [Server thread/INFO]: BaconMania issued server command: /tp @p Steven
+[19:22:56] [Server thread/INFO]: [BaconMania: Teleported BaconMania to Steven]
+[19:23:03] [Async Chat Thread - #4/INFO]: <rocco> what the fuck[m
+
+[19:23:09] [Async Chat Thread - #4/INFO]: <Steven> and i think he took my stuff[m
+
+[19:23:19] [Thread-25/INFO]: UUID of player Danny is ddcda591-f59a-39fa-ae6e-6744024d2256
+[19:23:20] [Server thread/INFO]: Danny[/[0:0:0:0:0:0:0:1]:54574] logged in with entity id 8645 at ([world]236.25056192557176, 64.0, 291.75488414687175)
+[19:23:20] [Async Chat Thread - #4/INFO]: <BaconMania> guess whos getting banned?[m
+
+[19:23:21] [Craft Scheduler Thread - 18/INFO]: [0;31;1mWarning: Danny has the same IP as the following players:
+[0;33;22ma__, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971[m
+
+[19:23:25] [Async Chat Thread - #4/INFO]: <Steven> elliot is[m
+
+[19:23:34] [Server thread/INFO]: BaconMania issued server command: /ban geep no griefing faggot
+[19:23:34] [Craft Scheduler Thread - 19/INFO]: [0;33;22mGeep has been permanently banned by BaconMania for [0;31;22mno griefing faggot[m
+
+[19:23:34] [Async Chat Thread - #4/INFO]: <Steven> he put a pp here too[m
+
+[19:23:42] [Async Chat Thread - #4/INFO]: <BaconMania> permabanned[m
+
+[19:23:45] [Async Chat Thread - #4/INFO]: <rocco> bro what happened here[m
+
+[19:23:50] [Server thread/INFO]: BaconMania issued server command: /home newbase
+[19:24:09] [Async Chat Thread - #4/INFO]: <Danny> this gay fat kid named elliot got on and burned down our house[m
+
+[19:24:13] [Async Chat Thread - #4/INFO]: <Steven> he set it onn fire[m
+
+[19:24:20] [Async Chat Thread - #4/INFO]: <Steven> becaues i killed him[m
+
+[19:24:23] [Async Chat Thread - #4/INFO]: <rocco> what the fuckk dude[m
+
+[19:24:26] [Async Chat Thread - #4/INFO]: <rocco> what grade[m
+
+[19:24:30] [Async Chat Thread - #4/INFO]: <Steven> our grade[m
+
+[19:24:32] [Async Chat Thread - #4/INFO]: <Danny> bro he took out ender perals[m
+
+[19:24:39] [Async Chat Thread - #4/INFO]: <Danny> he took all of them[m
+
+[19:24:40] [Async Chat Thread - #4/INFO]: <rocco> DUDE WHT THE FUCK[m
+
+[19:24:45] [Async Chat Thread - #4/INFO]: <rocco> WHO IS THIS KID[m
+
+[19:24:52] [Async Chat Thread - #4/INFO]: <rocco> di you have a classs with him[m
+
+[19:24:57] [Async Chat Thread - #4/INFO]: <Steven> nah[m
+
+[19:25:02] [Async Chat Thread - #4/INFO]: <Danny> no i just used to live by him[m
+
+[19:25:02] [Async Chat Thread - #4/INFO]: <rocco> who let him in[m
+
+[19:25:05] [Async Chat Thread - #4/INFO]: <BaconMania> im raping him in 6th[m
+
+[19:25:12] [Async Chat Thread - #4/INFO]: <Steven> you bebtter[m
+
+[19:25:16] [Async Chat Thread - #4/INFO]: <Danny> who let him in the server?[m
+
+[19:25:20] [Async Chat Thread - #4/INFO]: <Steven> HE TOOK ALL OF OUR ORES[m
+
+[19:25:26] [Async Chat Thread - #4/INFO]: <rocco> omfg[m
+
+[19:25:27] [Async Chat Thread - #4/INFO]: <BaconMania> anyone can join the server[m
+
+[19:25:35] [Async Chat Thread - #4/INFO]: <Danny> you need a password[m
+
+[19:25:38] [Server thread/INFO]: BaconMania issued server command: /invsee geep
+[19:25:40] [Async Chat Thread - #4/INFO]: <rocco> yea but who told him abt it[m
+
+[19:25:42] [Async Chat Thread - #4/INFO]: <Danny> you should add a password[m
+
+[19:25:43] [Async Chat Thread - #4/INFO]: <Steven> you can create one[m
+
+[19:25:53] [Async Chat Thread - #4/INFO]: <BaconMania> elliot has the dildo slammer[m
+
+[19:25:54] [Async Chat Thread - #4/INFO]: <Danny> so you have to talk to evan before you join[m
+
+[19:26:00] [Async Chat Thread - #4/INFO]: <Steven> HE DOES????[m
+
+[19:26:03] [Async Chat Thread - #4/INFO]: <rocco> no like for the server[m
+
+[19:26:05] [Async Chat Thread - #4/INFO]: <rocco> yea[m
+
+[19:26:12] [Async Chat Thread - #4/INFO]: <Steven> HE TOOK IT OUT OF MY CHEST[m
+
+[19:26:22] [Async Chat Thread - #4/INFO]: <rocco> bro[m
+
+[19:26:30] [Async Chat Thread - #4/INFO]: <rocco> im gonna fucking kill this kid[m
+
+[19:26:35] [Async Chat Thread - #4/INFO]: <Steven> so someone getting a beat down[m
+
+[19:26:54] [Async Chat Thread - #4/INFO]: <rocco> did he think hes funny or somthing?[m
+
+[19:27:08] [Async Chat Thread - #4/INFO]: <rocco> why did he grief[m
+
+[19:27:11] [Async Chat Thread - #4/INFO]: <Steven> he was pissed at me for killing him[m
+
+[19:27:21] [Async Chat Thread - #4/INFO]: <Danny> why would you kill him[m
+
+[19:27:40] [Async Chat Thread - #4/INFO]: <Steven> evan where is his base[m
+
+[19:27:49] [Async Chat Thread - #4/INFO]: <Steven> cuz he was taking some of our stuff[m
+
+[19:27:59] [Async Chat Thread - #4/INFO]: <Steven> evan teloport me to his base[m
+
+[19:28:25] [Async Chat Thread - #4/INFO]: <Steven> he didnt take your stuff rocco[m
+
+[19:28:44] [Async Chat Thread - #4/INFO]: <BaconMania> idk where geeps base is[m
+
+[19:28:56] [Async Chat Thread - #4/INFO]: <Steven> can you go spectator[m
+
+[19:29:02] [Async Chat Thread - #4/INFO]: <Danny> elliot was geep?[m
+
+[19:29:07] [Async Chat Thread - #4/INFO]: <BaconMania> yea[m
+
+[19:29:11] [Async Chat Thread - #4/INFO]: <rocco> bro[m
+
+[19:29:15] [Async Chat Thread - #4/INFO]: <BaconMania> what did he steal exactly[m
+
+[19:29:16] [Async Chat Thread - #4/INFO]: <Steven> yeah[m
+
+[19:29:22] [Async Chat Thread - #4/INFO]: <Steven> my inventory[m
+
+[19:29:26] [Async Chat Thread - #4/INFO]: <Steven> all our ores[m
+
+[19:29:31] [Async Chat Thread - #4/INFO]: <Steven> enderpearls[m
+
+[19:29:35] [Server thread/INFO]: BaconMania issued server command: /invsee infinity
+[19:29:39] [Async Chat Thread - #4/INFO]: <Steven> the dildo slammer[m
+
+[19:29:40] [Async Chat Thread - #4/INFO]: <Danny> all of our ores, stevens inventory, all of our pearls, and burned down our house[m
+
+[19:29:52] [Server thread/INFO]: BaconMania issued server command: /invsee geep
+[19:30:08] [Async Chat Thread - #4/INFO]: <rocco> i have 7 diamonds and 2 stacks of iron and a few weapons if anyone needs[m
+
+[19:30:13] [Server thread/INFO]: BaconMania issued server command: /invsee steven
+[19:30:17] [Async Chat Thread - #4/INFO]: <rocco> i also have restone and lapis[m
+
+[19:30:20] [Thread-27/INFO]: UUID of player the_sigma is 4c9b5d90-a1ae-329e-991c-9e4cd9505024
+[19:30:20] [Server thread/INFO]: the_sigma[/[0:0:0:0:0:0:0:1]:56442] logged in with entity id 10485 at ([world]97.0504018863273, 70.0, 445.4528195698729)
+[19:30:21] [Craft Scheduler Thread - 20/INFO]: [0;31;1mWarning: the_sigma has the same IP as the following banned players:
+[0;33;22mGeep[m
+
+[19:30:21] [Craft Scheduler Thread - 21/INFO]: [0;31;1mWarning: the_sigma has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971[m
+
+[19:30:26] [Async Chat Thread - #4/INFO]: <Steven> sigma is chill[m
+
+[19:30:33] [Async Chat Thread - #4/INFO]: <BaconMania> steven I gave you everything he had on him[m
+
+[19:30:33] [Async Chat Thread - #4/INFO]: <Steven> rocco ima come to your place[m
+
+[19:30:53] [Async Chat Thread - #4/INFO]: <Steven> MEETING UPSTAIRS[m
+
+[19:30:56] [Async Chat Thread - #4/INFO]: <BaconMania> zeke geep griefed their base[m
+
+[19:31:01] [Async Chat Thread - #4/INFO]: <the_sigma> uh oh[m
+
+[19:31:05] [Async Chat Thread - #4/INFO]: <the_sigma> did you ban him[m
+
+[19:31:07] [Async Chat Thread - #4/INFO]: <BaconMania> yea[m
+
+[19:31:14] [Async Chat Thread - #4/INFO]: <the_sigma> w[m
+
+[19:31:26] [Async Chat Thread - #4/INFO]: <Steven> meeting upstairs[m
+
+[19:31:34] [Async Chat Thread - #4/INFO]: <Steven> look[m
+
+[19:31:47] [Async Chat Thread - #4/INFO]: <Steven> danny rocco[m
+
+[19:31:53] [Async Chat Thread - #4/INFO]: <Steven> evidence of crime scene[m
+
+[19:32:04] [Async Chat Thread - #4/INFO]: <rocco> we need glass[m
+
+[19:32:07] [Async Chat Thread - #4/INFO]: <Steven> its used[m
+
+[19:32:16] [Async Chat Thread - #4/INFO]: <Steven> thats what he had[m
+
+[19:32:18] [Async Chat Thread - #4/INFO]: <Danny> and we need a ton of wood[m
+
+[19:32:23] [Async Chat Thread - #4/INFO]: <rocco> make iron shovels and get as much sand as we can[m
+
+[19:32:29] [Async Chat Thread - #4/INFO]: <BaconMania> time set dawn[m
+
+[19:32:37] [Async Chat Thread - #4/INFO]: <BaconMania> oops forgot the slash lol[m
+
+[19:32:51] [Async Chat Thread - #4/INFO]: <Steven> lol[m
+
+[19:32:53] [Server thread/INFO]: BaconMania issued server command: /time set dawn
+[19:32:53] [Server thread/INFO]: [BaconMania: 'dawn' is not a valid number]
+[19:33:01] [Async Chat Thread - #4/INFO]: <Danny> we need a ton of wood now[m
+
+[19:33:16] [Server thread/INFO]: BaconMania lost connection: Disconnected
+[19:33:16] [Server thread/INFO]: BaconMania left the game.
+[19:33:23] [Async Chat Thread - #4/INFO]: <Danny> me and steven have smth to do[m
+
+[19:33:29] [Async Chat Thread - #4/INFO]: <Danny> well be back soon[m
+
+[19:33:32] [Server thread/INFO]: Danny lost connection: Disconnected
+[19:33:32] [Server thread/INFO]: Danny left the game.
+[19:33:59] [Server thread/INFO]: Steven lost connection: Disconnected
+[19:33:59] [Server thread/INFO]: Steven left the game.
+[19:34:26] [Async Chat Thread - #4/INFO]: <rocco> ok[m
+
+[19:34:49] [Async Chat Thread - #4/INFO]: <rocco> zeke i have iron shovels can you help me get a bunch of sand[m
+
+[19:34:56] [Server thread/INFO]: rocco issued server command: /time set dawn
+[19:37:19] [Thread-28/INFO]: UUID of player John_Minecraft is 7d8c55d9-8ea1-36ef-9d86-864199571128
+[19:37:19] [Server thread/INFO]: John_Minecraft[/[0:0:0:0:0:0:0:1]:48538] logged in with entity id 12758 at ([world]177.5, 64.0, 246.5)
+[19:37:20] [Craft Scheduler Thread - 26/INFO]: [0;31;1mWarning: John_Minecraft has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971[m
+
+[19:37:20] [Craft Scheduler Thread - 25/INFO]: [0;31;1mWarning: John_Minecraft has the same IP as the following banned players:
+[0;33;22mGeep[m
+
+[19:37:32] [Server thread/INFO]: rocco drowned
+[19:37:37] [Server thread/INFO]: rocco issued server command: /back
+[19:37:45] [Async Chat Thread - #5/INFO]: <rocco> whos john[m
+
+[19:37:50] [Server thread/INFO]: John_Minecraft issued server command: /yo
+[19:37:53] [Async Chat Thread - #5/INFO]: <John_Minecraft> yo[m
+
+[19:37:59] [Async Chat Thread - #5/INFO]: <John_Minecraft> lincoln[m
+
+[19:38:20] [Async Chat Thread - #5/INFO]: <John_Minecraft> crazy build btw[m
+
+[19:38:43] [Async Chat Thread - #5/INFO]: <rocco> thanks[m
+
+[19:39:01] [Async Chat Thread - #5/INFO]: <rocco> we got griefed and half of it got burned down so were rebuilding it rn[m
+
+[19:39:18] [Thread-29/INFO]: UUID of player Steven is 944d2caf-d932-3441-b30c-7e43d402ec4b
+[19:39:18] [Server thread/WARN]: Failed to handle packet for /[0:0:0:0:0:0:0:1]:44946
+net.minecraft.server.v1_8_R3.ReportedException: Sending packet
+	at net.minecraft.server.v1_8_R3.PlayerConnection.sendPacket(PlayerConnection.java:925) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.a(EntityPlayer.java:783) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.Container.addSlotListener(Container.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.syncInventory(EntityPlayer.java:177) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerList.a(PlayerList.java:190) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.LoginListener.b(LoginListener.java:144) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.LoginListener.c(LoginListener.java:54) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:231) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.ServerConnection.c(ServerConnection.java:148) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:875) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NullPointerException: type cannot be null
+	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:229) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at com.comphenix.protocol.injector.StructureCache.getStructure(StructureCache.java:138) ~[?:?]
+	at com.comphenix.protocol.events.PacketContainer.<init>(PacketContainer.java:126) ~[?:?]
+	at com.comphenix.protocol.injector.netty.manager.NetworkManagerInjector.onPacketSending(NetworkManagerInjector.java:96) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector.processOutbound(NettyChannelInjector.java:553) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector$2.doProxyRunnable(NettyChannelInjector.java:456) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.proxyRunnable(NettyEventLoopProxy.java:43) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.execute(NettyEventLoopProxy.java:252) ~[?:?]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:192) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.handle(NetworkManager.java:141) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.sendPacket(PlayerConnection.java:911) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 13 more
+[19:39:19] [Server thread/INFO]: Steven lost connection: Internal server error
+[19:39:19] [Server thread/INFO]: Steven left the game.
+[19:39:19] [Craft Scheduler Thread - 27/INFO]: [0;31;1mWarning: Steven has the same IP as the following banned players:
+[0;33;22mGeep[m
+
+[19:39:19] [Craft Scheduler Thread - 25/INFO]: [0;31;1mWarning: Steven has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft[m
+
+[19:39:32] [Thread-30/INFO]: UUID of player BaconMania is 94cc9361-df90-3d70-a09d-55ea0279e1a1
+[19:39:32] [Server thread/WARN]: Failed to handle packet for /[0:0:0:0:0:0:0:1]:35794
+net.minecraft.server.v1_8_R3.ReportedException: Sending packet
+	at net.minecraft.server.v1_8_R3.PlayerConnection.sendPacket(PlayerConnection.java:925) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.a(EntityPlayer.java:783) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.Container.addSlotListener(Container.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.syncInventory(EntityPlayer.java:177) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerList.a(PlayerList.java:190) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.LoginListener.b(LoginListener.java:144) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.LoginListener.c(LoginListener.java:54) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:231) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.ServerConnection.c(ServerConnection.java:148) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:875) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NullPointerException: type cannot be null
+	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:229) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at com.comphenix.protocol.injector.StructureCache.getStructure(StructureCache.java:138) ~[?:?]
+	at com.comphenix.protocol.events.PacketContainer.<init>(PacketContainer.java:126) ~[?:?]
+	at com.comphenix.protocol.injector.netty.manager.NetworkManagerInjector.onPacketSending(NetworkManagerInjector.java:96) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector.processOutbound(NettyChannelInjector.java:553) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector$2.doProxyRunnable(NettyChannelInjector.java:456) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.proxyRunnable(NettyEventLoopProxy.java:43) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.execute(NettyEventLoopProxy.java:252) ~[?:?]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:192) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.handle(NetworkManager.java:141) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.sendPacket(PlayerConnection.java:911) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 13 more
+[19:39:32] [Server thread/INFO]: BaconMania lost connection: Internal server error
+[19:39:32] [Server thread/INFO]: BaconMania left the game.
+[19:39:50] [Server thread/INFO]: the_sigma lost connection: Disconnected
+[19:39:50] [Server thread/INFO]: the_sigma left the game.
+[19:40:17] [Async Chat Thread - #6/INFO]: <John_Minecraft> nice[m
+
+[19:40:19] [Thread-31/INFO]: UUID of player Steven is 944d2caf-d932-3441-b30c-7e43d402ec4b
+[19:40:19] [Server thread/WARN]: Failed to handle packet for /[0:0:0:0:0:0:0:1]:49470
+net.minecraft.server.v1_8_R3.ReportedException: Sending packet
+	at net.minecraft.server.v1_8_R3.PlayerConnection.sendPacket(PlayerConnection.java:925) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.a(EntityPlayer.java:783) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.Container.addSlotListener(Container.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.syncInventory(EntityPlayer.java:177) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerList.a(PlayerList.java:190) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.LoginListener.b(LoginListener.java:144) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.LoginListener.c(LoginListener.java:54) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:231) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.ServerConnection.c(ServerConnection.java:148) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:875) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NullPointerException: type cannot be null
+	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:229) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at com.comphenix.protocol.injector.StructureCache.getStructure(StructureCache.java:138) ~[?:?]
+	at com.comphenix.protocol.events.PacketContainer.<init>(PacketContainer.java:126) ~[?:?]
+	at com.comphenix.protocol.injector.netty.manager.NetworkManagerInjector.onPacketSending(NetworkManagerInjector.java:96) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector.processOutbound(NettyChannelInjector.java:553) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector$2.doProxyRunnable(NettyChannelInjector.java:456) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.proxyRunnable(NettyEventLoopProxy.java:43) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.execute(NettyEventLoopProxy.java:252) ~[?:?]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:192) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.handle(NetworkManager.java:141) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.sendPacket(PlayerConnection.java:911) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 13 more
+[19:40:19] [Server thread/INFO]: Steven lost connection: Internal server error
+[19:40:19] [Server thread/INFO]: Steven left the game.
+[19:40:20] [Craft Scheduler Thread - 29/INFO]: [0;31;1mWarning: Steven has the same IP as the following banned players:
+[0;33;22mGeep[m
+
+[19:40:20] [Craft Scheduler Thread - 28/INFO]: [0;31;1mWarning: Steven has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft[m
+
+[19:40:21] [Thread-32/INFO]: UUID of player Steven is 944d2caf-d932-3441-b30c-7e43d402ec4b
+[19:40:21] [Server thread/INFO]: Steven[/[0:0:0:0:0:0:0:1]:49482] logged in with entity id 15595 at ([world]222.63250371142965, 64.0, 290.46154476611076)
+[19:40:22] [Craft Scheduler Thread - 30/INFO]: [0;31;1mWarning: Steven has the same IP as the following banned players:
+[0;33;22mGeep[m
+
+[19:40:22] [Craft Scheduler Thread - 28/INFO]: [0;31;1mWarning: Steven has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft[m
+
+[19:40:25] [Thread-33/INFO]: UUID of player BaconMania is 94cc9361-df90-3d70-a09d-55ea0279e1a1
+[19:40:25] [Server thread/INFO]: BaconMania[/[0:0:0:0:0:0:0:1]:39834] logged in with entity id 15652 at ([world]731.5682179805707, 66.0, 301.45226228832115)
+[19:40:33] [Async Chat Thread - #6/INFO]: <John_Minecraft> ooh mob farm[m
+
+[19:40:36] [Async Chat Thread - #6/INFO]: <John_Minecraft> yummers[m
+
+[19:40:40] [Thread-34/INFO]: UUID of player Danny is ddcda591-f59a-39fa-ae6e-6744024d2256
+[19:40:40] [Server thread/INFO]: Danny[/[0:0:0:0:0:0:0:1]:57876] logged in with entity id 15771 at ([world]228.8236971229336, 69.0, 295.73911845470974)
+[19:40:41] [Craft Scheduler Thread - 28/INFO]: [0;31;1mWarning: Danny has the same IP as the following players:
+[0;33;22ma__, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft[m
+
+[19:40:41] [Craft Scheduler Thread - 30/INFO]: [0;31;1mWarning: Danny has the same IP as the following banned players:
+[0;33;22mGeep[m
+
+[19:40:44] [Async Chat Thread - #6/INFO]: <rocco> i have 35 sand smelting rn[m
+
+[19:40:45] [Async Chat Thread - #6/INFO]: <Steven> whos john[m
+
+[19:40:49] [Async Chat Thread - #6/INFO]: <Steven> bet[m
+
+[19:40:51] [Async Chat Thread - #6/INFO]: <rocco> thats lincoln[m
+
+[19:40:52] [Async Chat Thread - #6/INFO]: <John_Minecraft> Lincoln[m
+
+[19:41:09] [Async Chat Thread - #6/INFO]: <BaconMania> cool lincoln or autistic one[m
+
+[19:41:09] [Async Chat Thread - #6/INFO]: <Steven> why is your name john lol[m
+
+[19:41:14] [Async Chat Thread - #6/INFO]: <Danny> do you have 3rd period math[m
+
+[19:41:19] [Server thread/INFO]: John_Minecraft lost connection: Disconnected
+[19:41:19] [Server thread/INFO]: John_Minecraft left the game.
+[19:41:20] [Async Chat Thread - #6/INFO]: <Danny> algagbra 2 trig[m
+
+[19:41:34] [Thread-35/INFO]: UUID of player John_Minecraft is 7d8c55d9-8ea1-36ef-9d86-864199571128
+[19:41:34] [Server thread/INFO]: John_Minecraft[/[0:0:0:0:0:0:0:1]:53578] logged in with entity id 16149 at ([world]215.6888834772941, 64.0, 290.7228849953188)
+[19:41:35] [Craft Scheduler Thread - 30/INFO]: [0;31;1mWarning: John_Minecraft has the same IP as the following banned players:
+[0;33;22mGeep[m
+
+[19:41:35] [Craft Scheduler Thread - 31/INFO]: [0;31;1mWarning: John_Minecraft has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971[m
+
+[19:41:49] [Async Chat Thread - #6/INFO]: <John_Minecraft> stupid wifi[m
+
+[19:41:51] [Async Chat Thread - #6/INFO]: <rocco> hold on i gotta let my computer chrge guys[m
+
+[19:41:57] [Async Chat Thread - #6/INFO]: <John_Minecraft> anyways[m
+
+[19:41:58] [Async Chat Thread - #6/INFO]: <rocco> ill be back in a bit[m
+
+[19:42:05] [Async Chat Thread - #6/INFO]: <John_Minecraft> any spare stone/iron?[m
+
+[19:42:05] [Async Chat Thread - #6/INFO]: <Steven> okay[m
+
+[19:42:08] [Async Chat Thread - #6/INFO]: <Steven> yuh[m
+
+[19:42:14] [Async Chat Thread - #6/INFO]: <Steven> where you at[m
+
+[19:42:28] [Async Chat Thread - #6/INFO]: <John_Minecraft> here[m
+
+[19:42:42] [Async Chat Thread - #6/INFO]: <John_Minecraft> thx[m
+
+[19:42:45] [Server thread/INFO]: John_Minecraft was slain by Steven using [The Dildo Slammer]
+[19:42:50] [Async Chat Thread - #6/INFO]: <Steven> testing it out[m
+
+[19:42:57] [Async Chat Thread - #6/INFO]: <Steven> stuff is still there[m
+
+[19:43:01] [Async Chat Thread - #6/INFO]: <John_Minecraft> crazy weapon[m
+
+[19:43:13] [Server thread/INFO]: BaconMania lost connection: Disconnected
+[19:43:13] [Server thread/INFO]: BaconMania left the game.
+[19:43:14] [Server thread/INFO]: rocco lost connection: Disconnected
+[19:43:14] [Server thread/INFO]: rocco left the game.
+[19:43:55] [Server thread/INFO]: Danny lost connection: Disconnected
+[19:43:55] [Server thread/INFO]: Danny left the game.
+[19:43:59] [Async Chat Thread - #6/INFO]: <John_Minecraft> laggy ahh trees[m
+
+[19:44:25] [Async Chat Thread - #6/INFO]: <John_Minecraft> I've never seen a tree rubberband[m
+
+[19:45:25] [Thread-36/INFO]: UUID of player scarlet is 19b15b12-8087-3a56-bbdc-7546a337d6b8
+[19:45:25] [Server thread/INFO]: scarlet[/[0:0:0:0:0:0:0:1]:39056] logged in with entity id 17872 at ([world]177.5, 64.0, 241.5)
+[19:45:26] [Craft Scheduler Thread - 32/INFO]: [0;31;1mWarning: scarlet has the same IP as the following banned players:
+[0;33;22mGeep[m
+
+[19:45:26] [Craft Scheduler Thread - 33/INFO]: [0;31;1mWarning: scarlet has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft[m
+
+[19:46:12] [Server thread/INFO]: scarlet issued server command: /change password
+[19:46:16] [Server thread/INFO]: scarlet lost connection: Disconnected
+[19:46:16] [Server thread/INFO]: scarlet left the game.
+[19:46:49] [Server thread/INFO]: John_Minecraft has just earned the achievement [Taking Inventory]
+[19:46:53] [Thread-37/INFO]: UUID of player scarlet_r is 4172a665-c505-3f54-a66f-8ceeca1d6d91
+[19:46:53] [Server thread/WARN]: Failed to handle packet for /[0:0:0:0:0:0:0:1]:43198
+net.minecraft.server.v1_8_R3.ReportedException: Sending packet
+	at net.minecraft.server.v1_8_R3.PlayerConnection.sendPacket(PlayerConnection.java:925) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.a(EntityPlayer.java:783) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.Container.addSlotListener(Container.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.syncInventory(EntityPlayer.java:177) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerList.a(PlayerList.java:190) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.LoginListener.b(LoginListener.java:144) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.LoginListener.c(LoginListener.java:54) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:231) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.ServerConnection.c(ServerConnection.java:148) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:875) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NullPointerException: type cannot be null
+	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:229) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at com.comphenix.protocol.injector.StructureCache.getStructure(StructureCache.java:138) ~[?:?]
+	at com.comphenix.protocol.events.PacketContainer.<init>(PacketContainer.java:126) ~[?:?]
+	at com.comphenix.protocol.injector.netty.manager.NetworkManagerInjector.onPacketSending(NetworkManagerInjector.java:96) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector.processOutbound(NettyChannelInjector.java:553) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector$2.doProxyRunnable(NettyChannelInjector.java:456) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.proxyRunnable(NettyEventLoopProxy.java:43) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.execute(NettyEventLoopProxy.java:252) ~[?:?]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:192) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.handle(NetworkManager.java:141) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.sendPacket(PlayerConnection.java:911) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 13 more
+[19:46:53] [Server thread/INFO]: scarlet_r lost connection: Internal server error
+[19:46:53] [Server thread/INFO]: scarlet_r left the game.
+[19:46:54] [Craft Scheduler Thread - 35/INFO]: [0;31;1mWarning: scarlet_r has the same IP as the following banned players:
+[0;33;22mGeep[m
+
+[19:46:54] [Craft Scheduler Thread - 33/INFO]: [0;31;1mWarning: scarlet_r has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet[m
+
+[19:46:56] [Thread-38/INFO]: UUID of player scarlet_r is 4172a665-c505-3f54-a66f-8ceeca1d6d91
+[19:46:56] [Server thread/WARN]: Failed to handle packet for /[0:0:0:0:0:0:0:1]:33718
+net.minecraft.server.v1_8_R3.ReportedException: Sending packet
+	at net.minecraft.server.v1_8_R3.PlayerConnection.sendPacket(PlayerConnection.java:925) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.a(EntityPlayer.java:783) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.Container.addSlotListener(Container.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.syncInventory(EntityPlayer.java:177) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerList.a(PlayerList.java:190) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.LoginListener.b(LoginListener.java:144) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.LoginListener.c(LoginListener.java:54) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:231) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.ServerConnection.c(ServerConnection.java:148) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:875) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NullPointerException: type cannot be null
+	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:229) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at com.comphenix.protocol.injector.StructureCache.getStructure(StructureCache.java:138) ~[?:?]
+	at com.comphenix.protocol.events.PacketContainer.<init>(PacketContainer.java:126) ~[?:?]
+	at com.comphenix.protocol.injector.netty.manager.NetworkManagerInjector.onPacketSending(NetworkManagerInjector.java:96) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector.processOutbound(NettyChannelInjector.java:553) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector$2.doProxyRunnable(NettyChannelInjector.java:456) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.proxyRunnable(NettyEventLoopProxy.java:43) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.execute(NettyEventLoopProxy.java:252) ~[?:?]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:192) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.handle(NetworkManager.java:141) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.sendPacket(PlayerConnection.java:911) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 13 more
+[19:46:56] [Server thread/INFO]: scarlet_r lost connection: Internal server error
+[19:46:56] [Server thread/INFO]: scarlet_r left the game.
+[19:46:57] [Craft Scheduler Thread - 33/INFO]: [0;31;1mWarning: scarlet_r has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet[m
+
+[19:46:57] [Craft Scheduler Thread - 36/INFO]: [0;31;1mWarning: scarlet_r has the same IP as the following banned players:
+[0;33;22mGeep[m
+
+[19:46:58] [Thread-39/INFO]: UUID of player scarlet_r is 4172a665-c505-3f54-a66f-8ceeca1d6d91
+[19:46:58] [Server thread/INFO]: scarlet_r[/[0:0:0:0:0:0:0:1]:33722] logged in with entity id 18536 at ([world]181.5, 64.0, 242.5)
+[19:46:59] [Craft Scheduler Thread - 36/INFO]: [0;31;1mWarning: scarlet_r has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet[m
+
+[19:46:59] [Craft Scheduler Thread - 37/INFO]: [0;31;1mWarning: scarlet_r has the same IP as the following banned players:
+[0;33;22mGeep[m
+
+[19:47:27] [Server thread/INFO]: scarlet_r lost connection: Wrong captcha! Please try again.
+[19:47:27] [Server thread/INFO]: scarlet_r left the game.
+[19:47:27] [Server thread/WARN]: handleDisconnection() called twice
+[19:47:31] [Thread-40/INFO]: UUID of player scarlet_r is 4172a665-c505-3f54-a66f-8ceeca1d6d91
+[19:47:31] [Server thread/WARN]: Failed to handle packet for /[0:0:0:0:0:0:0:1]:47742
+net.minecraft.server.v1_8_R3.ReportedException: Sending packet
+	at net.minecraft.server.v1_8_R3.PlayerConnection.sendPacket(PlayerConnection.java:925) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.a(EntityPlayer.java:783) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.Container.addSlotListener(Container.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.syncInventory(EntityPlayer.java:177) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerList.a(PlayerList.java:190) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.LoginListener.b(LoginListener.java:144) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.LoginListener.c(LoginListener.java:54) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:231) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.ServerConnection.c(ServerConnection.java:148) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:875) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NullPointerException: type cannot be null
+	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:229) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at com.comphenix.protocol.injector.StructureCache.getStructure(StructureCache.java:138) ~[?:?]
+	at com.comphenix.protocol.events.PacketContainer.<init>(PacketContainer.java:126) ~[?:?]
+	at com.comphenix.protocol.injector.netty.manager.NetworkManagerInjector.onPacketSending(NetworkManagerInjector.java:96) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector.processOutbound(NettyChannelInjector.java:553) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector$2.doProxyRunnable(NettyChannelInjector.java:456) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.proxyRunnable(NettyEventLoopProxy.java:43) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.execute(NettyEventLoopProxy.java:252) ~[?:?]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:192) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.handle(NetworkManager.java:141) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.sendPacket(PlayerConnection.java:911) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 13 more
+[19:47:31] [Server thread/INFO]: scarlet_r lost connection: Internal server error
+[19:47:31] [Server thread/INFO]: scarlet_r left the game.
+[19:47:32] [Craft Scheduler Thread - 33/INFO]: [0;31;1mWarning: scarlet_r has the same IP as the following banned players:
+[0;33;22mGeep[m
+
+[19:47:32] [Craft Scheduler Thread - 37/INFO]: [0;31;1mWarning: scarlet_r has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet[m
+
+[19:47:34] [Thread-41/INFO]: UUID of player scarlet_r is 4172a665-c505-3f54-a66f-8ceeca1d6d91
+[19:47:34] [Server thread/WARN]: Failed to handle packet for /[0:0:0:0:0:0:0:1]:47206
+net.minecraft.server.v1_8_R3.ReportedException: Sending packet
+	at net.minecraft.server.v1_8_R3.PlayerConnection.sendPacket(PlayerConnection.java:925) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.a(EntityPlayer.java:783) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.Container.addSlotListener(Container.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.syncInventory(EntityPlayer.java:177) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerList.a(PlayerList.java:190) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.LoginListener.b(LoginListener.java:144) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.LoginListener.c(LoginListener.java:54) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:231) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.ServerConnection.c(ServerConnection.java:148) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:875) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NullPointerException: type cannot be null
+	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:229) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at com.comphenix.protocol.injector.StructureCache.getStructure(StructureCache.java:138) ~[?:?]
+	at com.comphenix.protocol.events.PacketContainer.<init>(PacketContainer.java:126) ~[?:?]
+	at com.comphenix.protocol.injector.netty.manager.NetworkManagerInjector.onPacketSending(NetworkManagerInjector.java:96) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector.processOutbound(NettyChannelInjector.java:553) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector$2.doProxyRunnable(NettyChannelInjector.java:456) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.proxyRunnable(NettyEventLoopProxy.java:43) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.execute(NettyEventLoopProxy.java:252) ~[?:?]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:192) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.handle(NetworkManager.java:141) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.sendPacket(PlayerConnection.java:911) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 13 more
+[19:47:34] [Server thread/INFO]: scarlet_r lost connection: Internal server error
+[19:47:34] [Server thread/INFO]: scarlet_r left the game.
+[19:47:35] [Craft Scheduler Thread - 33/INFO]: [0;31;1mWarning: scarlet_r has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet[m
+
+[19:47:35] [Craft Scheduler Thread - 37/INFO]: [0;31;1mWarning: scarlet_r has the same IP as the following banned players:
+[0;33;22mGeep[m
+
+[19:47:36] [Thread-42/INFO]: UUID of player scarlet_r is 4172a665-c505-3f54-a66f-8ceeca1d6d91
+[19:47:36] [Server thread/INFO]: scarlet_r[/[0:0:0:0:0:0:0:1]:47222] logged in with entity id 18642 at ([world]181.5, 64.0, 242.5)
+[19:47:37] [Craft Scheduler Thread - 37/INFO]: [0;31;1mWarning: scarlet_r has the same IP as the following banned players:
+[0;33;22mGeep[m
+
+[19:47:37] [Craft Scheduler Thread - 36/INFO]: [0;31;1mWarning: scarlet_r has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet[m
+
+[19:47:57] [Server thread/INFO]: scarlet_r issued server command: /WUZFB
+[19:48:19] [Async Chat Thread - #7/INFO]: <scarlet_r> guys this is rocco i put scarlet on shes chill[m
+
+[19:48:29] [Async Chat Thread - #7/INFO]: <John_Minecraft> ok[m
+
+[19:50:14] [Async Chat Thread - #8/INFO]: <Steven> okay[m
+
+[19:50:34] [Async Chat Thread - #8/INFO]: <Steven> ik i gave her the link[m
+
+[19:50:47] [Server thread/INFO]: Steven issued server command: /tpa scarlet_r
+[19:50:53] [Async Chat Thread - #8/INFO]: <Steven> do /accept[m
+
+[19:51:03] [Server thread/INFO]: John_Minecraft issued server command: /accept
+[19:51:29] [Thread-43/INFO]: UUID of player Danny is ddcda591-f59a-39fa-ae6e-6744024d2256
+[19:51:29] [Server thread/INFO]: Danny[/[0:0:0:0:0:0:0:1]:51738] logged in with entity id 19120 at ([world]191.6175128567425, 70.0, 340.6534738687608)
+[19:51:30] [Craft Scheduler Thread - 36/INFO]: [0;31;1mWarning: Danny has the same IP as the following banned players:
+[0;33;22mGeep[m
+
+[19:51:30] [Craft Scheduler Thread - 38/INFO]: [0;31;1mWarning: Danny has the same IP as the following players:
+[0;33;22ma__, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet, scarlet_r[m
+
+[19:51:35] [Async Chat Thread - #8/INFO]: <Steven> where you at scarket[m
+
+[19:51:57] [Async Chat Thread - #8/INFO]: <John_Minecraft> fill roccos room with chickens[m
+
+[19:52:02] [Async Chat Thread - #8/INFO]: <Steven> why[m
+
+[19:52:07] [Async Chat Thread - #8/INFO]: <Steven> okay[m
+
+[19:52:07] [Async Chat Thread - #8/INFO]: <Danny> guys no griefing[m
+
+[19:52:08] [Thread-44/INFO]: UUID of player BaconMania is 94cc9361-df90-3d70-a09d-55ea0279e1a1
+[19:52:08] [Server thread/INFO]: BaconMania[/[0:0:0:0:0:0:0:1]:37662] logged in with entity id 19317 at ([world]728.4262452111984, 73.0, 293.54527381033665)
+[19:52:08] [Async Chat Thread - #8/INFO]: <John_Minecraft> why not[m
+
+[19:52:12] [Async Chat Thread - #8/INFO]: <John_Minecraft> oh ight[m
+
+[19:52:13] [Thread-45/INFO]: UUID of player rocco is 639c7d28-28a7-3e3c-8cd9-745d7da121b0
+[19:52:13] [Server thread/WARN]: Failed to handle packet for /[0:0:0:0:0:0:0:1]:50332
+net.minecraft.server.v1_8_R3.ReportedException: Sending packet
+	at net.minecraft.server.v1_8_R3.PlayerConnection.sendPacket(PlayerConnection.java:925) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.a(EntityPlayer.java:783) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.Container.addSlotListener(Container.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.syncInventory(EntityPlayer.java:177) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerList.a(PlayerList.java:190) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.LoginListener.b(LoginListener.java:144) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.LoginListener.c(LoginListener.java:54) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:231) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.ServerConnection.c(ServerConnection.java:148) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:875) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NullPointerException: type cannot be null
+	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:229) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at com.comphenix.protocol.injector.StructureCache.getStructure(StructureCache.java:138) ~[?:?]
+	at com.comphenix.protocol.events.PacketContainer.<init>(PacketContainer.java:126) ~[?:?]
+	at com.comphenix.protocol.injector.netty.manager.NetworkManagerInjector.onPacketSending(NetworkManagerInjector.java:96) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector.processOutbound(NettyChannelInjector.java:553) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector$2.doProxyRunnable(NettyChannelInjector.java:456) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.proxyRunnable(NettyEventLoopProxy.java:43) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.execute(NettyEventLoopProxy.java:252) ~[?:?]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:192) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.handle(NetworkManager.java:141) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.sendPacket(PlayerConnection.java:911) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 13 more
+[19:52:14] [Server thread/INFO]: rocco lost connection: Internal server error
+[19:52:14] [Server thread/INFO]: rocco left the game.
+[19:52:14] [Craft Scheduler Thread - 36/INFO]: [0;31;1mWarning: rocco has the same IP as the following banned players:
+[0;33;22mGeep[m
+
+[19:52:14] [Craft Scheduler Thread - 39/INFO]: [0;31;1mWarning: rocco has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet, scarlet_r[m
+
+[19:52:18] [Thread-46/INFO]: UUID of player rocco is 639c7d28-28a7-3e3c-8cd9-745d7da121b0
+[19:52:18] [Server thread/INFO]: rocco[/[0:0:0:0:0:0:0:1]:50336] logged in with entity id 19471 at ([world]212.30000001192087, 64.0, 301.6368712374354)
+[19:52:19] [Async Chat Thread - #8/INFO]: <John_Minecraft> wouldn't consider it griefing[m
+
+[19:52:19] [Craft Scheduler Thread - 36/INFO]: [0;31;1mWarning: rocco has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet, scarlet_r[m
+
+[19:52:19] [Craft Scheduler Thread - 39/INFO]: [0;31;1mWarning: rocco has the same IP as the following banned players:
+[0;33;22mGeep[m
+
+[19:52:22] [Server thread/INFO]: BaconMania lost connection: Disconnected
+[19:52:22] [Server thread/INFO]: BaconMania left the game.
+[19:52:32] [Async Chat Thread - #8/INFO]: <rocco> sup lil slut slaves[m
+
+[19:52:48] [Async Chat Thread - #8/INFO]: <rocco> scarlet where tf are you[m
+
+[19:52:52] [Thread-47/INFO]: UUID of player BaconMania is 94cc9361-df90-3d70-a09d-55ea0279e1a1
+[19:52:52] [Server thread/INFO]: BaconMania[/[0:0:0:0:0:0:0:1]:33336] logged in with entity id 19754 at ([world]728.4262452111984, 73.0, 293.54527381033665)
+[19:53:02] [Async Chat Thread - #8/INFO]: <Danny> scarlit like the one with the dyed purple hair??[m
+
+[19:53:08] [Async Chat Thread - #8/INFO]: <Steven> nah[m
+
+[19:53:08] [Async Chat Thread - #8/INFO]: <rocco> no lol[m
+
+[19:53:11] [Server thread/INFO]: scarlet_r was slain by rocco using [skibidi slayer]
+[19:53:31] [Server thread/INFO]: Steven issued server command: /home Steven
+[19:53:41] [Async Chat Thread - #8/INFO]: <John_Minecraft> chat[m
+
+[19:53:49] [Server thread/INFO]: scarlet_r has just earned the achievement [Taking Inventory]
+[19:53:50] [Async Chat Thread - #8/INFO]: <BaconMania> whats up john minecraft[m
+
+[19:53:51] [Async Chat Thread - #8/INFO]: <Steven> mb[m
+
+[19:53:53] [Async Chat Thread - #8/INFO]: <John_Minecraft> i have been BRUTALLY MAULED[m
+
+[19:53:59] [Async Chat Thread - #8/INFO]: <John_Minecraft> for suggesting chickens[m
+
+[19:54:17] [Server thread/INFO]: rocco issued server command: /tpa scarlet_r
+[19:54:19] [Async Chat Thread - #8/INFO]: <Steven> wya scarlet[m
+
+[19:54:44] [Server thread/INFO]: rocco lost connection: Disconnected
+[19:54:44] [Server thread/INFO]: rocco left the game.
+[19:55:03] [Server thread/INFO]: scarlet_r was slain by Zombie
+[19:55:03] [Server thread/INFO]: Steven was slain by John_Minecraft
+[19:55:08] [Server thread/INFO]: Steven issued server command: /back
+[19:55:33] [Async Chat Thread - #9/INFO]: <John_Minecraft> im just better[m
+
+[19:55:38] [Async Chat Thread - #9/INFO]: <Steven> yoiur black[m
+
+[19:55:45] [Server thread/INFO]: BaconMania issued server command: /invsee scarlet
+[19:55:52] [Async Chat Thread - #9/INFO]: <John_Minecraft> free sword[m
+
+[19:55:57] [Server thread/INFO]: Danny issued server command: /tpa John_Minecraft
+[19:55:59] [Server thread/INFO]: BaconMania issued server command: /invsee scarlet_r
+[19:56:02] [Async Chat Thread - #9/INFO]: <John_Minecraft> don't try to kill me[m
+
+[19:56:07] [Server thread/INFO]: BaconMania issued server command: /invsee John_Minecraft
+[19:56:08] [Server thread/INFO]: scarlet_r was slain by Steven
+[19:56:11] [Async Chat Thread - #9/INFO]: <Danny> ok[m
+
+[19:56:13] [Async Chat Thread - #9/INFO]: <Steven> crazy[m
+
+[19:56:26] [Async Chat Thread - #9/INFO]: <Danny> just accept the tp[m
+
+[19:56:38] [Server thread/INFO]: Danny issued server command: /tpa John_Minecraft
+[19:57:06] [Server thread/INFO]: Danny issued server command: /tpa John_Minecraft
+[19:57:20] [Async Chat Thread - #9/INFO]: <John_Minecraft> you really want me to accept, don't you[m
+
+[19:57:24] [Async Chat Thread - #9/INFO]: <Danny> i have a sword for you[m
+
+[19:57:30] [Async Chat Thread - #9/INFO]: <Danny> for steven[m
+
+[19:57:34] [Async Chat Thread - #9/INFO]: <John_Minecraft> you're going to stab me with it[m
+
+[19:57:47] [Async Chat Thread - #9/INFO]: <Danny> nah[m
+
+[19:57:58] [Server thread/INFO]: scarlet_r was slain by Danny using [Asian Chopstick]
+[19:58:02] [Async Chat Thread - #9/INFO]: <Steven> damn[m
+
+[19:58:07] [Async Chat Thread - #9/INFO]: <John_Minecraft> see[m
+
+[19:58:08] [Async Chat Thread - #9/INFO]: <Danny> she hit me first lol[m
+
+[19:58:12] [Async Chat Thread - #9/INFO]: <John_Minecraft> killing spree[m
+
+[19:58:18] [Async Chat Thread - #9/INFO]: <BaconMania> why're you guys bullying scarlet lmao[m
+
+[19:58:46] [Async Chat Thread - #9/INFO]: <scarlet_r> oops[m
+
+[19:59:06] [Async Chat Thread - #9/INFO]: <Steven> scarlet from history[m
+
+[19:59:07] [Async Chat Thread - #9/INFO]: <Danny> EVERYONE TELEPORT TO ME WE NEED TO HAVE A MEETING[m
+
+[19:59:13] [Async Chat Thread - #9/INFO]: <John_Minecraft> about what[m
+
+[19:59:22] [Async Chat Thread - #9/INFO]: <Danny> about rules[m
+
+[19:59:31] [Async Chat Thread - #9/INFO]: <John_Minecraft> no one will be killed?[m
+
+[19:59:35] [Async Chat Thread - #9/INFO]: <Danny> i promise[m
+
+[19:59:51] [Async Chat Thread - #9/INFO]: <BaconMania> anyone who kills anyone during the meeting gets a day ban[m
+
+[19:59:52] [Server thread/INFO]: Steven hit the ground too hard
+[19:59:56] [Server thread/INFO]: Steven issued server command: /back
+[20:00:09] [Server thread/INFO]: John_Minecraft issued server command: /tp steven
+[20:00:14] [Server thread/INFO]: John_Minecraft issued server command: /no perms
+[20:00:17] [Async Chat Thread - #9/INFO]: <John_Minecraft> no perms[m
+
+[20:00:22] [Server thread/INFO]: John_Minecraft issued server command: /tpa steven
+[20:00:23] [Async Chat Thread - #9/INFO]: <BaconMania> ./tpa[m
+
+[20:00:29] [Async Chat Thread - #9/INFO]: <John_Minecraft> got it[m
+
+[20:00:36] [Server thread/INFO]: BaconMania issued server command: /tpa danny
+[20:00:46] [Server thread/INFO]: Danny issued server command: /tpaccept
+[20:00:51] [Server thread/INFO]: Danny issued server command: /tpaccept
+[20:00:55] [Server thread/INFO]: Danny issued server command: /tpaccept
+[20:01:11] [Async Chat Thread - #9/INFO]: <Danny> john and scarlet tp to me[m
+
+[20:01:19] [Server thread/INFO]: BaconMania issued server command: /tp @a danny
+[20:01:19] [Server thread/INFO]: [BaconMania: Teleported BaconMania to Danny]
+[20:01:19] [Server thread/INFO]: [BaconMania: Teleported Danny to Danny]
+[20:01:19] [Server thread/INFO]: [BaconMania: Teleported Steven to Danny]
+[20:01:19] [Server thread/INFO]: [BaconMania: Teleported scarlet_r to Danny]
+[20:01:19] [Server thread/INFO]: [BaconMania: Teleported John_Minecraft to Danny]
+[20:01:22] [Async Chat Thread - #9/INFO]: <John_Minecraft> yo[m
+
+[20:01:22] [Async Chat Thread - #10/INFO]: <John_Minecraft> yo[m
+
+[20:01:31] [Async Chat Thread - #10/INFO]: <John_Minecraft> steven[m
+
+[20:01:32] [Async Chat Thread - #10/INFO]: <BaconMania> no murdering[m
+
+[20:01:36] [Async Chat Thread - #10/INFO]: <John_Minecraft> you want you sword thing[m
+
+[20:01:43] [Async Chat Thread - #10/INFO]: <Danny> one sec[m
+
+[20:01:45] [Async Chat Thread - #10/INFO]: <John_Minecraft> don't kill me[m
+
+[20:01:45] [Async Chat Thread - #10/INFO]: <Steven> my dildo yes[m
+
+[20:01:58] [Async Chat Thread - #10/INFO]: <BaconMania> ok whatre the rules you wish to discuss danny[m
+
+[20:02:22] [Async Chat Thread - #10/INFO]: <scarlet_r> whos john[m
+
+[20:02:27] [Async Chat Thread - #10/INFO]: <John_Minecraft> Lincoln[m
+
+[20:02:28] [Async Chat Thread - #10/INFO]: <Danny> everyone take a seat[m
+
+[20:02:34] [Thread-49/INFO]: UUID of player the_sigma is 4c9b5d90-a1ae-329e-991c-9e4cd9505024
+[20:02:34] [Server thread/INFO]: the_sigma[/[0:0:0:0:0:0:0:1]:46894] logged in with entity id 23657 at ([world]114.64225685132371, 66.0, 453.3068172515899)
+[20:02:35] [Craft Scheduler Thread - 40/INFO]: [0;31;1mWarning: the_sigma has the same IP as the following banned players:
+[0;33;22mGeep[m
+
+[20:02:35] [Craft Scheduler Thread - 41/INFO]: [0;31;1mWarning: the_sigma has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet, scarlet_r[m
+
+[20:02:46] [Async Chat Thread - #10/INFO]: <John_Minecraft> whos the sigma[m
+
+[20:02:46] [Async Chat Thread - #10/INFO]: <BaconMania> seated[m
+
+[20:02:50] [Async Chat Thread - #10/INFO]: <BaconMania> zeke[m
+
+[20:02:53] [Async Chat Thread - #10/INFO]: <scarlet_r> whos licoln and whos danny[m
+
+[20:02:56] [Server thread/INFO]: the_sigma issued server command: /suicide
+[20:02:56] [Server thread/INFO]: the_sigma died
+[20:02:56] [Server thread/INFO]: [0;31;1m[21mthe_sigma got whacked.[m
+
+[20:02:56] [Server thread/ERROR]: [Suicide] The sound you're trying to play isn't registered in this Minecraft Version: ENTITY_ZOMBIE_HURT
+[20:02:59] [Async Chat Thread - #10/INFO]: <Danny> bro stop[m
+
+[20:03:02] [Server thread/INFO]: the_sigma issued server command: /back
+[20:03:08] [Async Chat Thread - #10/INFO]: <Danny> guys stop[m
+
+[20:03:12] [Async Chat Thread - #10/INFO]: <BaconMania> stop punching[m
+
+[20:03:20] [Async Chat Thread - #10/INFO]: <Danny> scarlet sit down[m
+
+[20:03:41] [Async Chat Thread - #10/INFO]: <Danny> rule one: no griefing or killing[m
+
+[20:03:43] [Async Chat Thread - #10/INFO]: <John_Minecraft> agree to the terms and conditions[m
+
+[20:03:44] [Async Chat Thread - #10/INFO]: <the_sigma> do i need to go to the meeting[m
+
+[20:03:44] [Async Chat Thread - #10/INFO]: <Steven> nah[m
+
+[20:03:47] [Async Chat Thread - #10/INFO]: <Steven> we can kill[m
+
+[20:03:59] [Async Chat Thread - #10/INFO]: <BaconMania> killings fine just no stealing[m
+
+[20:04:02] [Async Chat Thread - #10/INFO]: <Danny> we will build a pvp areana later[m
+
+[20:04:04] [Async Chat Thread - #10/INFO]: <scarlet_r> hi[m
+
+[20:04:05] [Async Chat Thread - #10/INFO]: <John_Minecraft> oh ight[m
+
+[20:04:10] [Async Chat Thread - #10/INFO]: <scarlet_r> how[m
+
+[20:04:11] [Async Chat Thread - #10/INFO]: <Steven> you can steal just ask first[m
+
+[20:04:14] [Async Chat Thread - #10/INFO]: <BaconMania> ok yea deal pvp arena[m
+
+[20:04:20] [Async Chat Thread - #10/INFO]: <Danny> we need to get ender pearls as soon as we can to get to the end[m
+
+[20:04:29] [Async Chat Thread - #10/INFO]: <John_Minecraft> ight[m
+
+[20:04:31] [Async Chat Thread - #10/INFO]: <Steven> scarleet do yk how to play[m
+
+[20:04:35] [Async Chat Thread - #10/INFO]: <Danny> any you find, bring them to me or the chest by the notice board[m
+
+[20:04:35] [Async Chat Thread - #10/INFO]: <BaconMania> sounds reasonable[m
+
+[20:04:43] [Async Chat Thread - #10/INFO]: <scarlet_r> stealing bad[m
+
+[20:04:47] [Async Chat Thread - #10/INFO]: <John_Minecraft> makes sense[m
+
+[20:04:47] [Async Chat Thread - #10/INFO]: <Danny> any rules anyone wants me to add?[m
+
+[20:04:49] [Async Chat Thread - #10/INFO]: <BaconMania> zeke do you wanna be teleported to the meeting[m
+
+[20:04:52] [Async Chat Thread - #10/INFO]: <Steven> im black[m
+
+[20:04:54] [Async Chat Thread - #10/INFO]: <the_sigma> yeah sure[m
+
+[20:05:01] [Server thread/INFO]: BaconMania issued server command: /tp the_sigma @p
+[20:05:01] [Server thread/INFO]: [BaconMania: Teleported the_sigma to BaconMania]
+[20:05:05] [Async Chat Thread - #10/INFO]: <scarlet_r> hi steven[m
+
+[20:05:13] [Async Chat Thread - #10/INFO]: <Steven> zeke where is geeps house[m
+
+[20:05:17] [Async Chat Thread - #10/INFO]: <Steven> hi scaarlet[m
+
+[20:05:17] [Async Chat Thread - #10/INFO]: <Danny> oh, also we need a lot of wood for future builds. please bring some by and leave it in the storage-[m
+
+[20:05:22] [Async Chat Thread - #10/INFO]: <the_sigma> idk if he has one[m
+
+[20:05:24] [Async Chat Thread - #10/INFO]: <Danny> -room when you get time[m
+
+[20:05:42] [Server thread/INFO]: Danny lost connection: Disconnected
+[20:05:42] [Server thread/INFO]: Danny left the game.
+[20:05:43] [Async Chat Thread - #10/INFO]: <John_Minecraft> what's in th epit[m
+
+[20:05:43] [Async Chat Thread - #10/INFO]: <BaconMania> aight sounds good[m
+
+[20:05:53] [Async Chat Thread - #10/INFO]: <BaconMania> its a big hole[m
+
+[20:05:54] [Async Chat Thread - #10/INFO]: <Steven> follow me upstairs john ill show you the place[m
+
+[20:05:56] [Async Chat Thread - #10/INFO]: <John_Minecraft> h[m
+
+[20:05:59] [Async Chat Thread - #10/INFO]: <scarlet_r> whos the sigma guy[m
+
+[20:06:03] [Async Chat Thread - #10/INFO]: <Steven> zeke[m
+
+[20:06:04] [Async Chat Thread - #10/INFO]: <BaconMania> zeke[m
+
+[20:06:10] [Async Chat Thread - #10/INFO]: <Steven> dannys room[m
+
+[20:06:17] [Async Chat Thread - #10/INFO]: <Steven> roccos room[m
+
+[20:06:22] [Async Chat Thread - #10/INFO]: <Steven> up to mob farm[m
+
+[20:06:28] [Server thread/INFO]: BaconMania issued server command: /home newbase
+[20:06:33] [Async Chat Thread - #10/INFO]: <Steven> and storage /enchanting room[m
+
+[20:06:36] [Async Chat Thread - #10/INFO]: <John_Minecraft> cool[m
+
+[20:06:59] [Async Chat Thread - #10/INFO]: <Steven> did it all myself[m
+
+[20:07:02] [Async Chat Thread - #10/INFO]: <John_Minecraft> nice[m
+
+[20:07:09] [Async Chat Thread - #10/INFO]: <Steven> but then elliot lit everyything on fire[m
+
+[20:07:18] [Async Chat Thread - #10/INFO]: <John_Minecraft> damn[m
+
+[20:07:28] [Thread-50/INFO]: UUID of player Danny is ddcda591-f59a-39fa-ae6e-6744024d2256
+[20:07:28] [Server thread/INFO]: Danny[/[0:0:0:0:0:0:0:1]:57576] logged in with entity id 25489 at ([world]229.20409223190376, 64.0, 290.66577663604033)
+[20:07:29] [Craft Scheduler Thread - 43/INFO]: [0;31;1mWarning: Danny has the same IP as the following players:
+[0;33;22ma__, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet, scarlet_r[m
+
+[20:07:29] [Craft Scheduler Thread - 42/INFO]: [0;31;1mWarning: Danny has the same IP as the following banned players:
+[0;33;22mGeep[m
+
+[20:07:33] [Async Chat Thread - #10/INFO]: <BaconMania> elliot has been banned[m
+
+[20:07:34] [Async Chat Thread - #10/INFO]: <John_Minecraft> reminiscent of "Until the fire nation attacked"[m
+
+[20:07:44] [Async Chat Thread - #10/INFO]: <Steven> sut the fuck up[m
+
+[20:07:49] [Async Chat Thread - #10/INFO]: <John_Minecraft> bruh[m
+
+[20:08:04] [Async Chat Thread - #10/INFO]: <Steven> ima wipe it out[m
+
+[20:08:09] [Async Chat Thread - #10/INFO]: <Steven> on the desk[m
+
+[20:08:20] [Async Chat Thread - #10/INFO]: <John_Minecraft> crazy[m
+
+[20:08:22] [Server thread/INFO]: BaconMania issued server command: /sudo steven I am a fan of black people
+[20:08:22] [Server thread/INFO]: <Steven> I am a fan of black people[m
+
+[20:08:26] [Async Chat Thread - #10/INFO]: <Steven> NO IM NOT[m
+
+[20:08:28] [Async Chat Thread - #10/INFO]: <Danny> im not[m
+
+[20:08:31] [Async Chat Thread - #10/INFO]: <the_sigma> im not[m
+
+[20:08:40] [Async Chat Thread - #10/INFO]: <Danny> the allways steal everything[m
+
+[20:08:48] [Async Chat Thread - #10/INFO]: <Steven> im black tho[m
+
+[20:08:50] [Server thread/INFO]: BaconMania issued server command: /sudo Steven I hold zero prejudice against individuals of color
+[20:08:50] [Server thread/INFO]: <Steven> I hold zero prejudice against individuals of color[m
+
+[20:08:55] [Server thread/INFO]: Steven issued server command: /suicide
+[20:08:55] [Server thread/INFO]: Steven died
+[20:08:55] [Server thread/INFO]: [0;31;1m[21mSteven got whacked.[m
+
+[20:08:55] [Server thread/ERROR]: [Suicide] The sound you're trying to play isn't registered in this Minecraft Version: ENTITY_ZOMBIE_HURT
+[20:09:01] [Server thread/INFO]: Steven issued server command: /suicide
+[20:09:01] [Server thread/INFO]: Steven died
+[20:09:01] [Server thread/INFO]: [0;31;1m[21mSteven has committed suicide![m
+
+[20:09:01] [Server thread/ERROR]: [Suicide] The sound you're trying to play isn't registered in this Minecraft Version: ENTITY_ZOMBIE_HURT
+[20:09:02] [Async Chat Thread - #10/INFO]: <John_Minecraft> oh[m
+
+[20:09:14] [Async Chat Thread - #10/INFO]: <John_Minecraft> that was an interesting few seconds[m
+
+[20:09:54] [Async Chat Thread - #10/INFO]: <BaconMania> lincoln are you the lincoln on swim or the lincoln on dive[m
+
+[20:09:58] [Async Chat Thread - #10/INFO]: <John_Minecraft> no[m
+
+[20:09:59] [Server thread/INFO]: Steven was slain by Zombie
+[20:10:02] [Async Chat Thread - #10/INFO]: <John_Minecraft> im on swim to[m
+
+[20:10:04] [Async Chat Thread - #10/INFO]: <John_Minecraft> tho*[m
+
+[20:10:13] [Async Chat Thread - #10/INFO]: <John_Minecraft> im the other swim lincoln[m
+
+[20:10:17] [Async Chat Thread - #10/INFO]: <Steven> short lincoln?[m
+
+[20:10:17] [Async Chat Thread - #10/INFO]: <Danny> are you the one that has ms service for 3rd period[m
+
+[20:10:20] [Async Chat Thread - #10/INFO]: <John_Minecraft> the worse one[m
+
+[20:10:21] [Async Chat Thread - #10/INFO]: <John_Minecraft> yeah[m
+
+[20:10:25] [Async Chat Thread - #10/INFO]: <John_Minecraft> mrs service 3rd[m
+
+[20:10:28] [Async Chat Thread - #10/INFO]: <scarlet_r> how you open door[m
+
+[20:10:34] [Async Chat Thread - #10/INFO]: <BaconMania> right click[m
+
+[20:10:35] [Async Chat Thread - #10/INFO]: <John_Minecraft> gtg chat[m
+
+[20:10:37] [Server thread/INFO]: John_Minecraft lost connection: Disconnected
+[20:10:37] [Server thread/INFO]: John_Minecraft left the game.
+[20:10:40] [Server thread/INFO]: the_sigma lost connection: Disconnected
+[20:10:40] [Server thread/INFO]: the_sigma left the game.
+[20:10:54] [Async Chat Thread - #10/INFO]: <Steven> im going to murder him when he gets back on[m
+
+[20:10:59] [Async Chat Thread - #10/INFO]: <Danny> bro[m
+
+[20:11:09] [Async Chat Thread - #10/INFO]: <BaconMania> class almost over[m
+
+[20:11:10] [Async Chat Thread - #10/INFO]: <Steven> you can do it dont cry[m
+
+[20:11:13] [Async Chat Thread - #10/INFO]: <BaconMania> hopping off[m
+
+[20:11:15] [Server thread/INFO]: Steven was slain by Danny using [Asian Chopstick]
+[20:11:17] [Server thread/INFO]: BaconMania lost connection: Disconnected
+[20:11:17] [Server thread/INFO]: BaconMania left the game.
+[20:11:30] [Server thread/INFO]: scarlet_r was slain by Zombie Pigman
