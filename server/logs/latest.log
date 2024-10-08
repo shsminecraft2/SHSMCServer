@@ -1615,3 +1615,81 @@ Caused by: java.lang.NullPointerException: type cannot be null
 [0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet, scarlet_r[m
 
 [20:34:26] [Server thread/INFO]: Steven issued server command: /tpa yarquesh
+[20:34:36] [Server thread/INFO]: yarquesh issued server command: /tpaccept
+[20:34:42] [Server thread/INFO]: There are 2/20000 players online:
+[20:34:42] [Server thread/INFO]: Steven, yarquesh
+[20:34:51] [Async Chat Thread - #11/INFO]: <Steven> follow me my nig[m
+
+[20:35:42] [Async Chat Thread - #11/INFO]: <Steven> click the bed[m
+
+[20:35:53] [Server thread/INFO]: yarquesh has just earned the achievement [Taking Inventory]
+[20:36:07] [Server thread/INFO]: yarquesh was slain by Steven using [The Dildo Slammer]
+[20:36:45] [Server thread/INFO]: yarquesh was slain by Steven using [The Dildo Slammer]
+[20:37:11] [Server thread/INFO]: yarquesh was slain by Steven using [The Dildo Slammer]
+[20:37:43] [Async Chat Thread - #12/INFO]: <Steven> bro cant hit me .Skull.[m
+
+[20:37:50] [Server thread/INFO]: yarquesh fell from a high place
+[20:38:00] [Async Chat Thread - #12/INFO]: <Steven> retard[m
+
+[20:39:05] [Server thread/INFO]: yarquesh was slain by Steven using [The Dildo Slammer]
+[20:39:17] [Server thread/INFO]: Steven issued server command: /home Steven
+[20:39:25] [Server thread/WARN]: Steven moved wrongly!
+[20:39:31] [Server thread/INFO]: yarquesh has just earned the achievement [Getting Wood]
+[20:40:47] [Server thread/INFO]: Steven fell from a high place
+[20:40:52] [Server thread/INFO]: Steven issued server command: /back
+[20:40:56] [Server thread/INFO]: yarquesh was slain by Steven
+[20:41:05] [Server thread/INFO]: yarquesh lost connection: Disconnected
+[20:41:05] [Server thread/INFO]: yarquesh left the game.
+[20:42:17] [Server thread/INFO]: Steven issued server command: /home Steven
+[20:46:13] [Server thread/INFO]: Steven issued server command: /delhome village
+[20:49:11] [Server thread/INFO]: Steven issued server command: /suicide
+[20:49:11] [Server thread/INFO]: Steven died
+[20:49:11] [Server thread/INFO]: [0;31;1m[21mSteven has committed suicide![m
+
+[20:49:11] [Server thread/ERROR]: [Suicide] The sound you're trying to play isn't registered in this Minecraft Version: ENTITY_ZOMBIE_HURT
+[20:49:16] [Server thread/INFO]: Steven issued server command: /back
+[20:52:50] [Server thread/INFO]: Steven has just earned the achievement [Time to Mine!]
+[20:56:34] [Server thread/INFO]: Steven lost connection: Disconnected
+[20:56:34] [Server thread/INFO]: Steven left the game.
+[20:59:56] [Thread-59/INFO]: UUID of player John_Minecraft is 7d8c55d9-8ea1-36ef-9d86-864199571128
+[20:59:56] [Server thread/INFO]: John_Minecraft[/[0:0:0:0:0:0:0:1]:52492] logged in with entity id 40151 at ([world]93.30000001192091, 59.0, 482.7945183860461)
+[20:59:57] [Craft Scheduler Thread - 58/INFO]: [0;31;1mWarning: John_Minecraft has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, scarlet, scarlet_r, yarquesh[m
+
+[20:59:57] [Craft Scheduler Thread - 59/INFO]: [0;31;1mWarning: John_Minecraft has the same IP as the following banned players:
+[0;33;22mGeep[m
+
+[21:04:03] [Async Chat Thread - #13/INFO]: <John_Minecraft> anyone online[m
+
+[21:04:09] [Server thread/INFO]: There are 1/20000 players online:
+[21:04:09] [Server thread/INFO]: John_Minecraft
+[21:04:15] [Server thread/INFO]: [Server] nah youre all alone
+[21:04:34] [Server thread/INFO]: /ban <player> <reason>[m
+
+[21:04:40] [Craft Scheduler Thread - 61/INFO]: [BanManager] Requesting UUID for avaknutsen
+[21:04:41] [Craft Scheduler Thread - 61/INFO]: [BanManager] https://api.mojang.com/users/profiles/minecraft/avaknutsen 404
+[21:04:41] [Craft Scheduler Thread - 61/WARN]: java.lang.Exception: Error retrieving UUID from https://api.mojang.com/users/profiles/minecraft/avaknutsen
+
+[21:04:41] [Craft Scheduler Thread - 61/WARN]: 	at me.confuser.banmanager.common.util.UUIDUtils.getUUIDOf(UUIDUtils.java:70)
+
+[21:04:41] [Craft Scheduler Thread - 61/WARN]: 	at me.confuser.banmanager.common.storage.PlayerStorage.retrieve(PlayerStorage.java:201)
+
+[21:04:41] [Craft Scheduler Thread - 61/WARN]: 	at me.confuser.banmanager.common.commands.CommonCommand.getPlayer(CommonCommand.java:96)
+
+[21:04:41] [Craft Scheduler Thread - 61/WARN]: 	at me.confuser.banmanager.common.commands.BanCommand.lambda$onCommand$1(BanCommand.java:86)
+
+[21:04:41] [Craft Scheduler Thread - 61/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59)
+
+[21:04:41] [Craft Scheduler Thread - 61/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53)
+
+[21:04:41] [Craft Scheduler Thread - 61/WARN]: 	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23)
+
+[21:04:41] [Craft Scheduler Thread - 61/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+
+[21:04:41] [Craft Scheduler Thread - 61/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+
+[21:04:41] [Craft Scheduler Thread - 61/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[21:04:41] [Craft Scheduler Thread - 61/INFO]: [0;31;1mavaknutsen not found, are you sure they exist?[m
+
+[21:05:19] [Server thread/INFO]: John_Minecraft has just earned the achievement [Getting Wood]
