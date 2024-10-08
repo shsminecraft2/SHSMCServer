@@ -898,3 +898,10 @@
 [04:30:13] [Server thread/INFO]: Steven issued server command: /home Steven
 [04:30:45] [Server thread/INFO]: Steven tried to swim in lava
 [04:44:23] [Server thread/INFO]: Steven was shot by Skeleton
+[04:52:05] [Thread-29/INFO]: UUID of player Danny is ddcda591-f59a-39fa-ae6e-6744024d2256
+[04:52:05] [Server thread/INFO]: Danny[/[0:0:0:0:0:0:0:1]:45878] logged in with entity id 69635 at ([world]226.39646239470417, 69.0, 281.85975273604174)
+[04:52:06] [Craft Scheduler Thread - 42/INFO]: [0;31;1mWarning: Danny has the same IP as the following players:
+[0;33;22ma__, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_[m
+
+[04:53:05] [Async Chat Thread - #51/INFO]: <Danny> wheres the neather farm??[m
+
