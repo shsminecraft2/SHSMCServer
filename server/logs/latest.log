@@ -1516,3 +1516,101 @@ Caused by: java.lang.NullPointerException: type cannot be null
 [20:11:17] [Server thread/INFO]: BaconMania lost connection: Disconnected
 [20:11:17] [Server thread/INFO]: BaconMania left the game.
 [20:11:30] [Server thread/INFO]: scarlet_r was slain by Zombie Pigman
+[20:12:49] [Server thread/INFO]: [Server] server should stay up throughout 6th hopefully
+[20:12:51] [Server thread/INFO]: scarlet_r was slain by Steven using [The Dildo Slammer]
+[20:12:55] [Server thread/INFO]: Steven lost connection: Disconnected
+[20:12:55] [Server thread/INFO]: Steven left the game.
+[20:13:09] [Server thread/INFO]: Danny lost connection: Disconnected
+[20:13:09] [Server thread/INFO]: Danny left the game.
+[20:13:34] [Server thread/INFO]: scarlet_r lost connection: Disconnected
+[20:13:34] [Server thread/INFO]: scarlet_r left the game.
+[20:20:26] [Thread-51/INFO]: UUID of player YeeVigg971 is c3d6affa-4269-3598-bc66-7d0d84ebe09b
+[20:20:26] [Server thread/INFO]: YeeVigg971[/[0:0:0:0:0:0:0:1]:37910] logged in with entity id 27522 at ([world]226.1596483049435, 69.0, 292.3095903854109)
+[20:20:27] [Craft Scheduler Thread - 45/INFO]: [0;31;1mWarning: YeeVigg971 has the same IP as the following banned players:
+[0;33;22mGeep[m
+
+[20:20:27] [Craft Scheduler Thread - 46/INFO]: [0;31;1mWarning: YeeVigg971 has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, John_Minecraft, scarlet, scarlet_r[m
+
+[20:21:26] [Server thread/INFO]: YeeVigg971 lost connection: Login timed out!
+[20:21:26] [Server thread/INFO]: YeeVigg971 left the game.
+[20:21:26] [Server thread/WARN]: handleDisconnection() called twice
+[20:27:49] [Thread-52/INFO]: UUID of player YeeVigg971 is c3d6affa-4269-3598-bc66-7d0d84ebe09b
+[20:27:49] [Server thread/INFO]: YeeVigg971[/[0:0:0:0:0:0:0:1]:41488] logged in with entity id 27846 at ([world]226.1596483049435, 69.0, 292.3095903854109)
+[20:27:50] [Craft Scheduler Thread - 48/INFO]: [0;31;1mWarning: YeeVigg971 has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, John_Minecraft, scarlet, scarlet_r[m
+
+[20:27:50] [Craft Scheduler Thread - 49/INFO]: [0;31;1mWarning: YeeVigg971 has the same IP as the following banned players:
+[0;33;22mGeep[m
+
+[20:29:27] [Thread-54/INFO]: UUID of player Steven is 944d2caf-d932-3441-b30c-7e43d402ec4b
+[20:29:27] [Server thread/WARN]: Failed to handle packet for /[0:0:0:0:0:0:0:1]:39896
+net.minecraft.server.v1_8_R3.ReportedException: Sending packet
+	at net.minecraft.server.v1_8_R3.PlayerConnection.sendPacket(PlayerConnection.java:925) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.a(EntityPlayer.java:783) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.Container.addSlotListener(Container.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.syncInventory(EntityPlayer.java:177) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerList.a(PlayerList.java:190) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.LoginListener.b(LoginListener.java:144) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.LoginListener.c(LoginListener.java:54) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:231) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.ServerConnection.c(ServerConnection.java:148) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:875) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NullPointerException: type cannot be null
+	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:229) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at com.comphenix.protocol.injector.StructureCache.getStructure(StructureCache.java:138) ~[?:?]
+	at com.comphenix.protocol.events.PacketContainer.<init>(PacketContainer.java:126) ~[?:?]
+	at com.comphenix.protocol.injector.netty.manager.NetworkManagerInjector.onPacketSending(NetworkManagerInjector.java:96) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector.processOutbound(NettyChannelInjector.java:553) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector$2.doProxyRunnable(NettyChannelInjector.java:456) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.proxyRunnable(NettyEventLoopProxy.java:43) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.execute(NettyEventLoopProxy.java:252) ~[?:?]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:192) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.handle(NetworkManager.java:141) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.sendPacket(PlayerConnection.java:911) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 13 more
+[20:29:27] [Server thread/INFO]: Steven lost connection: Internal server error
+[20:29:27] [Server thread/INFO]: Steven left the game.
+[20:29:28] [Craft Scheduler Thread - 50/INFO]: [0;31;1mWarning: Steven has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet, scarlet_r[m
+
+[20:29:28] [Craft Scheduler Thread - 51/INFO]: [0;31;1mWarning: Steven has the same IP as the following banned players:
+[0;33;22mGeep[m
+
+[20:29:29] [Thread-55/INFO]: UUID of player Steven is 944d2caf-d932-3441-b30c-7e43d402ec4b
+[20:29:29] [Server thread/INFO]: Steven[/[0:0:0:0:0:0:0:1]:39898] logged in with entity id 27960 at ([world]227.30000001192093, 64.0, 297.9616926129244)
+[20:29:30] [Craft Scheduler Thread - 50/INFO]: [0;31;1mWarning: Steven has the same IP as the following banned players:
+[0;33;22mGeep[m
+
+[20:29:30] [Craft Scheduler Thread - 52/INFO]: [0;31;1mWarning: Steven has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet, scarlet_r[m
+
+[20:29:33] [Server thread/INFO]: Steven issued server command: /loign <911>
+[20:29:42] [Server thread/INFO]: YeeVigg971 lost connection: Disconnected
+[20:29:42] [Server thread/INFO]: YeeVigg971 left the game.
+[20:31:05] [Server thread/INFO]: Steven was blown up by Creeper
+[20:31:10] [Server thread/INFO]: Steven issued server command: /bacl
+[20:31:15] [Server thread/INFO]: Steven issued server command: /back
+[20:32:08] [Thread-56/INFO]: UUID of player yarquesh is 59110a8a-b20f-34f9-a1dd-1148f88c3e69
+[20:32:08] [Server thread/INFO]: yarquesh[/[0:0:0:0:0:0:0:1]:48540] logged in with entity id 28195 at ([world]173.5, 63.0, 252.5)
+[20:32:09] [Craft Scheduler Thread - 52/INFO]: [0;31;1mWarning: yarquesh has the same IP as the following banned players:
+[0;33;22mGeep[m
+
+[20:32:09] [Craft Scheduler Thread - 53/INFO]: [0;31;1mWarning: yarquesh has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet, scarlet_r[m
+
+[20:33:08] [Server thread/INFO]: yarquesh lost connection: Login timed out!
+[20:33:08] [Server thread/INFO]: yarquesh left the game.
+[20:33:08] [Server thread/WARN]: handleDisconnection() called twice
+[20:33:31] [Thread-57/INFO]: UUID of player yarquesh is 59110a8a-b20f-34f9-a1dd-1148f88c3e69
+[20:33:31] [Server thread/INFO]: yarquesh[/[0:0:0:0:0:0:0:1]:45614] logged in with entity id 28393 at ([world]173.5, 63.0, 252.5)
+[20:33:32] [Craft Scheduler Thread - 54/INFO]: [0;31;1mWarning: yarquesh has the same IP as the following banned players:
+[0;33;22mGeep[m
+
+[20:33:32] [Craft Scheduler Thread - 55/INFO]: [0;31;1mWarning: yarquesh has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet, scarlet_r[m
+
