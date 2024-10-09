@@ -61,3 +61,68 @@
 [01:25:19] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:36170|BaconMania] -> UpstreamBridge has disconnected
 [01:25:19] [Netty Worker IO Thread #1/INFO]: [BaconMania] disconnected with: Proxy lost connection to server.
 [01:25:19] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:36170|BaconMania] <-> DownstreamBridge <-> [lobby] has disconnected
+[01:58:41] [Netty Worker IO Thread #1/WARN] [EaglercraftXBungee]: Server icon is not a file: /workspaces/SHSMCServer/bungee/server-icon.png
+[01:58:42] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:33514]: Connected via websocket
+[01:58:42] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:33514]: Origin header is http://localhost:8081
+[01:58:42] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:33514]: Logged in as 'the_sigma'
+[01:58:42] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:33514|the_sigma] -> UpstreamBridge has connected
+[01:58:42] [Netty Worker IO Thread #2/INFO]: [the_sigma|/[0:0:0:0:0:0:0:1%0]:33514] <-> ServerConnector [lobby] has connected
+[02:06:11] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:36020]: Connected via websocket
+[02:06:11] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:36020]: Origin header is http://localhost:8081
+[02:06:11] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:36020]: Logged in as 'Ethonian'
+[02:06:11] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:36020|Ethonian] -> UpstreamBridge has connected
+[02:06:11] [Netty Worker IO Thread #1/INFO]: [Ethonian|/[0:0:0:0:0:0:0:1%0]:36020] <-> ServerConnector [lobby] has connected
+[02:07:12] [Netty Worker IO Thread #1/INFO]: [Ethonian] disconnected with: Login timed out!
+[02:07:12] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:36020|Ethonian] -> UpstreamBridge has disconnected
+[02:07:12] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:36020|Ethonian] <-> DownstreamBridge <-> [lobby] has disconnected
+[02:07:14] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:34476]: Connected via websocket
+[02:07:14] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:34476]: Origin header is http://localhost:8081
+[02:07:14] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:34476]: Logged in as 'Ethonian'
+[02:07:14] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:34476|Ethonian] -> UpstreamBridge has connected
+[02:07:14] [Netty Worker IO Thread #2/INFO]: [Ethonian|/[0:0:0:0:0:0:0:1%0]:34476] <-> ServerConnector [lobby] has connected
+[02:07:14] [Netty Worker IO Thread #2/INFO]: [Ethonian] disconnected with: Internal server error
+[02:07:14] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:34476|Ethonian] -> UpstreamBridge has disconnected
+[02:07:14] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:34476|Ethonian] <-> DownstreamBridge <-> [lobby] has disconnected
+[02:07:17] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:57088]: Connected via websocket
+[02:07:17] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:57088]: Origin header is http://localhost:8081
+[02:07:17] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:57088]: Logged in as 'Ethonian'
+[02:07:17] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:57088|Ethonian] -> UpstreamBridge has connected
+[02:07:17] [Netty Worker IO Thread #0/INFO]: [Ethonian|/[0:0:0:0:0:0:0:1%0]:57088] <-> ServerConnector [lobby] has connected
+[02:12:42] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:54222]: Connected via websocket
+[02:12:42] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:54222]: Origin header is http://localhost:8081
+[02:12:42] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:54222]: Logged in as 'Jank_Boteko'
+[02:12:42] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:54222|Jank_Boteko] -> UpstreamBridge has connected
+[02:12:42] [Netty Worker IO Thread #1/INFO]: [Jank_Boteko|/[0:0:0:0:0:0:0:1%0]:54222] <-> ServerConnector [lobby] has connected
+[02:22:50] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:54222|Jank_Boteko] -> UpstreamBridge has disconnected
+[02:22:50] [Netty Worker IO Thread #1/INFO]: [Jank_Boteko] disconnected with: Proxy lost connection to server.
+[02:22:50] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:54222|Jank_Boteko] <-> DownstreamBridge <-> [lobby] has disconnected
+[02:25:02] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:39764]: Connected via websocket
+[02:25:02] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:39764]: Origin header is http://localhost:8081
+[02:25:02] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:39764]: Logged in as 'BaconMania'
+[02:25:02] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:39764|BaconMania] -> UpstreamBridge has connected
+[02:25:02] [Netty Worker IO Thread #0/INFO]: [BaconMania|/[0:0:0:0:0:0:0:1%0]:39764] <-> ServerConnector [lobby] has connected
+[02:25:50] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:39764|BaconMania] -> UpstreamBridge has disconnected
+[02:25:50] [Netty Worker IO Thread #0/INFO]: [BaconMania] disconnected with: Proxy lost connection to server.
+[02:25:50] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:39764|BaconMania] <-> DownstreamBridge <-> [lobby] has disconnected
+[02:28:44] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:52896]: Connected via websocket
+[02:28:44] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:52896]: Origin header is http://localhost:8081
+[02:28:44] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:52896]: Logged in as 'BaconMania'
+[02:28:44] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:52896|BaconMania] -> UpstreamBridge has connected
+[02:28:44] [Netty Worker IO Thread #2/INFO]: [BaconMania|/[0:0:0:0:0:0:0:1%0]:52896] <-> ServerConnector [lobby] has connected
+[02:40:24] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:57088|Ethonian] -> UpstreamBridge has disconnected
+[02:40:24] [Netty Worker IO Thread #0/INFO]: [Ethonian] disconnected with: Proxy lost connection to server.
+[02:40:24] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:57088|Ethonian] <-> DownstreamBridge <-> [lobby] has disconnected
+[02:40:32] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:41814]: Connected via websocket
+[02:40:32] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:41814]: Origin header is http://localhost:8081
+[02:40:32] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:41814]: Logged in as 'Ethonian'
+[02:40:32] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:41814|Ethonian] -> UpstreamBridge has connected
+[02:40:32] [Netty Worker IO Thread #3/INFO]: [Ethonian|/[0:0:0:0:0:0:0:1%0]:41814] <-> ServerConnector [lobby] has connected
+[02:53:10] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:52896|BaconMania] -> UpstreamBridge has disconnected
+[02:53:10] [Netty Worker IO Thread #2/INFO]: [BaconMania] disconnected with: Proxy lost connection to server.
+[02:53:10] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:52896|BaconMania] <-> DownstreamBridge <-> [lobby] has disconnected
+[02:54:13] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:41814|Ethonian] -> UpstreamBridge has disconnected
+[02:54:13] [Netty Worker IO Thread #3/INFO]: [Ethonian] disconnected with: Proxy lost connection to server.
+[02:54:13] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:41814|Ethonian] <-> DownstreamBridge <-> [lobby] has disconnected
+[02:55:11] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:33514|the_sigma] -> UpstreamBridge has disconnected
+[02:55:11] [Netty Worker IO Thread #2/INFO]: [the_sigma] disconnected with: Proxy lost connection to server.
+[02:55:11] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:33514|the_sigma] <-> DownstreamBridge <-> [lobby] has disconnected

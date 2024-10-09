@@ -280,3 +280,284 @@ Caused by: java.util.zip.ZipException: zip END header not found
 [01:34:51] [Craft Scheduler Thread - 1/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
 
 [01:34:52] [Server thread/INFO]: [Suicide] You are using the latest version of Suicide.
+[01:58:42] [Thread-10/INFO]: UUID of player the_sigma is 4c9b5d90-a1ae-329e-991c-9e4cd9505024
+[01:58:42] [Server thread/INFO]: the_sigma[/[0:0:0:0:0:0:0:1]:42906] logged in with entity id 835 at ([world]88.45250766146846, 73.0, 463.28351984418106)
+[01:58:43] [Craft Scheduler Thread - 6/INFO]: [0;31;1mWarning: the_sigma has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet, scarlet_r, yarquesh[m
+
+[02:06:11] [Thread-11/INFO]: UUID of player Ethonian is 570f2c94-e62e-3069-9a98-648c4f1cf8d4
+[02:06:11] [Server thread/INFO]: Ethonian[/[0:0:0:0:0:0:0:1]:36820] logged in with entity id 2611 at ([world]175.5, 63.0, 250.5)
+[02:06:12] [Craft Scheduler Thread - 10/INFO]: [0;31;1mWarning: Ethonian has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet, scarlet_r, yarquesh[m
+
+[02:06:19] [Async Chat Thread - #0/INFO]: <the_sigma> Ethasn![m
+
+[02:06:55] [Server thread/INFO]: the_sigma hit the ground too hard
+[02:06:58] [Server thread/INFO]: the_sigma issued server command: /back
+[02:07:12] [Server thread/INFO]: Ethonian lost connection: Login timed out!
+[02:07:12] [Server thread/INFO]: Ethonian left the game.
+[02:07:12] [Server thread/WARN]: handleDisconnection() called twice
+[02:07:14] [Thread-12/INFO]: UUID of player Ethonian is 570f2c94-e62e-3069-9a98-648c4f1cf8d4
+[02:07:14] [Server thread/WARN]: Failed to handle packet for /[0:0:0:0:0:0:0:1]:50874
+net.minecraft.server.v1_8_R3.ReportedException: Sending packet
+	at net.minecraft.server.v1_8_R3.PlayerConnection.sendPacket(PlayerConnection.java:925) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.a(EntityPlayer.java:783) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.Container.addSlotListener(Container.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.syncInventory(EntityPlayer.java:177) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerList.a(PlayerList.java:190) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.LoginListener.b(LoginListener.java:144) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.LoginListener.c(LoginListener.java:54) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:231) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.ServerConnection.c(ServerConnection.java:148) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:875) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NullPointerException: type cannot be null
+	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:229) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at com.comphenix.protocol.injector.StructureCache.getStructure(StructureCache.java:138) ~[?:?]
+	at com.comphenix.protocol.events.PacketContainer.<init>(PacketContainer.java:126) ~[?:?]
+	at com.comphenix.protocol.injector.netty.manager.NetworkManagerInjector.onPacketSending(NetworkManagerInjector.java:96) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector.processOutbound(NettyChannelInjector.java:553) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector$2.doProxyRunnable(NettyChannelInjector.java:456) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.proxyRunnable(NettyEventLoopProxy.java:43) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.execute(NettyEventLoopProxy.java:252) ~[?:?]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:192) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.handle(NetworkManager.java:141) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.sendPacket(PlayerConnection.java:911) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 13 more
+[02:07:14] [Server thread/INFO]: Ethonian lost connection: Internal server error
+[02:07:14] [Server thread/INFO]: Ethonian left the game.
+[02:07:15] [Craft Scheduler Thread - 9/INFO]: [0;31;1mWarning: Ethonian has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet, scarlet_r, yarquesh[m
+
+[02:07:17] [Thread-13/INFO]: UUID of player Ethonian is 570f2c94-e62e-3069-9a98-648c4f1cf8d4
+[02:07:17] [Server thread/INFO]: Ethonian[/[0:0:0:0:0:0:0:1]:37330] logged in with entity id 3314 at ([world]175.17441534305033, 63.0, 251.0157995772189)
+[02:07:18] [Craft Scheduler Thread - 11/INFO]: [0;31;1mWarning: Ethonian has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet, scarlet_r, yarquesh[m
+
+[02:07:22] [Server thread/INFO]: Ethonian has just earned the achievement [Taking Inventory]
+[02:07:39] [Server thread/INFO]: Ethonian issued server command: /5YPCL
+[02:07:48] [Async Chat Thread - #1/INFO]: <Ethonian> aight[m
+
+[02:07:59] [Async Chat Thread - #1/INFO]: <Ethonian> yo this castle is sick who made it[m
+
+[02:08:15] [Async Chat Thread - #1/INFO]: <the_sigma> evan/steven/danny/rocco i think[m
+
+[02:08:28] [Async Chat Thread - #1/INFO]: <Ethonian> I didnt know danny still went to this school[m
+
+[02:08:32] [Async Chat Thread - #1/INFO]: <Ethonian> havent seen him all year[m
+
+[02:08:54] [Server thread/INFO]: the_sigma was slain by Zombie
+[02:09:18] [Async Chat Thread - #1/INFO]: <the_sigma> hi[m
+
+[02:09:20] [Async Chat Thread - #1/INFO]: <Ethonian> yo[m
+
+[02:09:22] [Server thread/INFO]: the_sigma issued server command: /back
+[02:09:45] [Async Chat Thread - #1/INFO]: <Ethonian> uh you disappeared[m
+
+[02:09:51] [Async Chat Thread - #1/INFO]: <Ethonian> nvm[m
+
+[02:09:59] [Async Chat Thread - #1/INFO]: <the_sigma> i teleported back to my stuff[m
+
+[02:10:10] [Async Chat Thread - #1/INFO]: <Ethonian> ah[m
+
+[02:10:18] [Async Chat Thread - #1/INFO]: <the_sigma> sorry[m
+
+[02:10:22] [Async Chat Thread - #1/INFO]: <Ethonian> all gud[m
+
+[02:10:34] [Async Chat Thread - #1/INFO]: <the_sigma> wanna call ethon[m
+
+[02:10:50] [Async Chat Thread - #1/INFO]: <Ethonian> maybe for a bit[m
+
+[02:10:52] [Server thread/INFO]: Ethonian was slain by Zombie
+[02:11:00] [Async Chat Thread - #1/INFO]: <Ethonian> sure[m
+
+[02:11:04] [Async Chat Thread - #1/INFO]: <the_sigma> k[m
+
+[02:11:11] [Async Chat Thread - #1/INFO]: <the_sigma> ill call teeria[m
+
+[02:12:42] [Thread-15/INFO]: UUID of player Jank_Boteko is e5f156c9-9ecc-379b-a8b6-78d36ce2c32c
+[02:12:42] [Server thread/INFO]: Jank_Boteko[/[0:0:0:0:0:0:0:1]:59908] logged in with entity id 4714 at ([world]187.5, 63.0, 244.5)
+[02:12:43] [Craft Scheduler Thread - 11/INFO]: [0;31;1mWarning: Jank_Boteko has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet, scarlet_r, yarquesh, Ethonian[m
+
+[02:13:30] [Async Chat Thread - #2/INFO]: <the_sigma> who is jak botiko[m
+
+[02:14:09] [Async Chat Thread - #2/INFO]: <Jank_Boteko> is it okay for me to build around a lake[m
+
+[02:14:24] [Async Chat Thread - #2/INFO]: <the_sigma> who is jak botiko[m
+
+[02:14:38] [Async Chat Thread - #2/INFO]: <Jank_Boteko> my baby[m
+
+[02:14:58] [Server thread/INFO]: Ethonian has just earned the achievement [Getting Wood]
+[02:16:22] [Async Chat Thread - #3/INFO]: <Jank_Boteko> why are there so many creepers[m
+
+[02:16:37] [Async Chat Thread - #3/INFO]: <Ethonian> thats what im saying[m
+
+[02:17:02] [Server thread/INFO]: Jank_Boteko was shot by the_sigma
+[02:17:13] [Async Chat Thread - #3/INFO]: <Jank_Boteko> is my back supposed to be straight for squats[m
+
+[02:17:25] [Async Chat Thread - #3/INFO]: <the_sigma> not straight up but straight ya[m
+
+[02:17:41] [Async Chat Thread - #3/INFO]: <the_sigma> btw you can use /back to tp back to where u died[m
+
+[02:17:47] [Async Chat Thread - #3/INFO]: <Jank_Boteko> idc[m
+
+[02:19:03] [Async Chat Thread - #4/INFO]: <Jank_Boteko> where is zekes house[m
+
+[02:19:12] [Async Chat Thread - #4/INFO]: <Jank_Boteko> or tunnel[m
+
+[02:19:30] [Async Chat Thread - #4/INFO]: <Jank_Boteko> fast response please[m
+
+[02:20:36] [Server thread/INFO]: Jank_Boteko has just earned the achievement [Taking Inventory]
+[02:22:50] [Server thread/INFO]: Jank_Boteko lost connection: Disconnected
+[02:22:50] [Server thread/INFO]: Jank_Boteko left the game.
+[02:25:02] [Thread-16/INFO]: UUID of player BaconMania is 94cc9361-df90-3d70-a09d-55ea0279e1a1
+[02:25:02] [Server thread/INFO]: BaconMania[/[0:0:0:0:0:0:0:1]:59766] logged in with entity id 17243 at ([world]730.8134826148925, 65.0, 294.836533887423)
+[02:25:08] [Async Chat Thread - #5/INFO]: <Ethonian> hi evan!![m
+
+[02:25:14] [Async Chat Thread - #5/INFO]: <BaconMania> hey ethaon![m
+
+[02:25:15] [Async Chat Thread - #5/INFO]: <the_sigma> hi evan!![m
+
+[02:25:21] [Async Chat Thread - #5/INFO]: <Ethonian> i saw the sign you placed[m
+
+[02:25:26] [Async Chat Thread - #5/INFO]: <BaconMania> I didnt place that[m
+
+[02:25:33] [Async Chat Thread - #5/INFO]: <Ethonian> yes you did[m
+
+[02:25:37] [Async Chat Thread - #5/INFO]: <Ethonian> it has your name on it[m
+
+[02:25:45] [Async Chat Thread - #5/INFO]: <BaconMania> nuh uh[m
+
+[02:25:48] [Async Chat Thread - #5/INFO]: <BaconMania> brb[m
+
+[02:25:50] [Server thread/INFO]: BaconMania lost connection: Disconnected
+[02:25:50] [Server thread/INFO]: BaconMania left the game.
+[02:28:44] [Thread-17/INFO]: UUID of player BaconMania is 94cc9361-df90-3d70-a09d-55ea0279e1a1
+[02:28:44] [Server thread/INFO]: BaconMania[/[0:0:0:0:0:0:0:1]:35880] logged in with entity id 17936 at ([world]730.6637968617556, 64.0, 293.479240075163)
+[02:28:52] [Async Chat Thread - #6/INFO]: <BaconMania> im back!!![m
+
+[02:28:56] [Async Chat Thread - #6/INFO]: <Ethonian> hi!!![m
+
+[02:29:02] [Async Chat Thread - #6/INFO]: <Ethonian> wher are you[m
+
+[02:29:07] [Async Chat Thread - #6/INFO]: <BaconMania> at my base :)[m
+
+[02:29:17] [Async Chat Thread - #6/INFO]: <Ethonian> wher is tht[m
+
+[02:29:20] [Async Chat Thread - #6/INFO]: <BaconMania> 730 71 302[m
+
+[02:29:25] [Async Chat Thread - #6/INFO]: <the_sigma> imm gonna cum on u evan[m
+
+[02:29:28] [Async Chat Thread - #6/INFO]: <BaconMania> or you can js tpa[m
+
+[02:29:31] [Async Chat Thread - #6/INFO]: <Ethonian> me 2[m
+
+[02:29:40] [Server thread/INFO]: the_sigma issued server command: /tpa BaconMania
+[02:29:56] [Server thread/INFO]: Ethonian issued server command: /tpa baconmania
+[02:30:05] [Server thread/INFO]: BaconMania issued server command: /tpaccept
+[02:30:08] [Server thread/INFO]: Ethonian issued server command: /tpcancel
+[02:30:15] [Server thread/INFO]: Ethonian issued server command: /tpcancel baconmania
+[02:30:20] [Server thread/INFO]: BaconMania issued server command: /sudo Ethonian tpa BaconMania
+[02:30:20] [Server thread/INFO]: <Ethonian> tpa BaconMania[m
+
+[02:30:21] [Server thread/INFO]: Ethonian issued server command: /tpa baconmania
+[02:30:23] [Server thread/INFO]: BaconMania issued server command: /tpaccept
+[02:30:28] [Async Chat Thread - #6/INFO]: <the_sigma> my tpa cancelled[m
+
+[02:30:33] [Async Chat Thread - #6/INFO]: <BaconMania> run it back[m
+
+[02:30:33] [Server thread/INFO]: the_sigma issued server command: /tpa BaconMania
+[02:30:36] [Server thread/INFO]: BaconMania issued server command: /tpaccept
+[02:30:40] [Async Chat Thread - #6/INFO]: <Ethonian> i used /[m
+
+[02:30:47] [Async Chat Thread - #6/INFO]: <Ethonian> but it displayed as a normal msg wtf[m
+
+[02:30:56] [Server thread/INFO]: BaconMania issued server command: /tp the_sigma @p
+[02:30:56] [Server thread/INFO]: [BaconMania: Teleported the_sigma to BaconMania]
+[02:30:57] [Async Chat Thread - #6/INFO]: <Ethonian> whatever[m
+
+[02:31:12] [Async Chat Thread - #6/INFO]: <Ethonian> dude this is sick[m
+
+[02:31:18] [Async Chat Thread - #6/INFO]: <BaconMania> unfinished but yea[m
+
+[02:31:27] [Async Chat Thread - #6/INFO]: <the_sigma> evan wanna a wqith us[m
+
+[02:31:35] [Async Chat Thread - #6/INFO]: <BaconMania> okay![m
+
+[02:39:41] [Async Chat Thread - #7/INFO]: <Ethonian> WHAT HAPPEN TO MY MIC[m
+
+[02:39:53] [Async Chat Thread - #7/INFO]: <BaconMania> we cant hear you ethan[m
+
+[02:40:00] [Async Chat Thread - #7/INFO]: <the_sigma> what happen to ur mic[m
+
+[02:40:24] [Server thread/INFO]: Ethonian lost connection: Disconnected
+[02:40:24] [Server thread/INFO]: Ethonian left the game.
+[02:40:32] [Thread-19/INFO]: UUID of player Ethonian is 570f2c94-e62e-3069-9a98-648c4f1cf8d4
+[02:40:32] [Server thread/INFO]: Ethonian[/[0:0:0:0:0:0:0:1]:38692] logged in with entity id 21139 at ([world]724.5427601996852, 72.0, 300.441137079174)
+[02:40:33] [Craft Scheduler Thread - 18/INFO]: [0;31;1mWarning: Ethonian has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet, scarlet_r, yarquesh, Jank_Boteko[m
+
+[02:47:34] [Server thread/WARN]: the_sigma moved wrongly!
+[02:47:37] [Server thread/WARN]: the_sigma moved wrongly!
+[02:47:37] [Server thread/WARN]: the_sigma moved wrongly!
+[02:47:37] [Server thread/WARN]: the_sigma moved wrongly!
+[02:47:37] [Server thread/WARN]: the_sigma moved wrongly!
+[02:47:37] [Server thread/WARN]: the_sigma moved wrongly!
+[02:47:38] [Server thread/WARN]: the_sigma moved wrongly!
+[02:47:38] [Server thread/WARN]: the_sigma moved wrongly!
+[02:47:38] [Server thread/WARN]: the_sigma moved wrongly!
+[02:47:38] [Server thread/WARN]: the_sigma moved wrongly!
+[02:47:38] [Server thread/WARN]: the_sigma moved wrongly!
+[02:47:38] [Server thread/WARN]: the_sigma moved wrongly!
+[02:47:39] [Server thread/WARN]: the_sigma moved wrongly!
+[02:47:39] [Server thread/WARN]: the_sigma moved wrongly!
+[02:47:39] [Server thread/WARN]: the_sigma moved wrongly!
+[02:47:40] [Server thread/WARN]: the_sigma moved wrongly!
+[02:47:40] [Server thread/WARN]: the_sigma moved wrongly!
+[02:47:40] [Server thread/WARN]: the_sigma moved wrongly!
+[02:47:40] [Server thread/WARN]: the_sigma moved wrongly!
+[02:47:40] [Server thread/WARN]: the_sigma moved wrongly!
+[02:47:40] [Server thread/WARN]: the_sigma moved wrongly!
+[02:47:41] [Server thread/WARN]: the_sigma moved wrongly!
+[02:47:41] [Server thread/WARN]: the_sigma moved wrongly!
+[02:47:41] [Server thread/WARN]: the_sigma moved wrongly!
+[02:47:41] [Server thread/WARN]: the_sigma moved wrongly!
+[02:47:41] [Server thread/WARN]: the_sigma moved wrongly!
+[02:47:41] [Server thread/WARN]: the_sigma moved wrongly!
+[02:47:42] [Server thread/WARN]: the_sigma moved wrongly!
+[02:47:42] [Server thread/WARN]: the_sigma moved wrongly!
+[02:47:42] [Server thread/WARN]: the_sigma moved wrongly!
+[02:47:42] [Server thread/WARN]: the_sigma moved wrongly!
+[02:47:42] [Server thread/WARN]: the_sigma moved wrongly!
+[02:47:42] [Server thread/WARN]: the_sigma moved wrongly!
+[02:47:42] [Server thread/WARN]: the_sigma moved wrongly!
+[02:47:42] [Server thread/WARN]: the_sigma moved wrongly!
+[02:47:43] [Server thread/WARN]: the_sigma moved wrongly!
+[02:47:43] [Server thread/WARN]: the_sigma moved wrongly!
+[02:47:43] [Server thread/WARN]: the_sigma moved wrongly!
+[02:47:43] [Server thread/WARN]: the_sigma moved wrongly!
+[02:47:43] [Server thread/WARN]: the_sigma moved wrongly!
+[02:47:43] [Server thread/WARN]: the_sigma moved wrongly!
+[02:47:44] [Server thread/WARN]: the_sigma moved wrongly!
+[02:47:44] [Server thread/WARN]: the_sigma moved wrongly!
+[02:47:44] [Server thread/WARN]: the_sigma moved wrongly!
+[02:47:44] [Server thread/WARN]: the_sigma moved wrongly!
+[02:47:44] [Server thread/WARN]: the_sigma moved wrongly!
+[02:47:44] [Server thread/WARN]: the_sigma moved wrongly!
+[02:47:48] [Server thread/WARN]: the_sigma moved wrongly!
+[02:49:35] [Server thread/INFO]: the_sigma issued server command: /suicide
+[02:49:35] [Server thread/INFO]: the_sigma died
+[02:49:35] [Server thread/INFO]: [0;31;1m[21mthe_sigma discontinued breathing[m
+
+[02:49:35] [Server thread/ERROR]: [Suicide] The sound you're trying to play isn't registered in this Minecraft Version: ENTITY_ZOMBIE_HURT
+[02:49:40] [Server thread/INFO]: the_sigma issued server command: /back
+[02:53:10] [Server thread/INFO]: BaconMania lost connection: Disconnected
+[02:53:10] [Server thread/INFO]: BaconMania left the game.
+[02:54:13] [Server thread/INFO]: Ethonian lost connection: Disconnected
+[02:54:13] [Server thread/INFO]: Ethonian left the game.
+[02:55:12] [Server thread/INFO]: the_sigma lost connection: Disconnected
+[02:55:12] [Server thread/INFO]: the_sigma left the game.
