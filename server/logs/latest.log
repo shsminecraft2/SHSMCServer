@@ -922,3 +922,4 @@ Caused by: java.lang.NullPointerException: type cannot be null
 [16:02:49] [Server thread/INFO]: Everett issued server command: /back
 [16:03:11] [Server thread/INFO]: There are 6/20000 players online:
 [16:03:11] [Server thread/INFO]: John_MinecraftPC, caden, DANKBEEF, Steven, junkler3000, Everett
+[16:03:34] [Server thread/INFO]: Everett has just earned the achievement [Taking Inventory]
