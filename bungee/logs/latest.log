@@ -72,3 +72,10 @@
 [00:50:13] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56964]: Logged in as 'a__'
 [00:50:13] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:56964|a__] -> UpstreamBridge has connected
 [00:50:13] [Netty Worker IO Thread #0/INFO]: [a__|/[0:0:0:0:0:0:0:1%0]:56964] <-> ServerConnector [lobby] has connected
+[00:54:39] [Netty Worker IO Thread #3/INFO]: [BaconMania] disconnected with: Server closed
+[00:54:39] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:54238|BaconMania] -> UpstreamBridge has disconnected
+[00:54:39] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:54238|BaconMania] <-> DownstreamBridge <-> [lobby] has disconnected
+[00:54:40] [Netty Worker IO Thread #0/WARN]: [/[0:0:0:0:0:0:0:1%0]:56964|a__] <-> DownstreamBridge <-> [lobby] - NativeIoException: recvAddress(..) failed: Connection reset by peer
+[00:54:40] [Netty Worker IO Thread #0/INFO]: [a__] disconnected with: The server you were previously on went down, you have been connected to a fallback server
+[00:54:40] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:56964|a__] -> UpstreamBridge has disconnected
+[00:54:40] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:56964|a__] <-> DownstreamBridge <-> [lobby] has disconnected

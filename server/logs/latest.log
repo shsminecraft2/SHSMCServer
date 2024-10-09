@@ -1444,3 +1444,34 @@ Caused by: java.util.zip.ZipException: zip END header not found
 [00:53:49] [Server thread/INFO]: BaconMania issued server command: /reports close 2
 [00:53:49] [Craft Scheduler Thread - 8/INFO]: [0;32;1mReport 2 closed by BaconMania[m
 
+[00:54:39] [Server thread/INFO]: Stopping the server
+[00:54:39] [Server thread/INFO]: Stopping server
+[00:54:39] [Server thread/INFO]: [LoginSecurity] Disabling LoginSecurity v3.2.0
+[00:54:39] [Server thread/INFO]: [LoginSecurity] Waiting for queued tasks...
+[00:54:39] [Server thread/INFO]: [LoginSecurity] ExecutorService shut down, ready to disable.
+[00:54:39] [Server thread/INFO]: [InvSee++_Give] Disabling InvSeePlusPlus_Give v0.29.4
+[00:54:39] [Server thread/INFO]: [InvSee++_Clear] Disabling InvSeePlusPlus_Clear v0.29.4
+[00:54:39] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.2.0-SNAPSHOT-679
+[00:54:39] [Server thread/INFO]: [BanManager] Disabling BanManager v7.9.0
+[00:54:39] [Server thread/INFO]: [Suicide] Disabling Suicide v1.4.6
+[00:54:39] [Server thread/INFO]: [Suicide] Plugin Disabled!
+[00:54:39] [Server thread/INFO]: [InvSee++] Disabling InvSeePlusPlus v0.29.4
+[00:54:39] [Server thread/INFO]: [Sudo] Disabling Sudo v1
+[00:54:39] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v6.1;no_git_id
+[00:54:39] [Server thread/INFO]: [SimpleHomes] Disabling SimpleHomes v2.2
+[00:54:39] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.141
+[00:54:39] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[00:54:39] [Server thread/INFO]: [LuckPerms] Closing storage...
+[00:54:39] [Server thread/INFO]: [LuckPerms] Goodbye!
+[00:54:39] [Server thread/INFO]: [SimpleTpa] Disabling SimpleTpa v6.4
+[00:54:39] [Server thread/INFO]: [0;36;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+
+[00:54:39] [Server thread/INFO]: [0;36;1m[21m[SimpleTpa] Simple Tpa has been disabled on version 6.4[m
+
+[00:54:39] [Server thread/INFO]: Saving players
+[00:54:39] [Server thread/INFO]: BaconMania lost connection: Server closed
+[00:54:39] [Server thread/INFO]: BaconMania left the game.
+[00:54:39] [Server thread/INFO]: Saving worlds
+[00:54:39] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[00:54:39] [Server thread/INFO]: Saving chunks for level 'world_nether'/Nether
+[00:54:39] [Server thread/INFO]: Saving chunks for level 'world_the_end'/The End
