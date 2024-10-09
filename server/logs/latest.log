@@ -1520,3 +1520,38 @@ Caused by: java.lang.NullPointerException: type cannot be null
 
 [18:22:04] [Async Chat Thread - #20/INFO]: <John_Minecraft> this is lincoln[m
 
+[18:27:03] [Server thread/INFO]: There are 2/20000 players online:
+[18:27:03] [Server thread/INFO]: Danny, John_Minecraft
+[18:27:58] [Thread-82/INFO]: UUID of player the_sigma is 4c9b5d90-a1ae-329e-991c-9e4cd9505024
+[18:27:58] [Server thread/INFO]: the_sigma[/[0:0:0:0:0:0:0:1]:57108] logged in with entity id 65326 at ([world]96.35174916942199, 66.0, 447.5874343082042)
+[18:27:59] [Craft Scheduler Thread - 69/INFO]: [0;31;1mWarning: the_sigma has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet, scarlet_r, yarquesh, Ethonian, Jank_Boteko, ViggYee174, caden_da_gangsta, caden, John_MinecraftPC, glep, junkler3000, neaga, DANKBEEF, Cowboy, nigge, nigge_, bob_the_builder, Everett, YiggVigg282, Curry_Muncher, _sentientIMAC[m
+
+[18:27:59] [Craft Scheduler Thread - 70/INFO]: [0;31;1mWarning: the_sigma has the same IP as the following banned players:
+[0;33;22mGeep[m
+
+[18:28:34] [Server thread/INFO]: John_Minecraft lost connection: Disconnected
+[18:28:34] [Server thread/INFO]: John_Minecraft left the game.
+[18:29:23] [Thread-83/INFO]: UUID of player scarlet_r is 4172a665-c505-3f54-a66f-8ceeca1d6d91
+[18:29:23] [Server thread/INFO]: scarlet_r[/[0:0:0:0:0:0:0:1]:59360] logged in with entity id 65841 at ([world]136.30000001192093, 62.07643747183759, 295.30000001192093)
+[18:29:24] [Craft Scheduler Thread - 70/INFO]: [0;31;1mWarning: scarlet_r has the same IP as the following banned players:
+[0;33;22mGeep[m
+
+[18:29:24] [Craft Scheduler Thread - 71/INFO]: [0;31;1mWarning: scarlet_r has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet, yarquesh, Ethonian, Jank_Boteko, ViggYee174, caden_da_gangsta, caden, John_MinecraftPC, glep, junkler3000, neaga, DANKBEEF, Cowboy, nigge, nigge_, bob_the_builder, Everett, YiggVigg282, Curry_Muncher, _sentientIMAC[m
+
+[18:30:24] [Server thread/INFO]: scarlet_r lost connection: Login timed out!
+[18:30:24] [Server thread/INFO]: scarlet_r left the game.
+[18:30:24] [Server thread/WARN]: handleDisconnection() called twice
+[18:30:24] [Server thread/INFO]: Danny issued server command: /home <pearls>
+[18:30:32] [Async Chat Thread - #21/INFO]: <Danny> whats up[m
+
+[18:30:35] [Thread-84/INFO]: UUID of player scarlet_r is 4172a665-c505-3f54-a66f-8ceeca1d6d91
+[18:30:35] [Server thread/INFO]: scarlet_r[/[0:0:0:0:0:0:0:1]:40520] logged in with entity id 67321 at ([world]136.5724491723512, 61.0, 295.30000001192093)
+[18:30:36] [Craft Scheduler Thread - 73/INFO]: [0;31;1mWarning: scarlet_r has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet, yarquesh, Ethonian, Jank_Boteko, ViggYee174, caden_da_gangsta, caden, John_MinecraftPC, glep, junkler3000, neaga, DANKBEEF, Cowboy, nigge, nigge_, bob_the_builder, Everett, YiggVigg282, Curry_Muncher, _sentientIMAC[m
+
+[18:30:36] [Craft Scheduler Thread - 74/INFO]: [0;31;1mWarning: scarlet_r has the same IP as the following banned players:
+[0;33;22mGeep[m
+
+[18:31:22] [Server thread/INFO]: scarlet_r issued server command: /scarlet
