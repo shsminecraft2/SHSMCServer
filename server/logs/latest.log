@@ -1428,3 +1428,95 @@ Caused by: java.lang.NullPointerException: type cannot be null
 [16:57:58] [Server thread/INFO]: BaconMania left the game.
 [17:30:35] [Server thread/INFO]: There are 0/20000 players online:
 [17:30:35] [Server thread/INFO]: 
+[18:03:25] [Thread-77/INFO]: UUID of player Danny is ddcda591-f59a-39fa-ae6e-6744024d2256
+[18:03:26] [Server thread/WARN]: Failed to handle packet for /[0:0:0:0:0:0:0:1]:51882
+net.minecraft.server.v1_8_R3.ReportedException: Sending packet
+	at net.minecraft.server.v1_8_R3.PlayerConnection.sendPacket(PlayerConnection.java:925) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.a(EntityPlayer.java:783) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.Container.addSlotListener(Container.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.syncInventory(EntityPlayer.java:177) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerList.a(PlayerList.java:190) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.LoginListener.b(LoginListener.java:144) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.LoginListener.c(LoginListener.java:54) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:231) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.ServerConnection.c(ServerConnection.java:148) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:875) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NullPointerException: type cannot be null
+	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:229) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at com.comphenix.protocol.injector.StructureCache.getStructure(StructureCache.java:138) ~[?:?]
+	at com.comphenix.protocol.events.PacketContainer.<init>(PacketContainer.java:126) ~[?:?]
+	at com.comphenix.protocol.injector.netty.manager.NetworkManagerInjector.onPacketSending(NetworkManagerInjector.java:96) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector.processOutbound(NettyChannelInjector.java:553) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector$2.doProxyRunnable(NettyChannelInjector.java:456) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.proxyRunnable(NettyEventLoopProxy.java:43) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.execute(NettyEventLoopProxy.java:252) ~[?:?]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:192) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.handle(NetworkManager.java:141) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.sendPacket(PlayerConnection.java:911) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 13 more
+[18:03:26] [Server thread/INFO]: Danny lost connection: Internal server error
+[18:03:26] [Server thread/INFO]: Danny left the game.
+[18:03:27] [Craft Scheduler Thread - 60/INFO]: [0;31;1mWarning: Danny has the same IP as the following players:
+[0;33;22ma__, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet, scarlet_r, yarquesh, Ethonian, Jank_Boteko, ViggYee174, caden_da_gangsta, caden, John_MinecraftPC, glep, junkler3000, neaga, DANKBEEF, Cowboy, nigge, nigge_, bob_the_builder, Everett, YiggVigg282, Curry_Muncher, _sentientIMAC[m
+
+[18:03:27] [Craft Scheduler Thread - 62/INFO]: [0;31;1mWarning: Danny has the same IP as the following banned players:
+[0;33;22mGeep[m
+
+[18:03:29] [Thread-78/INFO]: UUID of player Danny is ddcda591-f59a-39fa-ae6e-6744024d2256
+[18:03:29] [Server thread/INFO]: Danny[/[0:0:0:0:0:0:0:1]:51898] logged in with entity id 47935 at ([world]214.28965235316196, 64.0, 291.5080298999554)
+[18:03:30] [Craft Scheduler Thread - 62/INFO]: [0;31;1mWarning: Danny has the same IP as the following players:
+[0;33;22ma__, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet, scarlet_r, yarquesh, Ethonian, Jank_Boteko, ViggYee174, caden_da_gangsta, caden, John_MinecraftPC, glep, junkler3000, neaga, DANKBEEF, Cowboy, nigge, nigge_, bob_the_builder, Everett, YiggVigg282, Curry_Muncher, _sentientIMAC[m
+
+[18:03:30] [Craft Scheduler Thread - 61/INFO]: [0;31;1mWarning: Danny has the same IP as the following banned players:
+[0;33;22mGeep[m
+
+[18:06:26] [Async Chat Thread - #17/INFO]: <Danny> evan you there?[m
+
+[18:09:59] [Thread-79/INFO]: UUID of player John_Minecraft is 7d8c55d9-8ea1-36ef-9d86-864199571128
+[18:09:59] [Server thread/INFO]: John_Minecraft[/[0:0:0:0:0:0:0:1]:56526] logged in with entity id 60363 at ([world]230.30000001192096, 71.69720916557901, 297.5306208649468)
+[18:10:00] [Craft Scheduler Thread - 61/INFO]: [0;31;1mWarning: John_Minecraft has the same IP as the following banned players:
+[0;33;22mGeep[m
+
+[18:10:00] [Craft Scheduler Thread - 63/INFO]: [0;31;1mWarning: John_Minecraft has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, scarlet, scarlet_r, yarquesh, Ethonian, Jank_Boteko, ViggYee174, caden_da_gangsta, caden, John_MinecraftPC, glep, junkler3000, neaga, DANKBEEF, Cowboy, nigge, nigge_, bob_the_builder, Everett, YiggVigg282, Curry_Muncher, _sentientIMAC[m
+
+[18:10:12] [Async Chat Thread - #18/INFO]: <Danny> whats up[m
+
+[18:10:18] [Async Chat Thread - #18/INFO]: <John_Minecraft> the ssky[m
+
+[18:10:29] [Async Chat Thread - #18/INFO]: <Danny> . . . . .[m
+
+[18:10:48] [Async Chat Thread - #18/INFO]: <Danny> do you know who messed up the house[m
+
+[18:12:12] [Async Chat Thread - #19/INFO]: <John_Minecraft> no[m
+
+[18:12:24] [Async Chat Thread - #19/INFO]: <John_Minecraft> walked in looking for ann anvil and it wwas like that[m
+
+[18:12:38] [Async Chat Thread - #19/INFO]: <Danny> damn[m
+
+[18:13:12] [Server thread/INFO]: Danny issued server command: /home <pearls>
+[18:13:38] [Server thread/INFO]: John_Minecraft lost connection: Disconnected
+[18:13:38] [Server thread/INFO]: John_Minecraft left the game.
+[18:20:30] [Thread-81/INFO]: UUID of player John_Minecraft is 7d8c55d9-8ea1-36ef-9d86-864199571128
+[18:20:30] [Server thread/INFO]: John_Minecraft[/[0:0:0:0:0:0:0:1]:51970] logged in with entity id 62079 at ([world]181.06255004343288, 63.0, 276.1374086526843)
+[18:20:31] [Craft Scheduler Thread - 65/INFO]: [0;31;1mWarning: John_Minecraft has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, scarlet, scarlet_r, yarquesh, Ethonian, Jank_Boteko, ViggYee174, caden_da_gangsta, caden, John_MinecraftPC, glep, junkler3000, neaga, DANKBEEF, Cowboy, nigge, nigge_, bob_the_builder, Everett, YiggVigg282, Curry_Muncher, _sentientIMAC[m
+
+[18:20:31] [Craft Scheduler Thread - 67/INFO]: [0;31;1mWarning: John_Minecraft has the same IP as the following banned players:
+[0;33;22mGeep[m
+
+[18:20:41] [Async Chat Thread - #20/INFO]: <John_Minecraft> yo[m
+
+[18:20:57] [Async Chat Thread - #20/INFO]: <Danny> sup[m
+
+[18:21:03] [Server thread/INFO]: Danny issued server command: /home <pearls>
+[18:21:55] [Async Chat Thread - #20/INFO]: <Danny> are you carson[m
+
+[18:21:58] [Async Chat Thread - #20/INFO]: <John_Minecraft> no[m
+
+[18:22:04] [Async Chat Thread - #20/INFO]: <John_Minecraft> this is lincoln[m
+
