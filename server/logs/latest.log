@@ -234,3 +234,28 @@ Caused by: java.util.zip.ZipException: zip END header not found
 [23:06:56] [Server thread/INFO]: Preparing spawn area: 3%
 [23:06:57] [Server thread/INFO]: Preparing spawn area: 23%
 [23:06:58] [Server thread/INFO]: Preparing spawn area: 50%
+[23:06:59] [Server thread/INFO]: Preparing spawn area: 75%
+[23:07:00] [Server thread/INFO]: Preparing start region for level 1 (Seed: 8746604822408410148)
+[23:07:01] [Server thread/INFO]: Preparing spawn area: 6%
+[23:07:02] [Server thread/INFO]: Preparing spawn area: 15%
+[23:07:03] [Server thread/INFO]: Preparing spawn area: 49%
+[23:07:04] [Server thread/INFO]: Preparing spawn area: 76%
+[23:07:05] [Server thread/INFO]: Preparing start region for level 2 (Seed: 8746604822408410148)
+[23:07:05] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
+[23:07:06] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+
+[23:07:06] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
+
+[23:07:06] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[23:07:06] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
+[23:07:08] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[23:07:08] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
+[23:07:08] [Server thread/INFO]: [Sudo] Enabling Sudo v1
+[23:07:08] [Server thread/INFO]: [Suicide] Enabling Suicide v1.4.6
+[23:07:08] [Server thread/INFO]: [Suicide] Plugin Enabled!
+[23:07:08] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
+[23:07:08] [Server thread/INFO]: [OnePlayerSleep] Enabling OnePlayerSleep v1.3
+[23:07:08] [Server thread/INFO]: [InvSee++] Enabling InvSeePlusPlus v0.29.4
+[23:07:10] [Server thread/INFO]: [BanManager] Enabling BanManager v7.9.0
+[23:07:12] [Server thread/WARN]: [Server thread] INFO me.confuser.banmanager.common.hikari.HikariDataSource - bm-local - Starting...
+
