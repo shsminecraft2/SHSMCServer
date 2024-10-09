@@ -290,3 +290,635 @@ Caused by: java.util.zip.ZipException: zip END header not found
 [14:42:18] [Craft Scheduler Thread - 1/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
 
 [14:42:19] [Server thread/INFO]: [Suicide] You are using the latest version of Suicide.
+[14:52:22] [Thread-10/INFO]: UUID of player John_Minecraft is 7d8c55d9-8ea1-36ef-9d86-864199571128
+[14:52:22] [Server thread/INFO]: John_Minecraft[/[0:0:0:0:0:0:0:1]:58926] logged in with entity id 867 at ([world]94.31905948519052, 59.0, 485.423347775229)
+[14:52:23] [Craft Scheduler Thread - 0/INFO]: [0;31;1mWarning: John_Minecraft has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, scarlet, scarlet_r, yarquesh, Ethonian, Jank_Boteko, ViggYee174, caden_da_gangsta, caden[m
+
+[14:56:02] [Server thread/INFO]: John_Minecraft lost connection: Disconnected
+[14:56:02] [Server thread/INFO]: John_Minecraft left the game.
+[15:28:17] [Thread-12/INFO]: UUID of player John_MinecraftPC is 3568db27-d949-396e-9cd7-8a995d8bb8f1
+[15:28:17] [Server thread/INFO]: John_MinecraftPC[/[0:0:0:0:0:0:0:1]:41208] logged in with entity id 1874 at ([world]181.5, 64.0, 242.5)
+[15:28:18] [Craft Scheduler Thread - 9/INFO]: [0;31;1mWarning: John_MinecraftPC has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet, scarlet_r, yarquesh, Ethonian, Jank_Boteko, ViggYee174, caden_da_gangsta, caden[m
+
+[15:28:41] [Thread-13/INFO]: UUID of player caden is 1c17e1b0-26ef-3067-b20b-aebc29283c98
+[15:28:41] [Server thread/INFO]: caden[/[0:0:0:0:0:0:0:1]:49588] logged in with entity id 2606 at ([world]232.1411019811673, 68.0, 264.77949364455696)
+[15:28:42] [Craft Scheduler Thread - 9/INFO]: [0;31;1mWarning: caden has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet, scarlet_r, yarquesh, Ethonian, Jank_Boteko, ViggYee174, caden_da_gangsta, John_MinecraftPC[m
+
+[15:28:45] [Async Chat Thread - #0/INFO]: <John_MinecraftPC> yo[m
+
+[15:29:18] [Thread-14/INFO]: UUID of player Steven is 944d2caf-d932-3441-b30c-7e43d402ec4b
+[15:29:18] [Server thread/INFO]: Steven[/[0:0:0:0:0:0:0:1]:41388] logged in with entity id 3027 at ([world]242.69999998807907, 65.0, 283.1502571602033)
+[15:29:19] [Craft Scheduler Thread - 10/INFO]: [0;31;1mWarning: Steven has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet, scarlet_r, yarquesh, Ethonian, Jank_Boteko, ViggYee174, caden_da_gangsta, caden, John_MinecraftPC[m
+
+[15:29:31] [Server thread/INFO]: Steven issued server command: /suicide
+[15:29:31] [Server thread/INFO]: Steven died
+[15:29:31] [Server thread/INFO]: [0;31;1m[21mSteven slipped on a banana[m
+
+[15:29:31] [Server thread/ERROR]: [Suicide] The sound you're trying to play isn't registered in this Minecraft Version: ENTITY_ZOMBIE_HURT
+[15:29:48] [Server thread/WARN]: John_MinecraftPC moved wrongly!
+[15:30:07] [Server thread/INFO]: Steven issued server command: /suicide
+[15:30:07] [Server thread/INFO]: Steven was slain by John_MinecraftPC
+[15:30:07] [Server thread/INFO]: [0;31;1m[21mSteven turned emo[m
+
+[15:30:07] [Server thread/ERROR]: [Suicide] The sound you're trying to play isn't registered in this Minecraft Version: ENTITY_ZOMBIE_HURT
+[15:30:12] [Async Chat Thread - #1/INFO]: <John_MinecraftPC> oh[m
+
+[15:30:19] [Async Chat Thread - #1/INFO]: <John_MinecraftPC> wait there's a killbind?[m
+
+[15:30:28] [Async Chat Thread - #1/INFO]: <Steven> its /suicide[m
+
+[15:30:30] [Thread-15/INFO]: Disconnecting com.mojang.authlib.GameProfile@36e18422[id=c5764b44-e9ff-33fa-930e-ecfb1a8b872c,name=geep,properties={textures=[com.mojang.authlib.properties.Property@22c7a70d], isEaglerPlayer=[com.mojang.authlib.properties.Property@19713a56]},legacy=false] (/[0:0:0:0:0:0:0:1]:45044): [LoginSecurity] This account is registered under the name Geep, please log in as such.
+[15:30:30] [Server thread/INFO]: com.mojang.authlib.GameProfile@36e18422[id=c5764b44-e9ff-33fa-930e-ecfb1a8b872c,name=geep,properties={textures=[com.mojang.authlib.properties.Property@22c7a70d], isEaglerPlayer=[com.mojang.authlib.properties.Property@19713a56]},legacy=false] (/[0:0:0:0:0:0:0:1]:45044) lost connection: [LoginSecurity] This account is registered under the name Geep, please log in as such.
+[15:30:35] [Server thread/INFO]: John_MinecraftPC issued server command: /suicide
+[15:30:35] [Server thread/INFO]: John_MinecraftPC died
+[15:30:35] [Server thread/INFO]: [0;31;1m[21mJohn_MinecraftPC killed himself[m
+
+[15:30:35] [Server thread/ERROR]: [Suicide] The sound you're trying to play isn't registered in this Minecraft Version: ENTITY_ZOMBIE_HURT
+[15:30:39] [Thread-16/INFO]: Disconnecting com.mojang.authlib.GameProfile@29af12aa[id=c5764b44-e9ff-33fa-930e-ecfb1a8b872c,name=geep,properties={textures=[com.mojang.authlib.properties.Property@6423fea], isEaglerPlayer=[com.mojang.authlib.properties.Property@78a7f797]},legacy=false] (/[0:0:0:0:0:0:0:1]:45058): [LoginSecurity] This account is registered under the name Geep, please log in as such.
+[15:30:39] [Server thread/INFO]: com.mojang.authlib.GameProfile@29af12aa[id=c5764b44-e9ff-33fa-930e-ecfb1a8b872c,name=geep,properties={textures=[com.mojang.authlib.properties.Property@6423fea], isEaglerPlayer=[com.mojang.authlib.properties.Property@78a7f797]},legacy=false] (/[0:0:0:0:0:0:0:1]:45058) lost connection: [LoginSecurity] This account is registered under the name Geep, please log in as such.
+[15:30:43] [Async Chat Thread - #1/INFO]: <John_MinecraftPC> lol[m
+
+[15:30:57] [Thread-17/INFO]: UUID of player glep is 011da9b7-510d-3f37-aba5-2677318578a8
+[15:30:57] [Server thread/WARN]: Failed to handle packet for /[0:0:0:0:0:0:0:1]:46352
+net.minecraft.server.v1_8_R3.ReportedException: Sending packet
+	at net.minecraft.server.v1_8_R3.PlayerConnection.sendPacket(PlayerConnection.java:925) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.a(EntityPlayer.java:783) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.Container.addSlotListener(Container.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.syncInventory(EntityPlayer.java:177) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerList.a(PlayerList.java:190) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.LoginListener.b(LoginListener.java:144) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.LoginListener.c(LoginListener.java:54) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:231) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.ServerConnection.c(ServerConnection.java:148) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:875) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NullPointerException: type cannot be null
+	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:229) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at com.comphenix.protocol.injector.StructureCache.getStructure(StructureCache.java:138) ~[?:?]
+	at com.comphenix.protocol.events.PacketContainer.<init>(PacketContainer.java:126) ~[?:?]
+	at com.comphenix.protocol.injector.netty.manager.NetworkManagerInjector.onPacketSending(NetworkManagerInjector.java:96) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector.processOutbound(NettyChannelInjector.java:553) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector$2.doProxyRunnable(NettyChannelInjector.java:456) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.proxyRunnable(NettyEventLoopProxy.java:43) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.execute(NettyEventLoopProxy.java:252) ~[?:?]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:192) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.handle(NetworkManager.java:141) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.sendPacket(PlayerConnection.java:911) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 13 more
+[15:30:57] [Server thread/INFO]: glep lost connection: Internal server error
+[15:30:57] [Server thread/INFO]: glep left the game.
+[15:30:58] [Craft Scheduler Thread - 12/INFO]: [0;31;1mWarning: glep has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet, scarlet_r, yarquesh, Ethonian, Jank_Boteko, ViggYee174, caden_da_gangsta, caden, John_MinecraftPC[m
+
+[15:30:59] [Thread-18/INFO]: UUID of player glep is 011da9b7-510d-3f37-aba5-2677318578a8
+[15:30:59] [Server thread/INFO]: glep[/[0:0:0:0:0:0:0:1]:46362] logged in with entity id 3780 at ([world]180.5, 64.0, 256.5)
+[15:31:00] [Craft Scheduler Thread - 12/INFO]: [0;31;1mWarning: glep has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet, scarlet_r, yarquesh, Ethonian, Jank_Boteko, ViggYee174, caden_da_gangsta, caden, John_MinecraftPC[m
+
+[15:31:17] [Async Chat Thread - #1/INFO]: <John_MinecraftPC> where's my wool[m
+
+[15:31:33] [Server thread/INFO]: glep has just earned the achievement [Taking Inventory]
+[15:31:36] [Async Chat Thread - #1/INFO]: <Steven> i dont have it[m
+
+[15:31:40] [Async Chat Thread - #1/INFO]: <John_MinecraftPC> oh[m
+
+[15:31:41] [Server thread/INFO]: glep issued server command: /password
+[15:32:00] [Server thread/INFO]: glep lost connection: Login timed out!
+[15:32:00] [Server thread/INFO]: glep left the game.
+[15:32:03] [Thread-19/INFO]: UUID of player glep is 011da9b7-510d-3f37-aba5-2677318578a8
+[15:32:03] [Server thread/INFO]: glep[/[0:0:0:0:0:0:0:1]:51214] logged in with entity id 4213 at ([world]180.97830911315032, 64.0, 256.04995041365225)
+[15:32:04] [Craft Scheduler Thread - 12/INFO]: [0;31;1mWarning: glep has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet, scarlet_r, yarquesh, Ethonian, Jank_Boteko, ViggYee174, caden_da_gangsta, caden, John_MinecraftPC[m
+
+[15:32:32] [Async Chat Thread - #1/INFO]: <John_MinecraftPC> gonna drop the wool off for my main[m
+
+[15:32:40] [Async Chat Thread - #1/INFO]: <John_MinecraftPC> stupid data not syncing[m
+
+[15:32:44] [Server thread/INFO]: glep issued server command: /9bxud
+[15:33:04] [Server thread/INFO]: glep lost connection: Login timed out!
+[15:33:04] [Server thread/INFO]: glep left the game.
+[15:33:04] [Server thread/WARN]: handleDisconnection() called twice
+[15:33:07] [Thread-20/INFO]: UUID of player glep is 011da9b7-510d-3f37-aba5-2677318578a8
+[15:33:07] [Server thread/INFO]: glep[/[0:0:0:0:0:0:0:1]:45648] logged in with entity id 4900 at ([world]180.43604365570616, 64.0, 256.9626863568851)
+[15:33:08] [Craft Scheduler Thread - 14/INFO]: [0;31;1mWarning: glep has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet, scarlet_r, yarquesh, Ethonian, Jank_Boteko, ViggYee174, caden_da_gangsta, caden, John_MinecraftPC[m
+
+[15:33:28] [Server thread/INFO]: glep issued server command: /ac82t
+[15:33:48] [Server thread/INFO]: glep issued server command: /AC82T
+[15:33:54] [Server thread/INFO]: glep lost connection: Wrong captcha! Please try again.
+[15:33:54] [Server thread/INFO]: glep left the game.
+[15:33:54] [Server thread/WARN]: handleDisconnection() called twice
+[15:33:58] [Thread-21/INFO]: UUID of player glep is 011da9b7-510d-3f37-aba5-2677318578a8
+[15:33:58] [Server thread/WARN]: Failed to handle packet for /[0:0:0:0:0:0:0:1]:51740
+net.minecraft.server.v1_8_R3.ReportedException: Sending packet
+	at net.minecraft.server.v1_8_R3.PlayerConnection.sendPacket(PlayerConnection.java:925) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.a(EntityPlayer.java:783) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.Container.addSlotListener(Container.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.syncInventory(EntityPlayer.java:177) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerList.a(PlayerList.java:190) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.LoginListener.b(LoginListener.java:144) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.LoginListener.c(LoginListener.java:54) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:231) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.ServerConnection.c(ServerConnection.java:148) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:875) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NullPointerException: type cannot be null
+	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:229) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at com.comphenix.protocol.injector.StructureCache.getStructure(StructureCache.java:138) ~[?:?]
+	at com.comphenix.protocol.events.PacketContainer.<init>(PacketContainer.java:126) ~[?:?]
+	at com.comphenix.protocol.injector.netty.manager.NetworkManagerInjector.onPacketSending(NetworkManagerInjector.java:96) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector.processOutbound(NettyChannelInjector.java:553) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector$2.doProxyRunnable(NettyChannelInjector.java:456) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.proxyRunnable(NettyEventLoopProxy.java:43) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.execute(NettyEventLoopProxy.java:252) ~[?:?]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:192) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.handle(NetworkManager.java:141) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.sendPacket(PlayerConnection.java:911) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 13 more
+[15:33:58] [Server thread/INFO]: glep lost connection: Internal server error
+[15:33:58] [Server thread/INFO]: glep left the game.
+[15:33:59] [Craft Scheduler Thread - 16/INFO]: [0;31;1mWarning: glep has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet, scarlet_r, yarquesh, Ethonian, Jank_Boteko, ViggYee174, caden_da_gangsta, caden, John_MinecraftPC[m
+
+[15:34:00] [Thread-22/INFO]: UUID of player glep is 011da9b7-510d-3f37-aba5-2677318578a8
+[15:34:01] [Server thread/INFO]: glep[/[0:0:0:0:0:0:0:1]:36558] logged in with entity id 5585 at ([world]180.03492674064643, 64.0, 256.3588698009473)
+[15:34:02] [Craft Scheduler Thread - 16/INFO]: [0;31;1mWarning: glep has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet, scarlet_r, yarquesh, Ethonian, Jank_Boteko, ViggYee174, caden_da_gangsta, caden, John_MinecraftPC[m
+
+[15:34:05] [Thread-23/INFO]: UUID of player rocco is 639c7d28-28a7-3e3c-8cd9-745d7da121b0
+[15:34:05] [Server thread/INFO]: rocco[/[0:0:0:0:0:0:0:1]:36568] logged in with entity id 5610 at ([world]186.1152131953125, 64.0, 276.25094513114396)
+[15:34:06] [Craft Scheduler Thread - 14/INFO]: [0;31;1mWarning: rocco has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet, scarlet_r, yarquesh, Ethonian, Jank_Boteko, ViggYee174, caden_da_gangsta, caden, John_MinecraftPC, glep[m
+
+[15:34:13] [Server thread/INFO]: glep issued server command: /AC82T
+[15:34:30] [Thread-24/INFO]: UUID of player junkler3000 is c220eb9c-6e0e-3f96-8c9c-c14288a89420
+[15:34:30] [Server thread/INFO]: junkler3000[/[0:0:0:0:0:0:0:1]:38600] logged in with entity id 5743 at ([world]190.5, 64.0, 252.5)
+[15:34:31] [Craft Scheduler Thread - 15/INFO]: [0;31;1mWarning: junkler3000 has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet, scarlet_r, yarquesh, Ethonian, Jank_Boteko, ViggYee174, caden_da_gangsta, caden, John_MinecraftPC, glep[m
+
+[15:34:42] [Thread-25/INFO]: UUID of player neaga is 12e59a48-afc4-3dbb-b950-d87d439a1ddd
+[15:34:42] [Server thread/INFO]: neaga[/[0:0:0:0:0:0:0:1]:38412] logged in with entity id 5846 at ([world]180.5, 64.0, 243.5)
+[15:34:43] [Craft Scheduler Thread - 16/INFO]: [0;31;1mWarning: neaga has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet, scarlet_r, yarquesh, Ethonian, Jank_Boteko, ViggYee174, caden_da_gangsta, caden, John_MinecraftPC, glep, junkler3000[m
+
+[15:34:50] [Async Chat Thread - #1/INFO]: <John_MinecraftPC> yo[m
+
+[15:35:00] [Async Chat Thread - #1/INFO]: <glep> yo its ethan where do i go to do shit[m
+
+[15:35:07] [Server thread/INFO]: John_MinecraftPC issued server command: /uh
+[15:35:10] [Async Chat Thread - #1/INFO]: <John_MinecraftPC> uh[m
+
+[15:35:16] [Async Chat Thread - #1/INFO]: <rocco> who are all of you guys[m
+
+[15:35:17] [Async Chat Thread - #1/INFO]: <John_MinecraftPC> do minecraft stuff[m
+
+[15:35:21] [Async Chat Thread - #1/INFO]: <glep> ok[m
+
+[15:35:22] [Server thread/INFO]: neaga has just earned the achievement [Taking Inventory]
+[15:35:31] [Server thread/INFO]: junkler3000 lost connection: Login timed out!
+[15:35:31] [Server thread/INFO]: junkler3000 left the game.
+[15:35:31] [Server thread/WARN]: handleDisconnection() called twice
+[15:35:36] [Thread-26/INFO]: UUID of player junkler3000 is c220eb9c-6e0e-3f96-8c9c-c14288a89420
+[15:35:36] [Server thread/INFO]: junkler3000[/[0:0:0:0:0:0:0:1]:48844] logged in with entity id 6014 at ([world]190.08726840358415, 64.0, 252.9544361169001)
+[15:35:37] [Craft Scheduler Thread - 15/INFO]: [0;31;1mWarning: junkler3000 has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet, scarlet_r, yarquesh, Ethonian, Jank_Boteko, ViggYee174, caden_da_gangsta, caden, John_MinecraftPC, glep, neaga[m
+
+[15:35:38] [Server thread/INFO]: neaga lost connection: Disconnected
+[15:35:38] [Server thread/INFO]: neaga left the game.
+[15:35:40] [Thread-27/INFO]: UUID of player neaga is 12e59a48-afc4-3dbb-b950-d87d439a1ddd
+[15:35:40] [Server thread/INFO]: neaga[/[0:0:0:0:0:0:0:1]:48860] logged in with entity id 6016 at ([world]180.9727258379254, 64.0, 243.06758068026622)
+[15:35:41] [Craft Scheduler Thread - 15/INFO]: [0;31;1mWarning: neaga has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet, scarlet_r, yarquesh, Ethonian, Jank_Boteko, ViggYee174, caden_da_gangsta, caden, John_MinecraftPC, glep, junkler3000[m
+
+[15:35:49] [Server thread/INFO]: neaga lost connection: Disconnected
+[15:35:49] [Server thread/INFO]: neaga left the game.
+[15:35:51] [Async Chat Thread - #1/INFO]: <caden> t[m
+
+[15:36:20] [Server thread/INFO]: caden has just earned the achievement [Taking Inventory]
+[15:36:30] [Async Chat Thread - #1/INFO]: <Steven> junkler is rysen[m
+
+[15:36:32] [Server thread/INFO]: glep has just earned the achievement [Getting Wood]
+[15:36:35] [Server thread/INFO]: glep lost connection: Disconnected
+[15:36:35] [Server thread/INFO]: glep left the game.
+[15:36:40] [Thread-28/INFO]: UUID of player DANKBEEF is 236ee08e-e19f-351a-997f-26d0ab803645
+[15:36:40] [Server thread/INFO]: DANKBEEF[/[0:0:0:0:0:0:0:1]:34942] logged in with entity id 6464 at ([world]182.5, 64.0, 247.5)
+[15:36:41] [Craft Scheduler Thread - 14/INFO]: [0;31;1mWarning: DANKBEEF has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet, scarlet_r, yarquesh, Ethonian, Jank_Boteko, ViggYee174, caden_da_gangsta, caden, John_MinecraftPC, glep, junkler3000, neaga[m
+
+[15:36:42] [Thread-29/INFO]: UUID of player Cowboy is 1fa6c3e1-74b3-325f-adc1-3cc4251d24e9
+[15:36:42] [Server thread/INFO]: Cowboy[/[0:0:0:0:0:0:0:1]:37554] logged in with entity id 6570 at ([world]176.5, 64.0, 243.5)
+[15:36:43] [Craft Scheduler Thread - 18/INFO]: [0;31;1mWarning: Cowboy has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet, scarlet_r, yarquesh, Ethonian, Jank_Boteko, ViggYee174, caden_da_gangsta, caden, John_MinecraftPC, glep, junkler3000, neaga, DANKBEEF[m
+
+[15:36:44] [Server thread/INFO]: John_MinecraftPC has just earned the achievement [Taking Inventory]
+[15:36:50] [Server thread/INFO]: junkler3000 was slain by Steven
+[15:36:56] [Async Chat Thread - #1/INFO]: <rocco> WHY THE FUCK ARE SO MANY PEOPLE HERE[m
+
+[15:36:59] [Server thread/INFO]: John_MinecraftPC lost connection: Disconnected
+[15:36:59] [Server thread/INFO]: John_MinecraftPC left the game.
+[15:37:00] [Server thread/INFO]: Steven issued server command: /home Mega
+[15:37:21] [Server thread/INFO]: DANKBEEF issued server command: /vaijl
+[15:37:32] [Server thread/INFO]: Steven issued server command: /home Steven
+[15:37:43] [Server thread/INFO]: Cowboy lost connection: Login timed out!
+[15:37:43] [Server thread/INFO]: Cowboy left the game.
+[15:37:43] [Server thread/WARN]: handleDisconnection() called twice
+[15:37:47] [Server thread/INFO]: caden was slain by rocco using [skibidi slayer]
+[15:37:58] [Async Chat Thread - #1/INFO]: <rocco> who are all of you guys[m
+
+[15:38:03] [Async Chat Thread - #1/INFO]: <Steven> rocco we might need to kill some guy[m
+
+[15:38:07] [Async Chat Thread - #1/INFO]: <rocco> who[m
+
+[15:38:11] [Async Chat Thread - #1/INFO]: <caden> im stevens freind[m
+
+[15:38:15] [Async Chat Thread - #1/INFO]: <rocco> oh ok[m
+
+[15:38:19] [Async Chat Thread - #1/INFO]: <Steven> caden chill[m
+
+[15:38:20] [Async Chat Thread - #1/INFO]: <rocco> i didnt take anything[m
+
+[15:38:28] [Async Chat Thread - #1/INFO]: <rocco> whos dank beef[m
+
+[15:38:31] [Server thread/INFO]: DANKBEEF was slain by rocco using [skibidi slayer]
+[15:38:34] [Server thread/INFO]: junkler3000 was slain by Steven
+[15:38:39] [Async Chat Thread - #1/INFO]: <rocco> that mother fucker is griefing[m
+
+[15:38:45] [Async Chat Thread - #1/INFO]: <Steven> who[m
+
+[15:38:52] [Async Chat Thread - #1/INFO]: <rocco> junkler and gelp are sus bro[m
+
+[15:39:04] [Server thread/INFO]: caden was blown up by Creeper
+[15:39:06] [Async Chat Thread - #1/INFO]: <Steven> junkler is chill[m
+
+[15:39:07] [Async Chat Thread - #1/INFO]: <rocco> junkler was looking in dannys chest[m
+
+[15:39:11] [Async Chat Thread - #1/INFO]: <Steven> i dont trust gelp[m
+
+[15:39:20] [Async Chat Thread - #1/INFO]: <rocco> is it elliot again[m
+
+[15:39:22] [Async Chat Thread - #1/INFO]: <Steven> junkler get the fuck out of the chest[m
+
+[15:39:39] [Thread-30/INFO]: UUID of player John_MinecraftPC is 3568db27-d949-396e-9cd7-8a995d8bb8f1
+[15:39:40] [Server thread/INFO]: John_MinecraftPC[/[0:0:0:0:0:0:0:1]:48608] logged in with entity id 7268 at ([world]92.63817926718514, 59.0, 488.07757660274643)
+[15:39:41] [Craft Scheduler Thread - 18/INFO]: [0;31;1mWarning: John_MinecraftPC has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet, scarlet_r, yarquesh, Ethonian, Jank_Boteko, ViggYee174, caden_da_gangsta, caden, glep, junkler3000, neaga, DANKBEEF, Cowboy[m
+
+[15:39:45] [Thread-31/INFO]: UUID of player Cowboy is 1fa6c3e1-74b3-325f-adc1-3cc4251d24e9
+[15:39:45] [Server thread/INFO]: Cowboy[/[0:0:0:0:0:0:0:1]:58776] logged in with entity id 7570 at ([world]176.5, 64.0, 243.5)
+[15:39:46] [Craft Scheduler Thread - 18/INFO]: [0;31;1mWarning: Cowboy has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet, scarlet_r, yarquesh, Ethonian, Jank_Boteko, ViggYee174, caden_da_gangsta, caden, John_MinecraftPC, glep, junkler3000, neaga, DANKBEEF[m
+
+[15:39:46] [Server thread/INFO]: DANKBEEF has just earned the achievement [Taking Inventory]
+[15:39:55] [Async Chat Thread - #1/INFO]: <John_MinecraftPC> wazzup beijing[m
+
+[15:40:05] [Thread-32/INFO]: UUID of player nigge is 7270800d-7a0c-32d2-95f5-e2a6ae8efebf
+[15:40:05] [Server thread/INFO]: nigge[/[0:0:0:0:0:0:0:1]:54342] logged in with entity id 7619 at ([world]186.5, 63.0, 244.5)
+[15:40:06] [Craft Scheduler Thread - 18/INFO]: [0;31;1mWarning: nigge has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet, scarlet_r, yarquesh, Ethonian, Jank_Boteko, ViggYee174, caden_da_gangsta, caden, John_MinecraftPC, glep, junkler3000, neaga, DANKBEEF, Cowboy[m
+
+[15:40:13] [Async Chat Thread - #1/INFO]: <junkler3000> bruh its me[m
+
+[15:40:14] [Async Chat Thread - #1/INFO]: <Steven> rocco junkler is rysen[m
+
+[15:40:18] [Async Chat Thread - #1/INFO]: <rocco> junkler did you take my stuff[m
+
+[15:40:20] [Async Chat Thread - #1/INFO]: <rocco> oh ok[m
+
+[15:40:24] [Server thread/INFO]: junkler3000 was slain by Steven
+[15:40:26] [Async Chat Thread - #1/INFO]: <rocco> ily ryzen[m
+
+[15:40:28] [Server thread/INFO]: Steven was slain by rocco using [skibidi slayer]
+[15:40:35] [Async Chat Thread - #1/INFO]: <John_MinecraftPC> skibidi slayer?[m
+
+[15:40:41] [Server thread/INFO]: nigge has just earned the achievement [Taking Inventory]
+[15:40:44] [Async Chat Thread - #1/INFO]: <John_MinecraftPC> where do I buy this[m
+
+[15:40:45] [Server thread/INFO]: Cowboy lost connection: Login timed out!
+[15:40:45] [Server thread/INFO]: Cowboy left the game.
+[15:40:45] [Server thread/WARN]: handleDisconnection() called twice
+[15:40:50] [Server thread/INFO]: nigge lost connection: Disconnected
+[15:40:50] [Server thread/INFO]: nigge left the game.
+[15:40:59] [Thread-33/INFO]: UUID of player Cowboy is 1fa6c3e1-74b3-325f-adc1-3cc4251d24e9
+[15:40:59] [Server thread/WARN]: Failed to handle packet for /[0:0:0:0:0:0:0:1]:54944
+net.minecraft.server.v1_8_R3.ReportedException: Sending packet
+	at net.minecraft.server.v1_8_R3.PlayerConnection.sendPacket(PlayerConnection.java:925) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.a(EntityPlayer.java:783) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.Container.addSlotListener(Container.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.syncInventory(EntityPlayer.java:177) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerList.a(PlayerList.java:190) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.LoginListener.b(LoginListener.java:144) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.LoginListener.c(LoginListener.java:54) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:231) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.ServerConnection.c(ServerConnection.java:148) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:875) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NullPointerException: type cannot be null
+	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:229) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at com.comphenix.protocol.injector.StructureCache.getStructure(StructureCache.java:138) ~[?:?]
+	at com.comphenix.protocol.events.PacketContainer.<init>(PacketContainer.java:126) ~[?:?]
+	at com.comphenix.protocol.injector.netty.manager.NetworkManagerInjector.onPacketSending(NetworkManagerInjector.java:96) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector.processOutbound(NettyChannelInjector.java:553) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector$2.doProxyRunnable(NettyChannelInjector.java:456) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.proxyRunnable(NettyEventLoopProxy.java:43) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.execute(NettyEventLoopProxy.java:252) ~[?:?]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:192) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.handle(NetworkManager.java:141) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.sendPacket(PlayerConnection.java:911) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 13 more
+[15:40:59] [Server thread/INFO]: Cowboy lost connection: Internal server error
+[15:40:59] [Server thread/INFO]: Cowboy left the game.
+[15:41:00] [Craft Scheduler Thread - 21/INFO]: [0;31;1mWarning: Cowboy has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet, scarlet_r, yarquesh, Ethonian, Jank_Boteko, ViggYee174, caden_da_gangsta, caden, John_MinecraftPC, glep, junkler3000, neaga, DANKBEEF, nigge[m
+
+[15:41:02] [Thread-34/INFO]: UUID of player Cowboy is 1fa6c3e1-74b3-325f-adc1-3cc4251d24e9
+[15:41:02] [Server thread/INFO]: Cowboy[/[0:0:0:0:0:0:0:1]:35216] logged in with entity id 7865 at ([world]176.058677355096, 64.0, 243.04639249819567)
+[15:41:03] [Craft Scheduler Thread - 21/INFO]: [0;31;1mWarning: Cowboy has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet, scarlet_r, yarquesh, Ethonian, Jank_Boteko, ViggYee174, caden_da_gangsta, caden, John_MinecraftPC, glep, junkler3000, neaga, DANKBEEF, nigge[m
+
+[15:41:07] [Thread-35/INFO]: UUID of player nigge is 7270800d-7a0c-32d2-95f5-e2a6ae8efebf
+[15:41:07] [Server thread/INFO]: nigge[/[0:0:0:0:0:0:0:1]:35218] logged in with entity id 7910 at ([world]186.02760979527463, 63.0, 244.98883156794918)
+[15:41:08] [Craft Scheduler Thread - 20/INFO]: [0;31;1mWarning: nigge has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet, scarlet_r, yarquesh, Ethonian, Jank_Boteko, ViggYee174, caden_da_gangsta, caden, John_MinecraftPC, glep, junkler3000, neaga, DANKBEEF, Cowboy[m
+
+[15:41:20] [Server thread/INFO]: John_MinecraftPC has just earned the achievement [Getting Wood]
+[15:41:20] [Server thread/INFO]: nigge lost connection: Disconnected
+[15:41:20] [Server thread/INFO]: nigge left the game.
+[15:41:33] [Server thread/INFO]: junkler3000 was slain by caden
+[15:41:35] [Async Chat Thread - #1/INFO]: <rocco> WHO KILED MY MOTHER FUCKING CHICKEN[m
+
+[15:41:42] [Async Chat Thread - #1/INFO]: <rocco> GET OUT OF MY ROOM[m
+
+[15:41:46] [Async Chat Thread - #1/INFO]: <John_MinecraftPC> wait the chicken i led in there[m
+
+[15:41:54] [Thread-36/INFO]: UUID of player nigge_ is 6376b874-37ef-3a49-8506-2b30f2011d5e
+[15:41:54] [Server thread/INFO]: nigge_[/[0:0:0:0:0:0:0:1]:44838] logged in with entity id 8159 at ([world]179.5, 64.0, 242.5)
+[15:41:55] [Craft Scheduler Thread - 18/INFO]: [0;31;1mWarning: nigge_ has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet, scarlet_r, yarquesh, Ethonian, Jank_Boteko, ViggYee174, caden_da_gangsta, caden, John_MinecraftPC, glep, junkler3000, neaga, DANKBEEF, Cowboy, nigge[m
+
+[15:41:56] [Async Chat Thread - #1/INFO]: <John_MinecraftPC> is dead[m
+
+[15:41:58] [Async Chat Thread - #1/INFO]: <rocco> no the one in the fence in my room[m
+
+[15:41:58] [Server thread/INFO]: Cowboy lost connection: Disconnected
+[15:41:58] [Server thread/INFO]: Cowboy left the game.
+[15:42:04] [Thread-37/INFO]: UUID of player Cowboy is 1fa6c3e1-74b3-325f-adc1-3cc4251d24e9
+[15:42:04] [Server thread/INFO]: Cowboy[/[0:0:0:0:0:0:0:1]:40118] logged in with entity id 8201 at ([world]176.058677355096, 64.0, 243.04639249819567)
+[15:42:05] [Craft Scheduler Thread - 20/INFO]: [0;31;1mWarning: Cowboy has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet, scarlet_r, yarquesh, Ethonian, Jank_Boteko, ViggYee174, caden_da_gangsta, caden, John_MinecraftPC, glep, junkler3000, neaga, DANKBEEF, nigge, nigge_[m
+
+[15:42:16] [Server thread/INFO]: junkler3000 was shot by Skeleton
+[15:42:17] [Server thread/INFO]: junkler3000 lost connection: Disconnected
+[15:42:17] [Server thread/INFO]: junkler3000 left the game.
+[15:42:23] [Server thread/INFO]: nigge_ lost connection: Disconnected
+[15:42:23] [Server thread/INFO]: nigge_ left the game.
+[15:42:55] [Async Chat Thread - #1/INFO]: <Steven> i think geep did[m
+
+[15:42:58] [Server thread/INFO]: Cowboy lost connection: Disconnected
+[15:42:58] [Server thread/INFO]: Cowboy left the game.
+[15:43:02] [Thread-38/INFO]: UUID of player Cowboy is 1fa6c3e1-74b3-325f-adc1-3cc4251d24e9
+[15:43:02] [Server thread/INFO]: Cowboy[/[0:0:0:0:0:0:0:1]:59482] logged in with entity id 8688 at ([world]176.00686412482028, 64.0, 243.97808306213352)
+[15:43:03] [Craft Scheduler Thread - 21/INFO]: [0;31;1mWarning: Cowboy has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet, scarlet_r, yarquesh, Ethonian, Jank_Boteko, ViggYee174, caden_da_gangsta, caden, John_MinecraftPC, glep, junkler3000, neaga, DANKBEEF, nigge, nigge_[m
+
+[15:43:16] [Server thread/INFO]: Cowboy lost connection: Disconnected
+[15:43:16] [Server thread/INFO]: Cowboy left the game.
+[15:43:21] [Async Chat Thread - #1/INFO]: <rocco> im killing that elliot kid[m
+
+[15:43:41] [Server thread/INFO]: caden has just earned the achievement [Getting Wood]
+[15:43:52] [Thread-39/INFO]: UUID of player junkler3000 is c220eb9c-6e0e-3f96-8c9c-c14288a89420
+[15:43:52] [Server thread/WARN]: Failed to handle packet for /[0:0:0:0:0:0:0:1]:40500
+net.minecraft.server.v1_8_R3.ReportedException: Sending packet
+	at net.minecraft.server.v1_8_R3.PlayerConnection.sendPacket(PlayerConnection.java:925) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.a(EntityPlayer.java:783) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.Container.addSlotListener(Container.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.syncInventory(EntityPlayer.java:177) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerList.a(PlayerList.java:190) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.LoginListener.b(LoginListener.java:144) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.LoginListener.c(LoginListener.java:54) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:231) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.ServerConnection.c(ServerConnection.java:148) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:875) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NullPointerException: type cannot be null
+	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:229) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at com.comphenix.protocol.injector.StructureCache.getStructure(StructureCache.java:138) ~[?:?]
+	at com.comphenix.protocol.events.PacketContainer.<init>(PacketContainer.java:126) ~[?:?]
+	at com.comphenix.protocol.injector.netty.manager.NetworkManagerInjector.onPacketSending(NetworkManagerInjector.java:96) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector.processOutbound(NettyChannelInjector.java:553) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector$2.doProxyRunnable(NettyChannelInjector.java:456) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.proxyRunnable(NettyEventLoopProxy.java:43) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.execute(NettyEventLoopProxy.java:252) ~[?:?]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:192) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.handle(NetworkManager.java:141) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.sendPacket(PlayerConnection.java:911) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 13 more
+[15:43:52] [Server thread/INFO]: junkler3000 lost connection: Internal server error
+[15:43:52] [Server thread/INFO]: junkler3000 left the game.
+[15:43:53] [Craft Scheduler Thread - 20/INFO]: [0;31;1mWarning: junkler3000 has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet, scarlet_r, yarquesh, Ethonian, Jank_Boteko, ViggYee174, caden_da_gangsta, caden, John_MinecraftPC, glep, neaga, DANKBEEF, Cowboy, nigge, nigge_[m
+
+[15:43:57] [Thread-40/INFO]: UUID of player junkler3000 is c220eb9c-6e0e-3f96-8c9c-c14288a89420
+[15:43:57] [Server thread/INFO]: junkler3000[/[0:0:0:0:0:0:0:1]:40514] logged in with entity id 9075 at ([world]178.85275001192093, 62.36455249140338, 250.03762501192094)
+[15:43:58] [Craft Scheduler Thread - 18/INFO]: [0;31;1mWarning: junkler3000 has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet, scarlet_r, yarquesh, Ethonian, Jank_Boteko, ViggYee174, caden_da_gangsta, caden, John_MinecraftPC, glep, neaga, DANKBEEF, Cowboy, nigge, nigge_[m
+
+[15:44:02] [Thread-41/INFO]: UUID of player bob_the_builder is 361d7532-d98b-36b7-b1f7-283c0b3bc2a6
+[15:44:02] [Server thread/INFO]: bob_the_builder[/[0:0:0:0:0:0:0:1]:58808] logged in with entity id 9082 at ([world]187.5, 63.0, 240.5)
+[15:44:03] [Craft Scheduler Thread - 20/INFO]: [0;31;1mWarning: bob_the_builder has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet, scarlet_r, yarquesh, Ethonian, Jank_Boteko, ViggYee174, caden_da_gangsta, caden, John_MinecraftPC, glep, junkler3000, neaga, DANKBEEF, Cowboy, nigge, nigge_[m
+
+[15:44:19] [Async Chat Thread - #1/INFO]: <Steven> kick his ass[m
+
+[15:44:48] [Thread-42/INFO]: UUID of player Everett is fb41e5da-6202-3064-9d65-134338a2a9f9
+[15:44:48] [Server thread/INFO]: Everett[/[0:0:0:0:0:0:0:1]:44784] logged in with entity id 9173 at ([world]174.5, 64.0, 247.5)
+[15:44:49] [Craft Scheduler Thread - 18/INFO]: [0;31;1mWarning: Everett has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet, scarlet_r, yarquesh, Ethonian, Jank_Boteko, ViggYee174, caden_da_gangsta, caden, John_MinecraftPC, glep, junkler3000, neaga, DANKBEEF, Cowboy, nigge, nigge_, bob_the_builder[m
+
+[15:45:03] [Server thread/INFO]: bob_the_builder lost connection: Login timed out!
+[15:45:03] [Server thread/INFO]: bob_the_builder left the game.
+[15:45:03] [Server thread/WARN]: handleDisconnection() called twice
+[15:45:10] [Thread-43/INFO]: UUID of player bob_the_builder is 361d7532-d98b-36b7-b1f7-283c0b3bc2a6
+[15:45:10] [Server thread/INFO]: bob_the_builder[/[0:0:0:0:0:0:0:1]:35192] logged in with entity id 9224 at ([world]187.01440806514384, 63.0, 240.60262110237895)
+[15:45:11] [Craft Scheduler Thread - 21/INFO]: [0;31;1mWarning: bob_the_builder has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet, scarlet_r, yarquesh, Ethonian, Jank_Boteko, ViggYee174, caden_da_gangsta, caden, John_MinecraftPC, glep, junkler3000, neaga, DANKBEEF, Cowboy, nigge, nigge_, Everett[m
+
+[15:45:16] [Server thread/INFO]: bob_the_builder has just earned the achievement [Taking Inventory]
+[15:45:39] [Async Chat Thread - #2/INFO]: <Steven> evan we might need to clpse the server for this period[m
+
+[15:45:43] [Async Chat Thread - #2/INFO]: <John_MinecraftPC> why[m
+
+[15:45:47] [Async Chat Thread - #2/INFO]: <Steven> randoms[m
+
+[15:45:49] [Server thread/INFO]: Everett lost connection: Login timed out!
+[15:45:49] [Server thread/INFO]: Everett left the game.
+[15:45:49] [Server thread/WARN]: handleDisconnection() called twice
+[15:45:53] [Thread-44/INFO]: UUID of player Everett is fb41e5da-6202-3064-9d65-134338a2a9f9
+[15:45:53] [Server thread/INFO]: Everett[/[0:0:0:0:0:0:0:1]:47420] logged in with entity id 10325 at ([world]174.5, 64.0, 247.5)
+[15:45:54] [Craft Scheduler Thread - 22/INFO]: [0;31;1mWarning: Everett has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet, scarlet_r, yarquesh, Ethonian, Jank_Boteko, ViggYee174, caden_da_gangsta, caden, John_MinecraftPC, glep, junkler3000, neaga, DANKBEEF, Cowboy, nigge, nigge_, bob_the_builder[m
+
+[15:46:00] [Async Chat Thread - #2/INFO]: <John_MinecraftPC> wdym randoms[m
+
+[15:46:08] [Async Chat Thread - #2/INFO]: <Steven> all the new guys[m
+
+[15:46:11] [Server thread/INFO]: bob_the_builder lost connection: Login timed out!
+[15:46:11] [Server thread/INFO]: bob_the_builder left the game.
+[15:46:11] [Server thread/WARN]: handleDisconnection() called twice
+[15:46:16] [Async Chat Thread - #2/INFO]: <Steven> they cant grief[m
+
+[15:46:22] [Thread-45/INFO]: UUID of player bob_the_builder is 361d7532-d98b-36b7-b1f7-283c0b3bc2a6
+[15:46:22] [Server thread/INFO]: bob_the_builder[/[0:0:0:0:0:0:0:1]:48724] logged in with entity id 10763 at ([world]187.9227471151988, 63.0, 240.97506476936076)
+[15:46:22] [Server thread/INFO]: Everett issued server command: /QX9A1
+[15:46:23] [Craft Scheduler Thread - 21/INFO]: [0;31;1mWarning: bob_the_builder has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet, scarlet_r, yarquesh, Ethonian, Jank_Boteko, ViggYee174, caden_da_gangsta, caden, John_MinecraftPC, glep, junkler3000, neaga, DANKBEEF, Cowboy, nigge, nigge_, Everett[m
+
+[15:46:27] [Async Chat Thread - #2/INFO]: <John_MinecraftPC> they aren't griefing, are they?[m
+
+[15:46:38] [Async Chat Thread - #2/INFO]: <John_MinecraftPC> dig a pit at spawn[m
+
+[15:46:41] [Server thread/INFO]: Everett issued server command: /QX9A1
+[15:46:47] [Server thread/INFO]: Everett lost connection: Disconnected
+[15:46:47] [Server thread/INFO]: Everett left the game.
+[15:46:47] [Async Chat Thread - #2/INFO]: <John_MinecraftPC> make them read rules or smth[m
+
+[15:47:22] [Async Chat Thread - #2/INFO]: <Steven> tiny tim what is your[m
+
+[15:47:22] [Server thread/INFO]: bob_the_builder lost connection: Login timed out!
+[15:47:22] [Server thread/INFO]: bob_the_builder left the game.
+[15:47:22] [Server thread/WARN]: handleDisconnection() called twice
+[15:47:38] [Async Chat Thread - #2/INFO]: <Steven> what is your name tiny tim[m
+
+[15:47:46] [Async Chat Thread - #2/INFO]: <John_MinecraftPC> tim, probably[m
+
+[15:47:53] [Async Chat Thread - #2/INFO]: <Steven> no fucking way[m
+
+[15:47:56] [Async Chat Thread - #2/INFO]: <John_MinecraftPC> and he's tiny[m
+
+[15:48:08] [Async Chat Thread - #2/INFO]: <Steven> very tiny[m
+
+[15:48:22] [Thread-47/INFO]: UUID of player bob_the_builder is 361d7532-d98b-36b7-b1f7-283c0b3bc2a6
+[15:48:22] [Server thread/INFO]: bob_the_builder[/[0:0:0:0:0:0:0:1]:44000] logged in with entity id 11898 at ([world]187.0469316064052, 64.1707870772188, 240.04587947343867)
+[15:48:23] [Craft Scheduler Thread - 18/INFO]: [0;31;1mWarning: bob_the_builder has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet, scarlet_r, yarquesh, Ethonian, Jank_Boteko, ViggYee174, caden_da_gangsta, caden, John_MinecraftPC, glep, junkler3000, neaga, DANKBEEF, Cowboy, nigge, nigge_, Everett[m
+
+[15:49:09] [Server thread/INFO]: caden was blown up by Creeper
+[15:49:12] [Server thread/INFO]: Steven issued server command: /tpa bob_the_builder
+[15:49:23] [Server thread/INFO]: bob_the_builder lost connection: Login timed out!
+[15:49:23] [Server thread/INFO]: bob_the_builder left the game.
+[15:49:23] [Server thread/WARN]: handleDisconnection() called twice
+[15:49:24] [Async Chat Thread - #2/INFO]: <Steven> do /accept[m
+
+[15:50:31] [Server thread/INFO]: Steven issued server command: /TPA CADEN
+[15:50:41] [Server thread/INFO]: Steven issued server command: /acce[t
+[15:50:53] [Server thread/INFO]: caden issued server command: /TPACCEPT
+[15:50:56] [Server thread/INFO]: Steven issued server command: /home Steven
+[15:51:01] [Server thread/INFO]: DANKBEEF lost connection: Disconnected
+[15:51:01] [Server thread/INFO]: DANKBEEF left the game.
+[15:51:17] [Thread-48/INFO]: UUID of player DANKBEEF is 236ee08e-e19f-351a-997f-26d0ab803645
+[15:51:17] [Server thread/INFO]: DANKBEEF[/[0:0:0:0:0:0:0:1]:45144] logged in with entity id 13547 at ([world]265.69999998807884, 13.0, 191.96953560654183)
+[15:51:18] [Craft Scheduler Thread - 23/INFO]: [0;31;1mWarning: DANKBEEF has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet, scarlet_r, yarquesh, Ethonian, Jank_Boteko, ViggYee174, caden_da_gangsta, caden, John_MinecraftPC, glep, junkler3000, neaga, Cowboy, nigge, nigge_, bob_the_builder, Everett[m
+
+[15:51:20] [Server thread/INFO]: Steven issued server command: /suicide
+[15:51:20] [Server thread/INFO]: Steven died
+[15:51:20] [Server thread/INFO]: [0;31;1m[21mSteven killed himself[m
+
+[15:51:20] [Server thread/ERROR]: [Suicide] The sound you're trying to play isn't registered in this Minecraft Version: ENTITY_ZOMBIE_HURT
+[15:51:48] [Server thread/INFO]: Steven issued server command: /tpa junkler3000
+[15:51:54] [Server thread/INFO]: junkler3000 issued server command: /deny
+[15:52:49] [Server thread/INFO]: junkler3000 was slain by Steven
+[15:52:58] [Async Chat Thread - #3/INFO]: <John_MinecraftPC> who is dankbeef[m
+
+[15:53:02] [Server thread/INFO]: Steven issued server command: /home Steven
+[15:53:10] [Server thread/INFO]: Steven issued server command: /tpa junkler 3000
+[15:53:13] [Server thread/INFO]: junkler3000 issued server command: /steven get back here
+[15:53:15] [Server thread/INFO]: junkler3000 issued server command: /accept
+[15:53:18] [Server thread/INFO]: rocco lost connection: Disconnected
+[15:53:18] [Server thread/INFO]: rocco left the game.
+[15:53:25] [Async Chat Thread - #3/INFO]: <junkler3000> steven gat back here[m
+
+[15:53:28] [Server thread/INFO]: Steven issued server command: /home Steven
+[15:54:01] [Async Chat Thread - #3/INFO]: <Steven> what you making[m
+
+[15:54:13] [Async Chat Thread - #3/INFO]: <caden> A Path[m
+
+[15:54:17] [Async Chat Thread - #3/INFO]: <Steven> nice[m
+
+[15:54:40] [Thread-49/INFO]: UUID of player Everett is fb41e5da-6202-3064-9d65-134338a2a9f9
+[15:54:40] [Server thread/INFO]: Everett[/[0:0:0:0:0:0:0:1]:32808] logged in with entity id 15754 at ([world]174.20361306375375, 64.0, 247.96876806157104)
+[15:54:41] [Craft Scheduler Thread - 27/INFO]: [0;31;1mWarning: Everett has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet, scarlet_r, yarquesh, Ethonian, Jank_Boteko, ViggYee174, caden_da_gangsta, caden, John_MinecraftPC, glep, junkler3000, neaga, DANKBEEF, Cowboy, nigge, nigge_, bob_the_builder[m
+
+[15:55:05] [Server thread/INFO]: junkler3000 issued server command: /tpa steven
+[15:55:09] [Server thread/INFO]: Steven issued server command: /accept
+[15:55:11] [Async Chat Thread - #3/INFO]: <caden> wwwwwwwwww[m
+
+[15:55:41] [Server thread/INFO]: Everett lost connection: Login timed out!
+[15:55:41] [Server thread/INFO]: Everett left the game.
+[15:55:41] [Server thread/WARN]: handleDisconnection() called twice
+[15:55:44] [Thread-50/INFO]: UUID of player Everett is fb41e5da-6202-3064-9d65-134338a2a9f9
+[15:55:44] [Server thread/INFO]: Everett[/[0:0:0:0:0:0:0:1]:54674] logged in with entity id 16448 at ([world]174.02134765501754, 64.0, 247.6729399582842)
+[15:55:45] [Craft Scheduler Thread - 28/INFO]: [0;31;1mWarning: Everett has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet, scarlet_r, yarquesh, Ethonian, Jank_Boteko, ViggYee174, caden_da_gangsta, caden, John_MinecraftPC, glep, junkler3000, neaga, DANKBEEF, Cowboy, nigge, nigge_, bob_the_builder[m
+
+[15:56:17] [Server thread/INFO]: caden has just earned the achievement [Benchmarking]
+[15:56:19] [Server thread/INFO]: Everett issued server command: /WTZRQ
+[15:56:36] [Async Chat Thread - #4/INFO]: <caden> 5[m
+
+[15:56:41] [Server thread/INFO]: John_MinecraftPC issued server command: /tpa caden
+[15:56:45] [Async Chat Thread - #4/INFO]: <Steven> what[m
+
+[15:56:52] [Async Chat Thread - #4/INFO]: <John_MinecraftPC> tp me[m
+
+[15:56:58] [Server thread/INFO]: John_MinecraftPC issued server command: /tpa steven
+[15:57:04] [Async Chat Thread - #4/INFO]: <Steven> accept[m
+
+[15:57:07] [Server thread/INFO]: Steven issued server command: /accept
+[15:57:10] [Server thread/INFO]: John_MinecraftPC issued server command: /tpaccept
+[15:57:17] [Server thread/INFO]: John_MinecraftPC issued server command: /tpaccept
+[15:57:32] [Async Chat Thread - #4/INFO]: <John_MinecraftPC> why aint i gon[m
+
+[15:57:38] [Async Chat Thread - #4/INFO]: <Steven> dont move[m
+
+[15:58:24] [Server thread/INFO]: junkler3000 has just earned the achievement [Taking Inventory]
+[15:58:34] [Server thread/WARN]: John_MinecraftPC moved wrongly!
+[15:59:14] [Async Chat Thread - #5/INFO]: <caden> steven can u get me glass[m
+
+[15:59:34] [Async Chat Thread - #5/INFO]: <Steven> domt ypu have some[m
+
+[15:59:55] [Server thread/INFO]: junkler3000 was slain by Steven
+[16:00:21] [Server thread/INFO]: Steven issued server command: /home Steven
+[16:01:44] [Server thread/INFO]: junkler3000 fell from a high place
+[16:02:04] [Async Chat Thread - #6/INFO]: <John_MinecraftPC> i think your mob farm broke[m
+
+[16:02:10] [Async Chat Thread - #6/INFO]: <Steven> wdym[m
+
+[16:02:14] [Async Chat Thread - #6/INFO]: <John_MinecraftPC> no mobs[m
+
+[16:02:20] [Async Chat Thread - #6/INFO]: <John_MinecraftPC> nvm[m
+
+[16:02:24] [Async Chat Thread - #6/INFO]: <John_MinecraftPC> just slow af[m
+
+[16:02:25] [Async Chat Thread - #6/INFO]: <Steven> its gay sometimes[m
+
+[16:02:42] [Server thread/INFO]: junkler3000 issued server command: /BACK
+[16:02:44] [Server thread/INFO]: Everett was blown up by Creeper
+[16:02:49] [Server thread/INFO]: Everett issued server command: /back
+[16:03:11] [Server thread/INFO]: There are 6/20000 players online:
+[16:03:11] [Server thread/INFO]: John_MinecraftPC, caden, DANKBEEF, Steven, junkler3000, Everett
