@@ -259,3 +259,32 @@ Caused by: java.util.zip.ZipException: zip END header not found
 [23:07:10] [Server thread/INFO]: [BanManager] Enabling BanManager v7.9.0
 [23:07:12] [Server thread/WARN]: [Server thread] INFO me.confuser.banmanager.common.hikari.HikariDataSource - bm-local - Starting...
 
+[23:07:14] [Server thread/WARN]: [Server thread] INFO me.confuser.banmanager.common.hikari.HikariDataSource - bm-local - Start completed.
+
+[23:07:16] [Server thread/INFO]: [BanManager] Loaded 1 bans into memory
+[23:07:16] [Server thread/INFO]: [BanManager] Loaded 0 mutes into memory
+[23:07:17] [Server thread/INFO]: [BanManager] Loaded 0 ip bans into memory
+[23:07:17] [Server thread/INFO]: [BanManager] Loaded 0 ip mutes into memory
+[23:07:18] [Server thread/INFO]: [BanManager] Loaded 0 ip range bans into memory
+[23:07:18] [Server thread/INFO]: [BanManager] Loaded 0 name bans into memory
+[23:07:18] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
+[23:07:18] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[23:07:18] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[23:07:18] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[23:07:18] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[23:07:19] [Server thread/INFO]: [InvSee++_Clear] Enabling InvSeePlusPlus_Clear v0.29.4
+[23:07:19] [Server thread/INFO]: [InvSee++_Give] Enabling InvSeePlusPlus_Give v0.29.4
+[23:07:19] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[23:07:19] [Server thread/INFO]: Done (25.290s)! For help, type "help" or "?"
+[23:07:19] [Server thread/INFO]: Timings Reset
+[23:07:19] [Server thread/INFO]: [BanManager] The following commands are blocked whilst muted:
+[23:07:19] [Server thread/INFO]: [BanManager] msg
+[23:07:19] [Server thread/INFO]: [BanManager] The following commands are blocked whilst soft muted:
+[23:07:19] [Server thread/INFO]: [BanManager] msg
+[23:07:20] [Craft Scheduler Thread - 1/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
+
+[23:07:20] [Craft Scheduler Thread - 1/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
+
+[23:07:20] [Craft Scheduler Thread - 1/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
+
+[23:07:20] [Server thread/INFO]: [Suicide] You are using the latest version of Suicide.
