@@ -321,3 +321,6 @@ Caused by: java.util.zip.ZipException: zip END header not found
 [18:46:43] [Async Chat Thread - #0/INFO]: <Curry_Muncher> massacring chickens rn[m
 
 [18:52:02] [Server thread/INFO]: Curry_Muncher issued server command: /seteven can you sleep
+[18:52:10] [Async Chat Thread - #1/INFO]: <Curry_Muncher> steven can you sleep?[m
+
+[18:52:27] [Server thread/INFO]: [Server] you only need one person to sleep btw
