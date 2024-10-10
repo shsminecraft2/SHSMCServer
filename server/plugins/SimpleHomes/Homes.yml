@@ -87,6 +87,11 @@ the_sigma:
     X: 96.69323474352116
     Y: 67.0
     Z: 450.4010385943915
+  Base:
+    world: world
+    X: 403.9672195725465
+    Y: 66.0
+    Z: 407.69999998807907
 caden:
   <cadens:
     world: world
