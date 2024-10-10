@@ -293,3 +293,49 @@ Caused by: java.util.zip.ZipException: zip END header not found
 [15:53:18] [Craft Scheduler Thread - 1/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
 
 [15:53:18] [Server thread/INFO]: [Suicide] You are using the latest version of Suicide.
+[15:54:50] [Thread-10/INFO]: UUID of player caden is 1c17e1b0-26ef-3067-b20b-aebc29283c98
+[15:54:51] [Server thread/INFO]: caden[/[0:0:0:0:0:0:0:1]:58444] logged in with entity id 902 at ([world]149.6999999880791, 80.0, 1251.699999988079)
+[15:54:52] [Craft Scheduler Thread - 0/INFO]: [0;31;1mWarning: caden has the same IP as the following banned players:
+[0;33;22mGeep[m
+
+[15:54:52] [Craft Scheduler Thread - 5/INFO]: [0;31;1mWarning: caden has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet, scarlet_r, yarquesh, Ethonian, Jank_Boteko, ViggYee174, caden_da_gangsta, John_MinecraftPC, glep, junkler3000, neaga, DANKBEEF, Cowboy, nigge, nigge_, bob_the_builder, Everett, YiggVigg282, Curry_Muncher, _sentientIMAC, ViggEagl622, Danny1, geep_, LittleBoyLover10, cadens, YeegDarver179, SpiceMonkey, skibidi_jizzler9, Curry_Muncher_[m
+
+[16:01:32] [Server thread/INFO]: There are 1/20000 players online:
+[16:01:32] [Server thread/INFO]: caden
+[16:02:18] [Server thread/WARN]: caden moved wrongly!
+[16:02:18] [Server thread/WARN]: caden moved wrongly!
+[16:02:18] [Server thread/WARN]: caden moved wrongly!
+[16:05:00] [Thread-12/INFO]: UUID of player IhaveaDUI_547 is c9726b2e-ca64-30b4-ba2a-185dcdf86f79
+[16:05:00] [Server thread/INFO]: IhaveaDUI_547[/[0:0:0:0:0:0:0:1]:38512] logged in with entity id 3157 at ([world]183.5, 64.0, 257.5)
+[16:05:01] [Craft Scheduler Thread - 6/INFO]: [0;31;1mWarning: IhaveaDUI_547 has the same IP as the following banned players:
+[0;33;22mGeep[m
+
+[16:05:01] [Craft Scheduler Thread - 7/INFO]: [0;31;1mWarning: IhaveaDUI_547 has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet, scarlet_r, yarquesh, Ethonian, Jank_Boteko, ViggYee174, caden_da_gangsta, caden, John_MinecraftPC, glep, junkler3000, neaga, DANKBEEF, Cowboy, nigge, nigge_, bob_the_builder, Everett, YiggVigg282, Curry_Muncher, _sentientIMAC, ViggEagl622, Danny1, geep_, LittleBoyLover10, cadens, YeegDarver179, SpiceMonkey, skibidi_jizzler9, Curry_Muncher_[m
+
+[16:05:31] [Server thread/INFO]: IhaveaDUI_547 has just earned the achievement [Taking Inventory]
+[16:06:01] [Server thread/INFO]: IhaveaDUI_547 lost connection: Login timed out!
+[16:06:01] [Server thread/INFO]: IhaveaDUI_547 left the game.
+[16:06:01] [Server thread/WARN]: handleDisconnection() called twice
+[16:06:05] [Thread-13/INFO]: UUID of player IhaveaDUI_547 is c9726b2e-ca64-30b4-ba2a-185dcdf86f79
+[16:06:05] [Server thread/INFO]: IhaveaDUI_547[/[0:0:0:0:0:0:0:1]:33970] logged in with entity id 3509 at ([world]183.45915282969486, 64.0, 257.3956580483736)
+[16:06:06] [Craft Scheduler Thread - 9/INFO]: [0;31;1mWarning: IhaveaDUI_547 has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet, scarlet_r, yarquesh, Ethonian, Jank_Boteko, ViggYee174, caden_da_gangsta, caden, John_MinecraftPC, glep, junkler3000, neaga, DANKBEEF, Cowboy, nigge, nigge_, bob_the_builder, Everett, YiggVigg282, Curry_Muncher, _sentientIMAC, ViggEagl622, Danny1, geep_, LittleBoyLover10, cadens, YeegDarver179, SpiceMonkey, skibidi_jizzler9, Curry_Muncher_[m
+
+[16:06:45] [Server thread/INFO]: IhaveaDUI_547 lost connection: Disconnected
+[16:06:45] [Server thread/INFO]: IhaveaDUI_547 left the game.
+[16:06:52] [Thread-14/INFO]: UUID of player IhaveaDUI_547 is c9726b2e-ca64-30b4-ba2a-185dcdf86f79
+[16:06:52] [Server thread/INFO]: IhaveaDUI_547[/[0:0:0:0:0:0:0:1]:40748] logged in with entity id 3653 at ([world]183.3543491019145, 64.0, 257.9100872184815)
+[16:06:53] [Craft Scheduler Thread - 9/INFO]: [0;31;1mWarning: IhaveaDUI_547 has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet, scarlet_r, yarquesh, Ethonian, Jank_Boteko, ViggYee174, caden_da_gangsta, caden, John_MinecraftPC, glep, junkler3000, neaga, DANKBEEF, Cowboy, nigge, nigge_, bob_the_builder, Everett, YiggVigg282, Curry_Muncher, _sentientIMAC, ViggEagl622, Danny1, geep_, LittleBoyLover10, cadens, YeegDarver179, SpiceMonkey, skibidi_jizzler9, Curry_Muncher_[m
+
+[16:06:59] [Server thread/INFO]: IhaveaDUI_547 issued server command: /yyyyyyy
+[16:07:03] [Server thread/INFO]: IhaveaDUI_547 issued server command: /b
+[16:07:11] [Server thread/INFO]: There are 2/20000 players online:
+[16:07:11] [Server thread/INFO]: caden, IhaveaDUI_547
+[16:07:14] [Server thread/INFO]: IhaveaDUI_547 issued server command: /wht=at uhkehfkjwhjhsdf
+[16:07:41] [Server thread/INFO]: IhaveaDUI_547 lost connection: Disconnected
+[16:07:41] [Server thread/INFO]: IhaveaDUI_547 left the game.
+[16:07:44] [Server thread/INFO]: [0;33;1m[ProtocolLib] The updater found an update: 5.2.0 (Running 5.2.0-SNAPSHOT-679). Download at https://www.spigotmc.org/resources/protocollib.1997/[m
+
