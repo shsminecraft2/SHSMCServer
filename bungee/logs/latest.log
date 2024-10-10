@@ -54,3 +54,17 @@
 [23:07:09] [main/INFO] [EaglercraftXBungee]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
 [23:07:09] [main/INFO]: Enabled plugin EaglercraftXBungee version 1.0.10 by lax1dude
 [23:07:09] [Netty Boss IO Thread #0/INFO]: Listening on /127.0.0.1:25577
+[23:21:30] [Netty Worker IO Thread #0/WARN] [EaglercraftXBungee]: Server icon is not a file: /workspaces/SHSMCServer/bungee/server-icon.png
+[23:21:31] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:37596]: Connected via websocket
+[23:21:31] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:37596]: Origin header is http://localhost:8081
+[23:21:31] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:37596]: Logged in as 'DANKBEEF'
+[23:21:31] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:37596|DANKBEEF] -> UpstreamBridge has connected
+[23:21:31] [Netty Worker IO Thread #1/INFO]: [DANKBEEF|/[0:0:0:0:0:0:0:1%0]:37596] <-> ServerConnector [lobby] has connected
+[23:23:34] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:37596|DANKBEEF] -> UpstreamBridge has disconnected
+[23:23:34] [Netty Worker IO Thread #1/INFO]: [DANKBEEF] disconnected with: Proxy lost connection to server.
+[23:23:34] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:37596|DANKBEEF] <-> DownstreamBridge <-> [lobby] has disconnected
+[23:50:10] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:34306]: Connected via websocket
+[23:50:10] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:34306]: Origin header is http://localhost:8081
+[23:50:10] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:34306]: Logged in as 'caden'
+[23:50:10] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:34306|caden] -> UpstreamBridge has connected
+[23:50:10] [Netty Worker IO Thread #3/INFO]: [caden|/[0:0:0:0:0:0:0:1%0]:34306] <-> ServerConnector [lobby] has connected
