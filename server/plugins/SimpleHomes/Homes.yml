@@ -24,6 +24,11 @@ BaconMania:
     X: 730.7947230559896
     Y: 66.0
     Z: 301.63091733655466
+  dannybase:
+    world: world
+    X: 142.37498955130687
+    Y: 75.0
+    Z: 1223.718636789452
 Steven:
   Steven:
     world: world
