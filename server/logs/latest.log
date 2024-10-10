@@ -1,2 +1,46 @@
 [00:04:07] [Server thread/INFO]: There are 1/20000 players online:
 [00:04:07] [Server thread/INFO]: caden
+[00:06:19] [Server thread/INFO]: caden lost connection: Disconnected
+[00:06:19] [Server thread/INFO]: caden left the game.
+[00:07:54] [Thread-13/INFO]: UUID of player caden is 1c17e1b0-26ef-3067-b20b-aebc29283c98
+[00:07:55] [Server thread/INFO]: caden[/[0:0:0:0:0:0:0:1]:51402] logged in with entity id 5104 at ([world]227.10960352402049, 62.0, 254.27870938725914)
+[00:07:56] [Craft Scheduler Thread - 13/INFO]: [0;31;1mWarning: caden has the same IP as the following banned players:
+[0;33;22mGeep[m
+
+[00:07:56] [Craft Scheduler Thread - 16/INFO]: [0;31;1mWarning: caden has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet, scarlet_r, yarquesh, Ethonian, Jank_Boteko, ViggYee174, caden_da_gangsta, John_MinecraftPC, glep, junkler3000, neaga, DANKBEEF, Cowboy, nigge, nigge_, bob_the_builder, Everett, YiggVigg282, Curry_Muncher, _sentientIMAC, ViggEagl622, Danny1, geep_, LittleBoyLover10, cadens, YeegDarver179, SpiceMonkey, skibidi_jizzler9[m
+
+[00:18:40] [Server thread/INFO]: caden was slain by Zombie
+[00:19:59] [Server thread/INFO]: caden issued server command: /back
+[00:35:55] [Server thread/INFO]: caden lost connection: Disconnected
+[00:35:55] [Server thread/INFO]: caden left the game.
+[00:38:14] [Server thread/INFO]: Stopping the server
+[00:38:14] [Server thread/INFO]: Stopping server
+[00:38:14] [Server thread/INFO]: [InvSee++_Give] Disabling InvSeePlusPlus_Give v0.29.4
+[00:38:14] [Server thread/INFO]: [InvSee++_Clear] Disabling InvSeePlusPlus_Clear v0.29.4
+[00:38:14] [Server thread/INFO]: [LoginSecurity] Disabling LoginSecurity v3.2.0
+[00:38:14] [Server thread/INFO]: [LoginSecurity] Waiting for queued tasks...
+[00:38:14] [Server thread/INFO]: [LoginSecurity] ExecutorService shut down, ready to disable.
+[00:38:14] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.2.0-SNAPSHOT-679
+[00:38:14] [Server thread/INFO]: [BanManager] Disabling BanManager v7.9.0
+[00:38:14] [Server thread/INFO]: [InvSee++] Disabling InvSeePlusPlus v0.29.4
+[00:38:14] [Server thread/INFO]: [OnePlayerSleep] Disabling OnePlayerSleep v1.3
+[00:38:14] [Server thread/INFO]: [SimpleHomes] Disabling SimpleHomes v2.2
+[00:38:14] [Server thread/INFO]: [Suicide] Disabling Suicide v1.4.6
+[00:38:14] [Server thread/INFO]: [Suicide] Plugin Disabled!
+[00:38:14] [Server thread/INFO]: [Sudo] Disabling Sudo v1
+[00:38:14] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v6.1;no_git_id
+[00:38:14] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.141
+[00:38:14] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[00:38:14] [Server thread/INFO]: [LuckPerms] Closing storage...
+[00:38:14] [Server thread/INFO]: [LuckPerms] Goodbye!
+[00:38:14] [Server thread/INFO]: [SimpleTpa] Disabling SimpleTpa v6.4
+[00:38:14] [Server thread/INFO]: [0;36;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+
+[00:38:14] [Server thread/INFO]: [0;36;1m[21m[SimpleTpa] Simple Tpa has been disabled on version 6.4[m
+
+[00:38:14] [Server thread/INFO]: Saving players
+[00:38:14] [Server thread/INFO]: Saving worlds
+[00:38:14] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[00:38:14] [Server thread/INFO]: Saving chunks for level 'world_nether'/Nether
+[00:38:14] [Server thread/INFO]: Saving chunks for level 'world_the_end'/The End
