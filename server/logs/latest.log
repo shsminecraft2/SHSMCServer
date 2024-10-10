@@ -1,38 +1,38 @@
-[03:55:56] [Server thread/INFO]: Starting minecraft server version 1.8.8
-[03:55:56] [Server thread/INFO]: Loading properties
-[03:55:56] [Server thread/INFO]: Default game type: SURVIVAL
-[03:55:56] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
-[03:55:56] [Server thread/INFO]: Debug logging is disabled
-[03:55:56] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
-[03:55:56] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:52:50] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[15:52:50] [Server thread/INFO]: Loading properties
+[15:52:50] [Server thread/INFO]: Default game type: SURVIVAL
+[15:52:51] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[15:52:51] [Server thread/INFO]: Debug logging is disabled
+[15:52:51] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[15:52:51] [Server thread/INFO]: Server Ping Player Sample Count: 12
 
-[03:55:56] [Server thread/INFO]: Using 4 threads for Netty based IO
-[03:55:56] [Server thread/INFO]: Data value allowed items: 
-[03:55:56] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+[15:52:51] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:52:51] [Server thread/INFO]: Data value allowed items: 
+[15:52:51] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
 
-[03:55:56] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+[15:52:51] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
 
-[03:55:56] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
+[15:52:51] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
 
-[03:55:56] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[15:52:51] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 
-[03:55:56] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[15:52:51] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 
-[03:55:56] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
+[15:52:51] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
 
-[03:55:56] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
+[15:52:51] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
 
-[03:55:56] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
+[15:52:51] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
 
-[03:55:56] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+[15:52:51] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
 
-[03:55:56] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[15:52:51] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
 
-[03:55:56] [Server thread/INFO]: Generating keypair
-[03:55:57] [Server thread/INFO]: Starting Minecraft server on localhost:25565
-[03:55:57] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
-[03:55:57] [Server thread/INFO]: Using default channel type
-[03:55:57] [Server thread/ERROR]: Could not load 'plugins/MuteSystem-Bungee-2.2.jar' in folder 'plugins'
+[15:52:51] [Server thread/INFO]: Generating keypair
+[15:52:51] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[15:52:51] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[15:52:51] [Server thread/INFO]: Using default channel type
+[15:52:52] [Server thread/ERROR]: Could not load 'plugins/MuteSystem-Bungee-2.2.jar' in folder 'plugins'
 org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
 	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:160) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:136) ~[patched_1.8.8.jar:git-PaperSpigot-445]
@@ -53,1272 +53,243 @@ Caused by: java.util.zip.ZipException: zip END header not found
 	at java.util.jar.JarFile.<init>(JarFile.java:282) ~[?:?]
 	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:148) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	... 5 more
-[03:55:57] [Server thread/INFO]: Set PluginClassLoader as parallel capable
-[03:55:57] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
-[03:55:57] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.141
-[03:55:58] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
-[03:55:58] [Server thread/INFO]: [Sudo] Loading Sudo v1
-[03:55:58] [Server thread/INFO]: [Suicide] Loading Suicide v1.4.6
-[03:55:58] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
-[03:55:58] [Server thread/INFO]: [OnePlayerSleep] Loading OnePlayerSleep v1.3
-[03:55:58] [Server thread/INFO]: [InvSee++] Loading InvSeePlusPlus v0.29.4
-[03:55:58] [Server thread/INFO]: [BanManager] Loading BanManager v7.9.0
-[03:55:58] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v5.2.0-SNAPSHOT-679
-[03:56:00] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
-[03:56:00] [Server thread/INFO]: [InvSee++_Clear] Loading InvSeePlusPlus_Clear v0.29.4
-[03:56:00] [Server thread/INFO]: [InvSee++_Give] Loading InvSeePlusPlus_Give v0.29.4
-[03:56:00] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.141
-[03:56:00] [Server thread/INFO]: [0;36;1m       [0;36;22m __    [m
-
-[03:56:00] [Server thread/INFO]: [0;36;1m  |    [0;36;22m|__)   [0;32;22mLuckPerms[m [0;36;1mv5.4.141[m
-
-[03:56:00] [Server thread/INFO]: [0;36;1m  |___ [0;36;22m|      [0;30;1mRunning on Bukkit - CraftBukkit[m
-
-[03:56:00] [Server thread/INFO]: [m
-
-[03:56:00] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[03:56:01] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[03:56:03] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[03:56:03] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[03:56:04] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 3671ms)
-[03:56:04] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.2.0-SNAPSHOT-679
-[03:56:04] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[03:56:04] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[03:56:04] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
-[03:56:04] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
-[03:56:04] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[03:56:04] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[03:56:04] [Server thread/INFO]: Preparing level "world"
-[03:56:04] [Server thread/INFO]: -------- World Settings For [world] --------
-[03:56:04] [Server thread/INFO]: Mob Spawn Range: 4
-[03:56:04] [Server thread/INFO]: Anti X-Ray: true
-[03:56:04] [Server thread/INFO]: 	Engine Mode: 1
-[03:56:04] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[03:56:04] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[03:56:04] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[03:56:04] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[03:56:04] [Server thread/INFO]: Cane Growth Modifier: 100%
-[03:56:04] [Server thread/INFO]: Melon Growth Modifier: 100%
-[03:56:04] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[03:56:04] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[03:56:04] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[03:56:04] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[03:56:04] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[03:56:04] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[03:56:04] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[03:56:04] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[03:56:04] [Server thread/INFO]: Random Lighting Updates: false
-[03:56:04] [Server thread/INFO]: Structure Info Saving: true
-[03:56:04] [Server thread/INFO]: Sending up to 10 chunks per packet
-[03:56:04] [Server thread/INFO]: Max Entity Collisions: 8
-[03:56:04] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[03:56:04] [Server thread/INFO]: Max TNT Explosions: 100
-[03:56:04] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[03:56:04] [Server thread/INFO]: Item Despawn Rate: 6000
-[03:56:04] [Server thread/INFO]: Item Merge Radius: 2.5
-[03:56:04] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[03:56:04] [Server thread/INFO]: View Distance: 4
-[03:56:04] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[03:56:04] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[03:56:04] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[03:56:04] [Server thread/INFO]: Clear tick list: false
-[03:56:04] [Server thread/INFO]: Experience Merge Radius: 3.0
-[03:56:04] [Server thread/INFO]: -------- World Settings For [world] --------
-[03:56:04] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[03:56:04] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[03:56:04] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[03:56:04] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[03:56:04] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[03:56:04] [Server thread/INFO]: Fix TNT cannons: false
-[03:56:04] [Server thread/INFO]: Water over lava flow speed: 5
-[03:56:04] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[03:56:04] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[03:56:04] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[03:56:04] [Server thread/INFO]: Keep spawn chunk loaded: true
-[03:56:04] [Server thread/INFO]: World async lighting: false
-[03:56:05] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[03:56:05] [Server thread/INFO]: Mob Spawn Range: 4
-[03:56:05] [Server thread/INFO]: Anti X-Ray: true
-[03:56:05] [Server thread/INFO]: 	Engine Mode: 1
-[03:56:05] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[03:56:05] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[03:56:05] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[03:56:05] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[03:56:05] [Server thread/INFO]: Cane Growth Modifier: 100%
-[03:56:05] [Server thread/INFO]: Melon Growth Modifier: 100%
-[03:56:05] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[03:56:05] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[03:56:05] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[03:56:05] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[03:56:05] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[03:56:05] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[03:56:05] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[03:56:05] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[03:56:05] [Server thread/INFO]: Random Lighting Updates: false
-[03:56:05] [Server thread/INFO]: Structure Info Saving: true
-[03:56:05] [Server thread/INFO]: Sending up to 10 chunks per packet
-[03:56:05] [Server thread/INFO]: Max Entity Collisions: 8
-[03:56:05] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[03:56:05] [Server thread/INFO]: Max TNT Explosions: 100
-[03:56:05] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[03:56:05] [Server thread/INFO]: Item Despawn Rate: 6000
-[03:56:05] [Server thread/INFO]: Item Merge Radius: 2.5
-[03:56:05] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[03:56:05] [Server thread/INFO]: View Distance: 4
-[03:56:05] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[03:56:05] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[03:56:05] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[03:56:05] [Server thread/INFO]: Clear tick list: false
-[03:56:05] [Server thread/INFO]: Experience Merge Radius: 3.0
-[03:56:05] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[03:56:05] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[03:56:05] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[03:56:05] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[03:56:05] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[03:56:05] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[03:56:05] [Server thread/INFO]: Fix TNT cannons: false
-[03:56:05] [Server thread/INFO]: Water over lava flow speed: 5
-[03:56:05] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[03:56:05] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[03:56:05] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[03:56:05] [Server thread/INFO]: Keep spawn chunk loaded: true
-[03:56:05] [Server thread/INFO]: World async lighting: false
-[03:56:05] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[03:56:05] [Server thread/INFO]: Mob Spawn Range: 4
-[03:56:05] [Server thread/INFO]: Anti X-Ray: true
-[03:56:05] [Server thread/INFO]: 	Engine Mode: 1
-[03:56:05] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[03:56:05] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[03:56:05] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[03:56:05] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[03:56:05] [Server thread/INFO]: Cane Growth Modifier: 100%
-[03:56:05] [Server thread/INFO]: Melon Growth Modifier: 100%
-[03:56:05] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[03:56:05] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[03:56:05] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[03:56:05] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[03:56:05] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[03:56:05] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[03:56:05] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[03:56:05] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[03:56:05] [Server thread/INFO]: Random Lighting Updates: false
-[03:56:05] [Server thread/INFO]: Structure Info Saving: true
-[03:56:05] [Server thread/INFO]: Sending up to 10 chunks per packet
-[03:56:05] [Server thread/INFO]: Max Entity Collisions: 8
-[03:56:05] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[03:56:05] [Server thread/INFO]: Max TNT Explosions: 100
-[03:56:05] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[03:56:05] [Server thread/INFO]: Item Despawn Rate: 6000
-[03:56:05] [Server thread/INFO]: Item Merge Radius: 2.5
-[03:56:05] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[03:56:05] [Server thread/INFO]: View Distance: 4
-[03:56:05] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[03:56:05] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[03:56:05] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[03:56:05] [Server thread/INFO]: Clear tick list: false
-[03:56:05] [Server thread/INFO]: Experience Merge Radius: 3.0
-[03:56:05] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[03:56:05] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[03:56:05] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[03:56:05] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[03:56:05] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[03:56:05] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[03:56:05] [Server thread/INFO]: Fix TNT cannons: false
-[03:56:05] [Server thread/INFO]: Water over lava flow speed: 5
-[03:56:05] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[03:56:05] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[03:56:05] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[03:56:05] [Server thread/INFO]: Keep spawn chunk loaded: true
-[03:56:05] [Server thread/INFO]: World async lighting: false
-[03:56:05] [Server thread/INFO]: Preparing start region for level 0 (Seed: 8746604822408410148)
-[03:56:06] [Server thread/INFO]: Preparing spawn area: 0%
-[03:56:07] [Server thread/INFO]: Preparing spawn area: 1%
-[03:56:08] [Server thread/INFO]: Preparing spawn area: 6%
-[03:56:09] [Server thread/INFO]: Preparing spawn area: 20%
-[03:56:10] [Server thread/INFO]: Preparing spawn area: 33%
-[03:56:11] [Server thread/INFO]: Preparing spawn area: 49%
-[03:56:12] [Server thread/INFO]: Preparing spawn area: 65%
-[03:56:13] [Server thread/INFO]: Preparing spawn area: 85%
-[03:56:14] [Server thread/INFO]: Preparing start region for level 1 (Seed: 8746604822408410148)
-[03:56:15] [Server thread/INFO]: Preparing spawn area: 2%
-[03:56:16] [Server thread/INFO]: Preparing spawn area: 4%
-[03:56:17] [Server thread/INFO]: Preparing spawn area: 15%
-[03:56:18] [Server thread/INFO]: Preparing spawn area: 63%
-[03:56:19] [Server thread/INFO]: Preparing start region for level 2 (Seed: 8746604822408410148)
-[03:56:19] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
-[03:56:19] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
-
-[03:56:19] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
-
-[03:56:19] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
-[03:56:19] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
-[03:56:19] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[03:56:19] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
-[03:56:19] [Server thread/INFO]: [Sudo] Enabling Sudo v1
-[03:56:19] [Server thread/INFO]: [Suicide] Enabling Suicide v1.4.6
-[03:56:19] [Server thread/INFO]: [Suicide] Plugin Enabled!
-[03:56:19] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
-[03:56:19] [Server thread/INFO]: [OnePlayerSleep] Enabling OnePlayerSleep v1.3
-[03:56:19] [Server thread/INFO]: [InvSee++] Enabling InvSeePlusPlus v0.29.4
-[03:56:20] [Server thread/INFO]: [BanManager] Enabling BanManager v7.9.0
-[03:56:20] [Server thread/WARN]: [Server thread] INFO me.confuser.banmanager.common.hikari.HikariDataSource - bm-local - Starting...
-
-[03:56:21] [Server thread/WARN]: [Server thread] INFO me.confuser.banmanager.common.hikari.HikariDataSource - bm-local - Start completed.
-
-[03:56:21] [Server thread/INFO]: [BanManager] Loaded 1 bans into memory
-[03:56:21] [Server thread/INFO]: [BanManager] Loaded 0 mutes into memory
-[03:56:25] [Server thread/INFO]: [BanManager] Loaded 0 ip bans into memory
-[03:56:26] [Server thread/INFO]: [BanManager] Loaded 0 ip mutes into memory
-[03:56:26] [Server thread/INFO]: [BanManager] Loaded 0 ip range bans into memory
-[03:56:26] [Server thread/INFO]: [BanManager] Loaded 0 name bans into memory
-[03:56:26] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
-[03:56:26] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
-[03:56:26] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
-[03:56:26] [Server thread/INFO]: [LoginSecurity] Registering commands...
-[03:56:26] [Server thread/INFO]: [LoginSecurity] Registering listeners...
-[03:56:26] [Server thread/INFO]: [InvSee++_Clear] Enabling InvSeePlusPlus_Clear v0.29.4
-[03:56:26] [Server thread/INFO]: [InvSee++_Give] Enabling InvSeePlusPlus_Give v0.29.4
-[03:56:26] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[03:56:26] [Server thread/INFO]: Done (22.499s)! For help, type "help" or "?"
-[03:56:26] [Server thread/INFO]: Timings Reset
-[03:56:26] [Server thread/INFO]: [BanManager] The following commands are blocked whilst muted:
-[03:56:26] [Server thread/INFO]: [BanManager] msg
-[03:56:26] [Server thread/INFO]: [BanManager] The following commands are blocked whilst soft muted:
-[03:56:26] [Server thread/INFO]: [BanManager] msg
-[03:56:27] [Craft Scheduler Thread - 1/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
-
-[03:56:27] [Craft Scheduler Thread - 1/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
-
-[03:56:27] [Craft Scheduler Thread - 1/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
-
-[03:56:27] [Server thread/INFO]: [Suicide] You are using the latest version of Suicide.
-[03:57:46] [Thread-10/INFO]: UUID of player BaconMania is 94cc9361-df90-3d70-a09d-55ea0279e1a1
-[03:57:47] [Server thread/INFO]: BaconMania[/[0:0:0:0:0:0:0:1]:49454] logged in with entity id 915 at ([world]730.5620184777152, 64.0, 276.8494792077365)
-[03:58:18] [Thread-11/INFO]: UUID of player caden is 1c17e1b0-26ef-3067-b20b-aebc29283c98
-[03:58:18] [Server thread/INFO]: caden[/[0:0:0:0:0:0:0:1]:49216] logged in with entity id 1067 at ([world]226.68487854754213, 62.0, 254.71069647382427)
-[03:58:19] [Craft Scheduler Thread - 5/INFO]: [0;31;1mWarning: caden has the same IP as the following banned players:
-[0;33;22mGeep[m
-
-[03:58:19] [Craft Scheduler Thread - 6/INFO]: [0;31;1mWarning: caden has the same IP as the following players:
-[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet, scarlet_r, yarquesh, Ethonian, Jank_Boteko, ViggYee174, caden_da_gangsta, John_MinecraftPC, glep, junkler3000, neaga, DANKBEEF, Cowboy, nigge, nigge_, bob_the_builder, Everett, YiggVigg282, Curry_Muncher, _sentientIMAC, ViggEagl622, Danny1, geep_, LittleBoyLover10, cadens, YeegDarver179, SpiceMonkey, skibidi_jizzler9, Curry_Muncher_[m
-
-[03:58:45] [Thread-12/INFO]: UUID of player Danny is ddcda591-f59a-39fa-ae6e-6744024d2256
-[03:58:45] [Server thread/INFO]: Danny[/[0:0:0:0:0:0:0:1]:50792] logged in with entity id 1453 at ([world]235.78303247595613, 64.0, 293.33761609594933)
-[03:58:46] [Craft Scheduler Thread - 5/INFO]: [0;31;1mWarning: Danny has the same IP as the following banned players:
-[0;33;22mGeep[m
-
-[03:58:46] [Craft Scheduler Thread - 1/INFO]: [0;31;1mWarning: Danny has the same IP as the following players:
-[0;33;22ma__, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet, scarlet_r, yarquesh, Ethonian, Jank_Boteko, ViggYee174, caden_da_gangsta, caden, John_MinecraftPC, glep, junkler3000, neaga, DANKBEEF, Cowboy, nigge, nigge_, bob_the_builder, Everett, YiggVigg282, Curry_Muncher, _sentientIMAC, ViggEagl622, Danny1, geep_, LittleBoyLover10, cadens, YeegDarver179, SpiceMonkey, skibidi_jizzler9, Curry_Muncher_[m
-
-[03:59:06] [Async Chat Thread - #0/INFO]: <caden> danny come to me[m
-
-[03:59:12] [Thread-13/INFO]: UUID of player Steven is 944d2caf-d932-3441-b30c-7e43d402ec4b
-[03:59:12] [Server thread/INFO]: Steven[/[0:0:0:0:0:0:0:1]:43466] logged in with entity id 1931 at ([world]730.588592354182, 66.0, 301.2503157050041)
-[03:59:13] [Craft Scheduler Thread - 1/INFO]: [0;31;1mWarning: Steven has the same IP as the following banned players:
-[0;33;22mGeep[m
-
-[03:59:13] [Craft Scheduler Thread - 5/INFO]: [0;31;1mWarning: Steven has the same IP as the following players:
-[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet, scarlet_r, yarquesh, Ethonian, Jank_Boteko, ViggYee174, caden_da_gangsta, caden, John_MinecraftPC, glep, junkler3000, neaga, DANKBEEF, Cowboy, nigge, nigge_, bob_the_builder, Everett, YiggVigg282, Curry_Muncher, _sentientIMAC, ViggEagl622, Danny1, geep_, LittleBoyLover10, cadens, YeegDarver179, SpiceMonkey, skibidi_jizzler9, Curry_Muncher_[m
-
-[03:59:18] [Async Chat Thread - #0/INFO]: <BaconMania> steven did you take my lapis[m
-
-[03:59:31] [Server thread/INFO]: BaconMania issued server command: /invsee steven
-[03:59:38] [Async Chat Thread - #0/INFO]: <Danny> what the fucking helll[m
-
-[03:59:45] [Server thread/INFO]: Steven issued server command: /home Steven
-[03:59:56] [Async Chat Thread - #0/INFO]: <Danny> who the hell griefed us again[m
-
-[04:00:13] [Thread-14/INFO]: UUID of player the_sigma is 4c9b5d90-a1ae-329e-991c-9e4cd9505024
-[04:00:13] [Server thread/INFO]: the_sigma[/[0:0:0:0:0:0:0:1]:49778] logged in with entity id 2476 at ([world]165.79076835875856, 11.0, 474.30666576008224)
-[04:00:14] [Craft Scheduler Thread - 1/INFO]: [0;31;1mWarning: the_sigma has the same IP as the following banned players:
-[0;33;22mGeep[m
-
-[04:00:14] [Craft Scheduler Thread - 7/INFO]: [0;31;1mWarning: the_sigma has the same IP as the following players:
-[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet, scarlet_r, yarquesh, Ethonian, Jank_Boteko, ViggYee174, caden_da_gangsta, caden, John_MinecraftPC, glep, junkler3000, neaga, DANKBEEF, Cowboy, nigge, nigge_, bob_the_builder, Everett, YiggVigg282, Curry_Muncher, _sentientIMAC, ViggEagl622, Danny1, geep_, LittleBoyLover10, cadens, YeegDarver179, SpiceMonkey, skibidi_jizzler9, Curry_Muncher_[m
-
-[04:00:15] [Async Chat Thread - #0/INFO]: <BaconMania> bro this is getting outta hand[m
-
-[04:00:22] [Server thread/INFO]: BaconMania issued server command: /home crib
-[04:00:24] [Async Chat Thread - #0/INFO]: <Steven> wdym[m
-
-[04:00:30] [Async Chat Thread - #0/INFO]: <caden> guys no one grifed u i was in there and there was 2 creepers and they exsploded[m
-
-[04:00:34] [Async Chat Thread - #0/INFO]: <Steven> time to move the bases[m
-
-[04:00:36] [Async Chat Thread - #0/INFO]: <Steven> okay[m
-
-[04:00:58] [Server thread/INFO]: Steven issued server command: /homee Evan
-[04:01:02] [Server thread/INFO]: Steven issued server command: /home Evan
-[04:01:07] [Async Chat Thread - #0/INFO]: <caden> folw me danny[m
-
-[04:01:12] [Async Chat Thread - #0/INFO]: <Danny> steven how do i get rid of a "home"[m
-
-[04:01:15] [Async Chat Thread - #0/INFO]: <caden> folow[m
-
-[04:01:17] [Server thread/INFO]: Steven issued server command: /home Steven
-[04:01:22] [Async Chat Thread - #0/INFO]: <Steven> moving it[m
-
-[04:01:46] [Async Chat Thread - #0/INFO]: <Danny> we need to move further[m
-
-[04:01:52] [Async Chat Thread - #0/INFO]: <Danny> like a whole new area[m
-
-[04:02:00] [Async Chat Thread - #0/INFO]: <Steven> whos sword was named skibidi slicerr[m
-
-[04:02:12] [Async Chat Thread - #0/INFO]: <the_sigma> i think that was lincloldns[m
-
-[04:02:33] [Async Chat Thread - #0/INFO]: <Danny> where are you guys?[m
-
-[04:02:37] [Async Chat Thread - #0/INFO]: <Steven> i killed him and took all of his stuff lol[m
-
-[04:03:26] [Async Chat Thread - #0/INFO]: <caden> wherwe we going[m
-
-[04:03:34] [Server thread/INFO]: BaconMania issued server command: /home newbase
-[04:03:53] [Async Chat Thread - #0/INFO]: <Steven> wya at[m
-
-[04:04:02] [Async Chat Thread - #0/INFO]: <Danny> everyone meet outside[m
-
-[04:04:06] [Async Chat Thread - #0/INFO]: <Steven> ill work on moving the stuff and taking the base down[m
-
-[04:04:14] [Async Chat Thread - #0/INFO]: <Steven> where outside[m
-
-[04:04:24] [Async Chat Thread - #0/INFO]: <Danny> the gate[m
-
-[04:04:37] [Async Chat Thread - #0/INFO]: <Danny> ig everyone follow me[m
-
-[04:05:29] [Async Chat Thread - #0/INFO]: <caden> where did u guys go[m
-
-[04:05:50] [Server thread/INFO]: caden issued server command: /tp
-[04:06:17] [Server thread/INFO]: Steven issued server command: /tpa Danny
-[04:06:37] [Async Chat Thread - #1/INFO]: <BaconMania> gtfo the fuck outta his house[m
-
-[04:06:42] [Async Chat Thread - #1/INFO]: <Steven> wya at[m
-
-[04:07:03] [Async Chat Thread - #1/INFO]: <caden> im still at bas how do i tp[m
-
-[04:07:09] [Server thread/INFO]: BaconMania issued server command: /tpa
-[04:07:11] [Async Chat Thread - #1/INFO]: <BaconMania> ./tpa[m
-
-[04:07:18] [Server thread/INFO]: caden issued server command: /tpa
-[04:07:33] [Server thread/INFO]: caden issued server command: /tpa (danny)
-[04:07:34] [Async Chat Thread - #1/INFO]: <Steven> dumping my inventory sorry zeke[m
-
-[04:07:43] [Server thread/INFO]: [0;33;1m[ProtocolLib] The updater found an update: 5.2.0 (Running 5.2.0-SNAPSHOT-679). Download at https://www.spigotmc.org/resources/protocollib.1997/[m
-
-[04:07:51] [Server thread/INFO]: Steven issued server command: /tpa Danny
-[04:07:52] [Server thread/INFO]: caden issued server command: /tpa (danny)
-[04:08:03] [Async Chat Thread - #1/INFO]: <Steven> accept danny[m
-
-[04:08:16] [Async Chat Thread - #1/INFO]: <Steven> wya[m
-
-[04:08:20] [Server thread/INFO]: caden issued server command: /tpa (steven)
-[04:08:25] [Async Chat Thread - #1/INFO]: <BaconMania> are you guys moving into zekes house[m
-
-[04:08:46] [Server thread/INFO]: caden issued server command: /tpa (Danny)
-[04:09:03] [Async Chat Thread - #1/INFO]: <Steven> BRO DANNY[m
-
-[04:09:11] [Async Chat Thread - #1/INFO]: <Steven> accept it[m
-
-[04:09:15] [Server thread/INFO]: the_sigma has just earned the achievement [Monster Hunter]
-[04:09:17] [Async Chat Thread - #1/INFO]: <Danny> one sec[m
-
-[04:09:22] [Async Chat Thread - #1/INFO]: <caden> it keeps saying the playyer is not online[m
-
-[04:09:26] [Server thread/INFO]: Steven issued server command: /tpa Danny
-[04:09:32] [Server thread/INFO]: Danny issued server command: /tpaccept
-[04:09:45] [Async Chat Thread - #1/INFO]: <Steven> is this where baas is[m
-
-[04:09:56] [Async Chat Thread - #1/INFO]: <Danny> idk im still looking[m
-
-[04:09:56] [Server thread/INFO]: caden issued server command: /tpa Danny
-[04:10:04] [Server thread/INFO]: Danny issued server command: /tpaccept
-[04:10:34] [Async Chat Thread - #1/INFO]: <Steven> found a spot[m
-
-[04:10:39] [Async Chat Thread - #1/INFO]: <Steven> on the lake[m
-
-[04:10:56] [Server thread/INFO]: Danny issued server command: /tpa Steven
-[04:11:02] [Async Chat Thread - #1/INFO]: <caden> where steven at[m
-
-[04:11:05] [Server thread/INFO]: Steven issued server command: /accept
-[04:11:11] [Async Chat Thread - #1/INFO]: <Steven> tp to me[m
-
-[04:11:16] [Server thread/INFO]: Danny issued server command: /tps steven
-[04:11:21] [Server thread/INFO]: caden issued server command: /tpa steven
-[04:11:24] [Server thread/INFO]: Danny issued server command: /tpa Steven
-[04:11:26] [Server thread/INFO]: Steven issued server command: /accept
-[04:11:38] [Async Chat Thread - #1/INFO]: <Steven> w spot?[m
-
-[04:11:39] [Server thread/INFO]: Danny issued server command: /tpcancel Steven
-[04:11:42] [Async Chat Thread - #1/INFO]: <Steven> danny tp to me[m
-
-[04:11:44] [Server thread/INFO]: Danny issued server command: /tpa Steven
-[04:11:49] [Server thread/INFO]: Steven issued server command: /accept
-[04:11:56] [Async Chat Thread - #1/INFO]: <Steven> its on the ocean[m
-
-[04:11:58] [Async Chat Thread - #1/INFO]: <caden> w[m
-
-[04:12:03] [Async Chat Thread - #1/INFO]: <BaconMania> danny are you afk[m
-
-[04:12:06] [Async Chat Thread - #1/INFO]: <Steven> should this be the spot?[m
-
-[04:12:09] [Async Chat Thread - #1/INFO]: <Danny> idk bro the ocean is really laggy[m
-
-[04:12:23] [Async Chat Thread - #1/INFO]: <Danny> im lagging like crazy rn[m
-
-[04:12:23] [Async Chat Thread - #1/INFO]: <Steven> follow[m
-
-[04:12:25] [Async Chat Thread - #1/INFO]: <caden> its fine[m
-
-[04:12:33] [Async Chat Thread - #1/INFO]: <BaconMania> check your video settings[m
-
-[04:12:38] [Async Chat Thread - #1/INFO]: <Steven> ON TOP OF MOUNTAIN[m
-
-[04:12:45] [Async Chat Thread - #1/INFO]: <caden> yes[m
-
-[04:12:48] [Async Chat Thread - #1/INFO]: <BaconMania> they reset every time I have to make a new github codespace sadly[m
-
-[04:13:18] [Async Chat Thread - #1/INFO]: <Steven> danny tp[m
-
-[04:13:21] [Server thread/INFO]: Danny issued server command: /tpa Steven
-[04:13:26] [Server thread/INFO]: Steven issued server command: /accept
-[04:13:34] [Async Chat Thread - #1/INFO]: <Steven> what do you think[m
-
-[04:13:38] [Server thread/INFO]: Danny issued server command: /tpa Steven
-[04:13:42] [Server thread/INFO]: Steven issued server command: /accept
-[04:13:52] [Async Chat Thread - #1/INFO]: <caden> w[m
-
-[04:14:03] [Async Chat Thread - #1/INFO]: <Danny> w[m
-
-[04:14:07] [Async Chat Thread - #1/INFO]: <Steven> tp caden[m
-
-[04:14:18] [Async Chat Thread - #1/INFO]: <Steven> bas protected by the mountians[m
-
-[04:14:29] [Async Chat Thread - #1/INFO]: <Danny> at the bottom right here is perfect[m
-
-[04:14:31] [Async Chat Thread - #1/INFO]: <Steven> set the home here[m
-
-[04:14:45] [Server thread/INFO]: Steven issued server command: /delhome Evan
-[04:14:46] [Async Chat Thread - #1/INFO]: <Danny> how do i delete the home i allready have set[m
-
-[04:14:53] [Server thread/INFO]: Steven issued server command: /sethome HOME
-[04:14:59] [Async Chat Thread - #1/INFO]: <Steven> do /delhome[m
-
-[04:15:03] [Async Chat Thread - #1/INFO]: <Steven> and the name[m
-
-[04:15:12] [Server thread/INFO]: Danny issued server command: /delhome <house>
-[04:15:23] [Async Chat Thread - #1/INFO]: <Steven> ima start moving stuff in[m
-
-[04:15:24] [Server thread/INFO]: Danny issued server command: /delhome <home>
-[04:15:27] [Async Chat Thread - #1/INFO]: <Steven> wya caden[m
-
-[04:15:32] [Async Chat Thread - #1/INFO]: <Steven> never mind[m
-
-[04:15:36] [Server thread/INFO]: Danny issued server command: /sethome <home>
-[04:15:37] [Server thread/INFO]: Steven issued server command: /home Steven
-[04:15:49] [Server thread/INFO]: Danny issued server command: /delhome <pearls>
-[04:15:53] [Server thread/INFO]: Danny issued server command: /tpa Steven
-[04:16:07] [Async Chat Thread - #1/INFO]: <Steven> did you set home danny?[m
-
-[04:16:11] [Async Chat Thread - #1/INFO]: <Danny> yep[m
-
-[04:16:14] [Async Chat Thread - #1/INFO]: <caden> how do u[m
-
-[04:16:22] [Async Chat Thread - #1/INFO]: <Steven> do /sethome Home[m
-
-[04:16:31] [Server thread/INFO]: Danny issued server command: /tpa Steven
-[04:16:32] [Server thread/INFO]: caden issued server command: /sethome
-[04:16:58] [Async Chat Thread - #1/INFO]: <caden> <home>[m
-
-[04:17:13] [Async Chat Thread - #1/INFO]: <Steven> do /sethome Home[m
-
-[04:17:30] [Server thread/INFO]: the_sigma issued server command: /sethome Home
-[04:17:46] [Async Chat Thread - #1/INFO]: <caden> dude my game is accting up[m
-
-[04:17:50] [Server thread/INFO]: BaconMania issued server command: /delhome cave
-[04:17:58] [Server thread/INFO]: caden lost connection: Disconnected
-[04:17:58] [Server thread/INFO]: caden left the game.
-[04:18:00] [Thread-17/INFO]: UUID of player caden is 1c17e1b0-26ef-3067-b20b-aebc29283c98
-[04:18:00] [Server thread/INFO]: caden[/[0:0:0:0:0:0:0:1]:41212] logged in with entity id 15189 at ([world]147.5731468019488, 74.0, 1228.344315338204)
-[04:18:01] [Craft Scheduler Thread - 11/INFO]: [0;31;1mWarning: caden has the same IP as the following banned players:
-[0;33;22mGeep[m
-
-[04:18:01] [Craft Scheduler Thread - 10/INFO]: [0;31;1mWarning: caden has the same IP as the following players:
-[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet, scarlet_r, yarquesh, Ethonian, Jank_Boteko, ViggYee174, caden_da_gangsta, John_MinecraftPC, glep, junkler3000, neaga, DANKBEEF, Cowboy, nigge, nigge_, bob_the_builder, Everett, YiggVigg282, Curry_Muncher, _sentientIMAC, ViggEagl622, Danny1, geep_, LittleBoyLover10, cadens, YeegDarver179, SpiceMonkey, skibidi_jizzler9, Curry_Muncher_[m
-
-[04:18:08] [Server thread/INFO]: caden lost connection: Disconnected
-[04:18:08] [Server thread/INFO]: caden left the game.
-[04:18:14] [Async Chat Thread - #1/INFO]: <Steven> danny tp to me[m
-
-[04:18:41] [Thread-18/INFO]: UUID of player caden is 1c17e1b0-26ef-3067-b20b-aebc29283c98
-[04:18:41] [Server thread/INFO]: caden[/[0:0:0:0:0:0:0:1]:48084] logged in with entity id 15447 at ([world]147.5731468019488, 74.0, 1228.344315338204)
-[04:18:42] [Craft Scheduler Thread - 9/INFO]: [0;31;1mWarning: caden has the same IP as the following banned players:
-[0;33;22mGeep[m
-
-[04:18:42] [Craft Scheduler Thread - 10/INFO]: [0;31;1mWarning: caden has the same IP as the following players:
-[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet, scarlet_r, yarquesh, Ethonian, Jank_Boteko, ViggYee174, caden_da_gangsta, John_MinecraftPC, glep, junkler3000, neaga, DANKBEEF, Cowboy, nigge, nigge_, bob_the_builder, Everett, YiggVigg282, Curry_Muncher, _sentientIMAC, ViggEagl622, Danny1, geep_, LittleBoyLover10, cadens, YeegDarver179, SpiceMonkey, skibidi_jizzler9, Curry_Muncher_[m
-
-[04:18:48] [Server thread/INFO]: BaconMania issued server command: /sethome iloveminors
-[04:18:53] [Server thread/INFO]: BaconMania issued server command: /home newbase
-[04:19:02] [Async Chat Thread - #1/INFO]: <caden> im back[m
-
-[04:19:02] [Server thread/INFO]: BaconMania issued server command: /set home base
-[04:19:07] [Server thread/INFO]: BaconMania issued server command: /sethome base
-[04:19:09] [Async Chat Thread - #1/INFO]: <Steven> did you set the home[m
-
-[04:19:09] [Server thread/INFO]: Danny issued server command: /tpa Steven
-[04:19:13] [Server thread/INFO]: Steven issued server command: /accept
-[04:19:20] [Server thread/INFO]: caden issued server command: /sethome
-[04:19:36] [Server thread/INFO]: caden issued server command: /sethome <cadens house>
-[04:19:37] [Server thread/INFO]: Danny issued server command: /sethome <old>
-[04:19:41] [Server thread/INFO]: BaconMania issued server command: /home crib
-[04:19:41] [Server thread/INFO]: the_sigma lost connection: Disconnected
-[04:19:41] [Server thread/INFO]: the_sigma left the game.
-[04:19:41] [Async Chat Thread - #1/INFO]: <caden> ya[m
-
-[04:19:49] [Async Chat Thread - #1/INFO]: <Steven> okay tp to me[m
-
-[04:19:59] [Async Chat Thread - #1/INFO]: <caden> pa steven[m
-
-[04:20:06] [Async Chat Thread - #1/INFO]: <caden> tpa steven[m
-
-[04:20:12] [Async Chat Thread - #1/INFO]: <Steven> do /[m
-
-[04:20:13] [Server thread/INFO]: Danny issued server command: /home <home>
-[04:20:17] [Server thread/INFO]: caden issued server command: /tpa steven
-[04:20:19] [Server thread/INFO]: Steven issued server command: /accept
-[04:20:20] [Async Chat Thread - #1/INFO]: <caden> ik[m
-
-[04:20:28] [Server thread/INFO]: BaconMania issued server command: /home base
-[04:20:57] [Server thread/INFO]: Danny issued server command: /home <old>
-[04:21:14] [Async Chat Thread - #1/INFO]: <Danny> dont break the ender chest[m
-
-[04:21:36] [Server thread/INFO]: Steven fell from a high place
-[04:21:41] [Server thread/INFO]: Steven issued server command: /back
-[04:21:52] [Server thread/INFO]: Steven issued server command: /home Steven
-[04:22:03] [Server thread/INFO]: caden issued server command: /tpa cadens home
-[04:22:13] [Server thread/INFO]: caden issued server command: /tpa home
-[04:22:14] [Async Chat Thread - #2/INFO]: <Steven> who broke the chest[m
-
-[04:22:21] [Async Chat Thread - #2/INFO]: <Steven> yall have autisim[m
-
-[04:22:22] [Async Chat Thread - #2/INFO]: <BaconMania> brb[m
-
-[04:22:23] [Async Chat Thread - #2/INFO]: <caden> mb[m
-
-[04:22:33] [Async Chat Thread - #2/INFO]: <caden> how do u go home[m
-
-[04:22:35] [Server thread/INFO]: Steven issued server command: /home Home
-[04:22:42] [Async Chat Thread - #2/INFO]: <Steven> do /home Home[m
-
-[04:22:45] [Server thread/INFO]: Steven issued server command: /home Base
-[04:22:50] [Server thread/INFO]: caden issued server command: /home
-[04:22:52] [Server thread/INFO]: Steven issued server command: /home BASE
-[04:22:57] [Server thread/INFO]: Steven issued server command: /home steven
-[04:23:02] [Server thread/INFO]: Steven issued server command: /home HOME
-[04:23:06] [Server thread/INFO]: caden issued server command: /home <cadens home
-[04:23:19] [Server thread/INFO]: caden issued server command: /home <caden home>
-[04:23:35] [Server thread/INFO]: Steven issued server command: /home Steven
-[04:23:47] [Server thread/INFO]: caden issued server command: /home <cadenshome>
-[04:23:52] [Server thread/INFO]: Steven issued server command: /home HOME
-[04:24:02] [Server thread/INFO]: caden issued server command: /home <cadens home>
-[04:24:20] [Async Chat Thread - #3/INFO]: <caden> its saying invalid permission[m
-
-[04:24:30] [Async Chat Thread - #3/INFO]: <Danny> do /home <home>[m
-
-[04:24:41] [Server thread/INFO]: Steven issued server command: /home Steven
-[04:24:46] [Server thread/INFO]: caden issued server command: /home <home>
-[04:25:00] [Server thread/INFO]: caden issued server command: /tpa danny
-[04:25:09] [Server thread/INFO]: Danny issued server command: /tpaccept
-[04:25:24] [Server thread/INFO]: BaconMania issued server command: /lp user caden permission set homes.command.home true
-[04:25:24] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBaconMania[0;30;1m)[m [0;30;1m[[0;32;1mU[0;30;1m][m [0;30;1m([0;36;1mcaden[0;30;1m)[m
-
-[04:25:24] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mpermission set homes.command.home true[m
-
-[04:25:51] [Server thread/INFO]: Steven issued server command: /home HOME
-[04:26:06] [Server thread/INFO]: caden issued server command: /tpa danny
-[04:26:06] [Server thread/INFO]: BaconMania lost connection: Disconnected
-[04:26:06] [Server thread/INFO]: BaconMania left the game.
-[04:26:13] [Server thread/INFO]: Danny issued server command: /tpaccept
-[04:26:50] [Server thread/INFO]: Steven issued server command: /home HOME
-[04:27:01] [Server thread/INFO]: Steven issued server command: /home Steven
-[04:27:08] [Server thread/INFO]: caden issued server command: /tpa steven
-[04:27:19] [Server thread/INFO]: Steven issued server command: /accept
-[04:28:29] [Async Chat Thread - #4/INFO]: <caden> can someone go home and then i can tp[m
-
-[04:28:33] [Server thread/INFO]: Danny lost connection: Timed out
-[04:28:33] [Server thread/INFO]: Danny left the game.
-[04:29:11] [Thread-19/INFO]: UUID of player Danny is ddcda591-f59a-39fa-ae6e-6744024d2256
-[04:29:12] [Server thread/INFO]: Danny[/[0:0:0:0:0:0:0:1]:47704] logged in with entity id 19948 at ([world]235.5063982226847, 64.0, 289.2281496609642)
-[04:29:13] [Craft Scheduler Thread - 13/INFO]: [0;31;1mWarning: Danny has the same IP as the following players:
-[0;33;22ma__, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet, scarlet_r, yarquesh, Ethonian, Jank_Boteko, ViggYee174, caden_da_gangsta, caden, John_MinecraftPC, glep, junkler3000, neaga, DANKBEEF, Cowboy, nigge, nigge_, bob_the_builder, Everett, YiggVigg282, Curry_Muncher, _sentientIMAC, ViggEagl622, Danny1, geep_, LittleBoyLover10, cadens, YeegDarver179, SpiceMonkey, skibidi_jizzler9, Curry_Muncher_[m
-
-[04:29:13] [Craft Scheduler Thread - 12/INFO]: [0;31;1mWarning: Danny has the same IP as the following banned players:
-[0;33;22mGeep[m
-
-[04:29:26] [Server thread/INFO]: Danny issued server command: /home <home>
-[04:29:27] [Async Chat Thread - #4/INFO]: <Steven> when new people join do yall wanna hunt them down[m
-
-[04:29:35] [Async Chat Thread - #4/INFO]: <caden> ya[m
-
-[04:30:07] [Server thread/INFO]: caden issued server command: /tpa danny
-[04:31:07] [Async Chat Thread - #5/INFO]: <Danny> tpaccept[m
-
-[04:31:11] [Server thread/INFO]: Danny issued server command: /tpaccept
-[04:31:20] [Server thread/INFO]: caden issued server command: /tpa danny
-[04:31:23] [Server thread/INFO]: Danny issued server command: /tpaccept
-[04:31:35] [Async Chat Thread - #5/INFO]: <Danny> we shouldnt hunt them down we should be nice to them[m
-
-[04:31:44] [Server thread/INFO]: caden issued server command: /tpa danny
-[04:31:47] [Async Chat Thread - #5/INFO]: <Steven> depends on who they are[m
-
-[04:31:50] [Server thread/INFO]: Danny issued server command: /tpaccept
-[04:32:22] [Async Chat Thread - #5/INFO]: <caden> first step is to make a storage room[m
-
-[04:32:41] [Async Chat Thread - #5/INFO]: <Danny> no caiden stop[m
-
-[04:32:41] [Async Chat Thread - #5/INFO]: <Steven> first step is breaking thee house[m
-
-[04:32:49] [Async Chat Thread - #5/INFO]: <Danny> stand here[m
-
-[04:32:50] [Async Chat Thread - #5/INFO]: <caden> ok[m
-
-[04:33:06] [Async Chat Thread - #5/INFO]: <Danny> we want the enterence to be in the middle[m
-
-[04:33:11] [Async Chat Thread - #5/INFO]: <caden> ok[m
-
-[04:33:47] [Async Chat Thread - #5/INFO]: <Danny> i have a cool idea[m
-
-[04:34:48] [Server thread/WARN]: Danny moved wrongly!
-[04:36:40] [Async Chat Thread - #6/INFO]: <Danny> heres the entrance[m
-
-[04:36:51] [Async Chat Thread - #6/INFO]: <caden> igt[m
-
-[04:37:26] [Async Chat Thread - #6/INFO]: <caden> bro look at this[m
-
-[04:37:41] [Async Chat Thread - #6/INFO]: <Danny> bro[m
-
-[04:38:12] [Async Chat Thread - #6/INFO]: <caden> we could jus make a house[m
-
-[04:38:17] [Async Chat Thread - #6/INFO]: <Danny> well do we change spots?[m
-
-[04:38:21] [Async Chat Thread - #6/INFO]: <Steven> no[m
-
-[04:38:26] [Async Chat Thread - #6/INFO]: <caden> na[m
-
-[04:38:35] [Async Chat Thread - #6/INFO]: <Steven> guys come to the old base[m
-
-[04:39:16] [Async Chat Thread - #6/INFO]: <Danny> here storage house and big house at the bottom[m
-
-[04:39:28] [Async Chat Thread - #6/INFO]: <caden> ya[m
-
-[04:39:37] [Async Chat Thread - #6/INFO]: <Danny> let me build it tho[m
-
-[04:39:49] [Async Chat Thread - #6/INFO]: <Steven> tp to me[m
-
-[04:40:23] [Server thread/INFO]: caden issued server command: /tpa steven
-[04:40:26] [Server thread/INFO]: Steven issued server command: /accept
-[04:40:34] [Server thread/INFO]: caden issued server command: /tpa steven
-[04:40:37] [Server thread/INFO]: Steven issued server command: /accept
-[04:40:44] [Server thread/INFO]: Steven issued server command: /aaccept
-[04:40:47] [Server thread/INFO]: Steven issued server command: /accept
-[04:42:28] [Server thread/INFO]: caden issued server command: /tpa danny
-[04:42:32] [Server thread/INFO]: Danny issued server command: /tpaccept
-[04:42:53] [Async Chat Thread - #7/INFO]: <caden> u need anthing[m
-
-[04:43:00] [Async Chat Thread - #7/INFO]: <Danny> nah[m
-
-[04:43:07] [Async Chat Thread - #7/INFO]: <Danny> thanks tho[m
-
-[04:44:36] [Async Chat Thread - #8/INFO]: <Danny> i need some stone[m
-
-[04:44:42] [Async Chat Thread - #8/INFO]: <Danny> like regular stone[m
-
-[04:44:43] [Async Chat Thread - #8/INFO]: <Steven> i have alot[m
-
-[04:44:52] [Async Chat Thread - #8/INFO]: <Steven> never mind[m
-
-[04:46:15] [Server thread/WARN]: caden moved wrongly!
-[04:48:38] [Server thread/INFO]: Steven issued server command: /home HOME
-[04:49:42] [Async Chat Thread - #9/INFO]: <Steven> yall cooking[m
-
-[04:49:47] [Async Chat Thread - #9/INFO]: <Steven> i dropped of materials[m
-
-[04:49:56] [Async Chat Thread - #9/INFO]: <Danny> could you get me some stone bricks pls[m
-
-[04:50:30] [Async Chat Thread - #9/INFO]: <Steven> here[m
-
-[04:50:51] [Async Chat Thread - #9/INFO]: <Danny> damn lol thats a ton[m
-
-[04:50:53] [Server thread/INFO]: Steven issued server command: /home Steven
-[04:51:03] [Async Chat Thread - #9/INFO]: <Danny> thanks[m
-
-[04:52:08] [Async Chat Thread - #10/INFO]: <Danny> sorry[m
-
-[04:52:12] [Async Chat Thread - #10/INFO]: <Steven> huh[m
-
-[04:52:53] [Async Chat Thread - #10/INFO]: <Danny> now i need some stone brick stairs lol[m
-
-[04:53:02] [Async Chat Thread - #10/INFO]: <Steven> check the chests[m
-
-[04:53:04] [Async Chat Thread - #10/INFO]: <Steven> outsied[m
-
-[04:55:54] [Async Chat Thread - #11/INFO]: <Danny> caiden place the signs on the chests[m
-
-[04:59:57] [Server thread/INFO]: Steven issued server command: /home HOME
-[05:01:02] [Server thread/INFO]: Steven issued server command: /home
-[05:01:07] [Server thread/INFO]: Steven issued server command: /home Steven
-[05:01:56] [Server thread/INFO]: Steven issued server command: /home HOME
-[05:02:25] [Server thread/INFO]: Steven issued server command: /home Steven
-[05:03:09] [Server thread/INFO]: Steven was slain by Zombie
-[05:03:14] [Server thread/INFO]: Steven issued server command: /back
-[05:04:00] [Server thread/INFO]: Steven has just earned the achievement [Cow Tipper]
-[05:04:07] [Server thread/INFO]: Steven issued server command: /home HOME
-[05:04:54] [Server thread/INFO]: Steven issued server command: /home Steven
-[05:06:23] [Server thread/INFO]: Steven issued server command: /home HOME
-[05:07:57] [Async Chat Thread - #12/INFO]: <Steven> yall cooked[m
-
-[05:08:18] [Server thread/INFO]: Steven issued server command: /home Steven
-[05:09:33] [Server thread/INFO]: Steven issued server command: /home HOME
-[05:09:35] [Async Chat Thread - #13/INFO]: <Danny> the doors would go into crafted blocks[m
-
-[05:09:39] [Async Chat Thread - #13/INFO]: <Danny> the iron ones[m
-
-[05:10:15] [Server thread/INFO]: Steven issued server command: /home Steven
-[05:15:18] [Server thread/INFO]: Steven issued server command: /home HOME
-[05:15:20] [Async Chat Thread - #14/INFO]: <Steven> done[m
-
-[05:16:02] [Async Chat Thread - #14/INFO]: <Steven> took forever but im done[m
-
-[05:16:15] [Async Chat Thread - #14/INFO]: <Danny> nice we will look at it in a min[m
-
-[05:16:20] [Async Chat Thread - #14/INFO]: <Danny> come inside[m
-
-[05:16:25] [Async Chat Thread - #14/INFO]: <Steven> wait i need alot of sand and gun powder plus flint and steel[m
-
-[05:18:07] [Server thread/INFO]: caden lost connection: Disconnected
-[05:18:07] [Server thread/INFO]: caden left the game.
-[05:18:13] [Async Chat Thread - #15/INFO]: <Danny> ?[m
-
-[05:18:23] [Async Chat Thread - #15/INFO]: <Steven> w base[m
-
-[05:19:27] [Server thread/INFO]: Steven issued server command: /home Steven
-[05:19:46] [Async Chat Thread - #16/INFO]: <Danny> where did caden go?[m
-
-[05:21:31] [Async Chat Thread - #17/INFO]: <Steven> blew it up[m
-
-[05:21:33] [Async Chat Thread - #17/INFO]: <Steven> idk[m
-
-[05:21:37] [Server thread/INFO]: Steven issued server command: /home HOME
-[05:29:18] [Thread-22/INFO]: UUID of player caden is 1c17e1b0-26ef-3067-b20b-aebc29283c98
-[05:29:18] [Server thread/INFO]: caden[/[0:0:0:0:0:0:0:1]:58446] logged in with entity id 35933 at ([world]147.73763313340086, 84.0, 1207.2962668470518)
-[05:29:19] [Craft Scheduler Thread - 18/INFO]: [0;31;1mWarning: caden has the same IP as the following players:
-[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet, scarlet_r, yarquesh, Ethonian, Jank_Boteko, ViggYee174, caden_da_gangsta, John_MinecraftPC, glep, junkler3000, neaga, DANKBEEF, Cowboy, nigge, nigge_, bob_the_builder, Everett, YiggVigg282, Curry_Muncher, _sentientIMAC, ViggEagl622, Danny1, geep_, LittleBoyLover10, cadens, YeegDarver179, SpiceMonkey, skibidi_jizzler9, Curry_Muncher_[m
-
-[05:29:19] [Craft Scheduler Thread - 22/INFO]: [0;31;1mWarning: caden has the same IP as the following banned players:
-[0;33;22mGeep[m
-
-[05:29:39] [Server thread/INFO]: caden lost connection: Disconnected
-[05:29:39] [Server thread/INFO]: caden left the game.
-[05:29:45] [Async Chat Thread - #18/INFO]: <Danny> lol[m
-
-[05:31:59] [Async Chat Thread - #19/INFO]: <Steven> they are all empty now[m
-
-[05:32:37] [Async Chat Thread - #19/INFO]: <Danny> wow[m
-
-[05:32:41] [Thread-24/INFO]: UUID of player caden is 1c17e1b0-26ef-3067-b20b-aebc29283c98
-[05:32:41] [Server thread/INFO]: caden[/[0:0:0:0:0:0:0:1]:48466] logged in with entity id 36506 at ([world]147.73763313340086, 84.0, 1207.2962668470518)
-[05:32:42] [Craft Scheduler Thread - 22/INFO]: [0;31;1mWarning: caden has the same IP as the following players:
-[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet, scarlet_r, yarquesh, Ethonian, Jank_Boteko, ViggYee174, caden_da_gangsta, John_MinecraftPC, glep, junkler3000, neaga, DANKBEEF, Cowboy, nigge, nigge_, bob_the_builder, Everett, YiggVigg282, Curry_Muncher, _sentientIMAC, ViggEagl622, Danny1, geep_, LittleBoyLover10, cadens, YeegDarver179, SpiceMonkey, skibidi_jizzler9, Curry_Muncher_[m
-
-[05:32:42] [Craft Scheduler Thread - 24/INFO]: [0;31;1mWarning: caden has the same IP as the following banned players:
-[0;33;22mGeep[m
-
-[05:32:47] [Async Chat Thread - #19/INFO]: <Danny> caiden we finnished[m
-
-[05:32:58] [Async Chat Thread - #19/INFO]: <Steven> why do you keep leaving[m
-
-[05:33:28] [Async Chat Thread - #19/INFO]: <Danny> bro caden[m
-
-[05:34:12] [Async Chat Thread - #19/INFO]: <caden> my cumouter was rwekin[m
-
-[05:34:43] [Async Chat Thread - #19/INFO]: <Steven> FINALLY WE ARE DONE[m
-
-[05:35:08] [Async Chat Thread - #19/INFO]: <Steven> what are we going to add on[m
-
-[05:35:18] [Async Chat Thread - #19/INFO]: <Danny> a house[m
-
-[05:35:24] [Async Chat Thread - #19/INFO]: <Steven> hear me out we add an archery range[m
-
-[05:35:32] [Async Chat Thread - #19/INFO]: <caden> w[m
-
-[05:35:57] [Async Chat Thread - #19/INFO]: <Steven> we are stacked[m
-
-[05:36:22] [Async Chat Thread - #19/INFO]: <Steven> fix the explosion[m
-
-[05:36:24] [Async Chat Thread - #19/INFO]: <Steven> thanks[m
-
-[05:36:28] [Thread-25/INFO]: UUID of player Infinity is 931d936e-dffb-39f9-9c46-ee7fe65211d5
-[05:36:28] [Server thread/INFO]: Infinity[/[0:0:0:0:0:0:0:1]:38692] logged in with entity id 37769 at ([world]142.30000001192093, 63.0, 256.08148904731115)
-[05:36:29] [Craft Scheduler Thread - 24/INFO]: [0;31;1mWarning: Infinity has the same IP as the following players:
-[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, YeeVigg971, John_Minecraft, scarlet, scarlet_r, yarquesh, Ethonian, Jank_Boteko, ViggYee174, caden_da_gangsta, caden, John_MinecraftPC, glep, junkler3000, neaga, DANKBEEF, Cowboy, nigge, nigge_, bob_the_builder, Everett, YiggVigg282, Curry_Muncher, _sentientIMAC, ViggEagl622, Danny1, geep_, LittleBoyLover10, cadens, YeegDarver179, SpiceMonkey, skibidi_jizzler9, Curry_Muncher_[m
-
-[05:36:29] [Craft Scheduler Thread - 25/INFO]: [0;31;1mWarning: Infinity has the same IP as the following banned players:
-[0;33;22mGeep[m
-
-[05:36:36] [Async Chat Thread - #19/INFO]: <Steven> who are you infinity[m
-
-[05:36:38] [Async Chat Thread - #19/INFO]: <Danny> who are you?[m
-
-[05:36:44] [Async Chat Thread - #19/INFO]: <Infinity> yo[m
-
-[05:36:47] [Async Chat Thread - #19/INFO]: <Steven> wsg[m
-
-[05:36:51] [Server thread/INFO]: Steven issued server command: /home Steven
-[05:36:55] [Async Chat Thread - #19/INFO]: <Steven> who are you[m
-
-[05:37:06] [Async Chat Thread - #19/INFO]: <Infinity> volodimir[m
-
-[05:37:14] [Async Chat Thread - #19/INFO]: <Infinity> u probably dont know me[m
-
-[05:37:23] [Async Chat Thread - #19/INFO]: <Infinity> but from shs[m
-
-[05:37:24] [Async Chat Thread - #19/INFO]: <Danny> i dont think i do[m
-
-[05:37:28] [Async Chat Thread - #19/INFO]: <Steven> what classes do you have[m
-
-[05:37:36] [Async Chat Thread - #19/INFO]: <Infinity> im new to the school :D[m
-
-[05:37:42] [Async Chat Thread - #19/INFO]: <Danny> nice[m
-
-[05:37:46] [Async Chat Thread - #19/INFO]: <Infinity> im in the owner of this server 4th per[m
-
-[05:37:48] [Async Chat Thread - #19/INFO]: <Steven> who gave you the link[m
-
-[05:37:52] [Async Chat Thread - #19/INFO]: <Infinity> thats how I found it[m
-
-[05:37:54] [Async Chat Thread - #19/INFO]: <Danny> welcome to shs :)[m
-
-[05:37:57] [Async Chat Thread - #19/INFO]: <Steven> okay[m
-
-[05:38:00] [Async Chat Thread - #19/INFO]: <Steven> welcome[m
-
-[05:38:03] [Async Chat Thread - #19/INFO]: <Danny> huh how[m
-
-[05:38:03] [Async Chat Thread - #19/INFO]: <Infinity> ty[m
-
-[05:38:05] [Async Chat Thread - #19/INFO]: <Steven> 9th or 10th[m
-
-[05:38:08] [Async Chat Thread - #19/INFO]: <Infinity> 10th[m
-
-[05:38:13] [Async Chat Thread - #19/INFO]: <Danny> how do you own the server?[m
-
-[05:38:15] [Async Chat Thread - #19/INFO]: <Steven> okay[m
-
-[05:38:21] [Async Chat Thread - #19/INFO]: <Infinity> I dont[m
-
-[05:38:22] [Async Chat Thread - #19/INFO]: <Steven> he knows evan[m
-
-[05:38:31] [Async Chat Thread - #19/INFO]: <Infinity> but im planning on helping develop the site[m
-
-[05:38:35] [Async Chat Thread - #19/INFO]: <Infinity> for the owner of the server[m
-
-[05:38:39] [Async Chat Thread - #19/INFO]: <Steven> cool[m
-
-[05:38:45] [Async Chat Thread - #19/INFO]: <Danny> you can just say evan lol[m
-
-[05:39:02] [Server thread/INFO]: Steven issued server command: /home HOME
-[05:39:03] [Async Chat Thread - #19/INFO]: <Infinity> oh yeh I forgot the guys name lol[m
-
-[05:39:06] [Async Chat Thread - #19/INFO]: <Steven> lol[m
-
-[05:39:23] [Server thread/INFO]: Steven issued server command: /home HOME
-[05:39:25] [Async Chat Thread - #19/INFO]: <Infinity> who griefed spawn base?[m
-
-[05:39:34] [Async Chat Thread - #19/INFO]: <Steven> we took it apartg[m
-
-[05:39:41] [Async Chat Thread - #19/INFO]: <Infinity> why[m
-
-[05:39:49] [Async Chat Thread - #19/INFO]: <Danny> it was our base, but we moved to annother location[m
-
-[05:39:54] [Async Chat Thread - #19/INFO]: <Steven> to many griefers[m
-
-[05:40:00] [Async Chat Thread - #19/INFO]: <Steven> and people stealingo ur stuff[m
-
-[05:40:02] [Async Chat Thread - #19/INFO]: <Steven> or[m
-
-[05:40:06] [Async Chat Thread - #19/INFO]: <Steven> *our[m
-
-[05:40:10] [Async Chat Thread - #19/INFO]: <Danny> lol[m
-
-[05:40:32] [Server thread/INFO]: Infinity fell from a high place
-[05:40:32] [Server thread/INFO]: Steven issued server command: /whisper Danny
-[05:40:36] [Server thread/INFO]: Infinity issued server command: /back
-[05:40:39] [Async Chat Thread - #19/INFO]: <Infinity> lol[m
-
-[05:40:42] [Async Chat Thread - #19/INFO]: <Infinity> crazy[m
-
-[05:40:46] [Async Chat Thread - #19/INFO]: <Danny> lol watch out for that hole[m
-
-[05:40:55] [Async Chat Thread - #19/INFO]: <Steven> when did you transfer in[m
-
-[05:41:05] [Async Chat Thread - #19/INFO]: <Infinity> 3 days after school started[m
-
-[05:41:14] [Async Chat Thread - #19/INFO]: <Danny> oh lmao[m
-
-[05:41:16] [Async Chat Thread - #19/INFO]: <Steven> how are you liking it here?[m
-
-[05:41:17] [Async Chat Thread - #19/INFO]: <Infinity> school took too long to proccess[m
-
-[05:41:23] [Async Chat Thread - #19/INFO]: <Infinity> I like it here so far[m
-
-[05:41:27] [Async Chat Thread - #19/INFO]: <Danny> hows it been[m
-
-[05:41:32] [Async Chat Thread - #19/INFO]: <Infinity> great tbh[m
-
-[05:41:33] [Async Chat Thread - #19/INFO]: <Steven> we got a pretty small school[m
-
-[05:41:39] [Async Chat Thread - #19/INFO]: <Danny> nice, do you know your schedule???[m
-
-[05:41:43] [Async Chat Thread - #19/INFO]: <Infinity> yeh[m
-
-[05:41:56] [Async Chat Thread - #19/INFO]: <Steven> danny hes been here ssince school started[m
-
-[05:41:59] [Async Chat Thread - #19/INFO]: <Danny> what is it?[m
-
-[05:42:16] [Async Chat Thread - #19/INFO]: <Danny> ik steven but he said it was taking a long time to process so idk[m
-
-[05:42:21] [Async Chat Thread - #19/INFO]: <Steven> oh[m
-
-[05:42:23] [Async Chat Thread - #19/INFO]: <Infinity> 1st per modern history 2nd chem121 3rd wind symp 4th english 5th geom 6th Pe/Racket sports[m
-
-[05:42:34] [Async Chat Thread - #19/INFO]: <Steven> nice[m
-
-[05:42:38] [Async Chat Thread - #19/INFO]: <Infinity> yeh[m
-
-[05:42:44] [Async Chat Thread - #19/INFO]: <Danny> oh weve got chem together[m
-
-[05:42:53] [Async Chat Thread - #19/INFO]: <Infinity> really??[m
-
-[05:43:09] [Async Chat Thread - #19/INFO]: <Infinity> what table are u at?[m
-
-[05:43:09] [Async Chat Thread - #19/INFO]: <Danny> well do you have hesselgrave[m
-
-[05:43:12] [Async Chat Thread - #19/INFO]: <Steven> wya caden[m
-
-[05:43:13] [Async Chat Thread - #19/INFO]: <Infinity> yeh[m
-
-[05:43:20] [Async Chat Thread - #19/INFO]: <Infinity> I got hesselgrave[m
-
-[05:43:23] [Server thread/INFO]: caden issued server command: /tpa steven
-[05:43:28] [Server thread/INFO]: Steven issued server command: /accept
-[05:43:30] [Async Chat Thread - #19/INFO]: <Danny> enchanting room[m
-
-[05:43:31] [Async Chat Thread - #19/INFO]: <Infinity> we just finished soap lab and got a pop quiz today[m
-
-[05:43:41] [Async Chat Thread - #19/INFO]: <Danny> damn lol i missed[m
-
-[05:43:48] [Async Chat Thread - #19/INFO]: <Danny> i was gone today[m
-
-[05:43:50] [Async Chat Thread - #19/INFO]: <Infinity> ur gonna have to take it[m
-
-[05:43:54] [Async Chat Thread - #19/INFO]: <Danny> what was on the quiz??[m
-
-[05:43:56] [Async Chat Thread - #19/INFO]: <Infinity> dw its 4 questions[m
-
-[05:44:00] [Async Chat Thread - #19/INFO]: <Steven> yeah[m
-
-[05:44:01] [Async Chat Thread - #19/INFO]: <Danny> and im at the back right table[m
-
-[05:44:07] [Async Chat Thread - #19/INFO]: <Steven> pretty easy[m
-
-[05:44:10] [Async Chat Thread - #19/INFO]: <Infinity> u gotta calculate % yeild and % error[m
-
-[05:44:23] [Async Chat Thread - #19/INFO]: <Infinity> and 2 questions on what the error they made[m
-
-[05:44:36] [Async Chat Thread - #19/INFO]: <Infinity> in the lab[m
-
-[05:44:37] [Async Chat Thread - #19/INFO]: <Danny> thats light lmao[m
-
-[05:44:55] [Async Chat Thread - #19/INFO]: <Steven> where were you originally from before moving to sshs[m
-
-[05:44:57] [Async Chat Thread - #19/INFO]: <Steven> shs[m
-
-[05:45:03] [Async Chat Thread - #19/INFO]: <Infinity> chs[m
-
-[05:45:08] [Async Chat Thread - #19/INFO]: <Infinity> brb[m
-
-[05:45:12] [Async Chat Thread - #19/INFO]: <Danny> we dont know that that is lol[m
-
-[05:45:28] [Async Chat Thread - #19/INFO]: <Steven> should we give him the cords[m
-
-[05:45:36] [Async Chat Thread - #19/INFO]: <Danny> not yet[m
-
-[05:45:42] [Async Chat Thread - #19/INFO]: <Steven> al[m
-
-[05:45:45] [Async Chat Thread - #19/INFO]: <Steven> alr[m
-
-[05:47:04] [Server thread/INFO]: Steven issued server command: /home HOME
-[05:47:12] [Async Chat Thread - #20/INFO]: <Steven> got a stack of birch wood[m
-
-[05:47:34] [Async Chat Thread - #20/INFO]: <Infinity> back[m
-
-[05:47:39] [Async Chat Thread - #20/INFO]: <Steven> where is caden at[m
-
-[05:47:44] [Async Chat Thread - #20/INFO]: <Danny> what table are you at in chem[m
-
-[05:48:15] [Async Chat Thread - #20/INFO]: <Infinity> I forgot what # but by door closes to the stairs 2nd row and on edge[m
-
-[05:48:24] [Async Chat Thread - #20/INFO]: <Infinity> closest*[m
-
-[05:48:38] [Async Chat Thread - #20/INFO]: <Infinity> what grade u got in the class rn?[m
-
-[05:48:46] [Async Chat Thread - #20/INFO]: <Danny> solid A[m
-
-[05:48:57] [Async Chat Thread - #20/INFO]: <Danny> i got 100 on allmost all the tests[m
-
-[05:49:08] [Async Chat Thread - #20/INFO]: <Danny> you[m
-
-[05:49:26] [Async Chat Thread - #20/INFO]: <Infinity> B+[m
-
-[05:49:27] [Async Chat Thread - #20/INFO]: <Steven> i got 14 bookshelfs[m
-
-[05:49:34] [Server thread/WARN]: caden moved wrongly!
-[05:49:35] [Async Chat Thread - #20/INFO]: <Danny> ooo give them to me pls[m
-
-[05:49:44] [Async Chat Thread - #20/INFO]: <Infinity> I got a B+ rn[m
-
-[05:49:46] [Async Chat Thread - #20/INFO]: <Danny> thx[m
-
-[05:49:50] [Async Chat Thread - #20/INFO]: <Steven> i got a d[m
-
-[05:49:53] [Async Chat Thread - #20/INFO]: <Infinity> HOw[m
-
-[05:50:00] [Async Chat Thread - #20/INFO]: <Steven> i need to look in .Skull.[m
-
-[05:50:04] [Async Chat Thread - #20/INFO]: <Infinity> ._.[m
-
-[05:50:07] [Async Chat Thread - #20/INFO]: <Steven> *lock[m
-
-[05:50:24] [Async Chat Thread - #20/INFO]: <Danny> i need moreee[m
-
-[05:50:30] [Async Chat Thread - #20/INFO]: <Infinity> welp take a look in skyward what u didnt finish[m
-
-[05:50:34] [Async Chat Thread - #20/INFO]: <Danny> lol just make flashcards[m
-
-[05:50:54] [Async Chat Thread - #20/INFO]: <Infinity> wait nvm hesselgrave doesnt accept late work without the late form thingy[m
-
-[05:51:01] [Async Chat Thread - #20/INFO]: <Steven> oh yeah[m
-
-[05:51:44] [Async Chat Thread - #20/INFO]: <Infinity> whee are yall at?[m
-
-[05:51:50] [Async Chat Thread - #20/INFO]: <Steven> well i mean collages dont exept late work so shes doing that so we can get used to that[m
-
-[05:51:55] [Async Chat Thread - #20/INFO]: <Steven> base[m
-
-[05:52:05] [Async Chat Thread - #20/INFO]: <Danny> we cant share the cords yet sorry[m
-
-[05:52:10] [Async Chat Thread - #20/INFO]: <Infinity> yeh, duh thats why its named chem121[m
-
-[05:52:13] [Async Chat Thread - #20/INFO]: <Infinity> why not?[m
-
-[05:52:25] [Server thread/WARN]: caden moved wrongly!
-[05:52:31] [Server thread/INFO]: Infinity has just earned the achievement [Getting Wood]
-[05:52:34] [Async Chat Thread - #20/INFO]: <Danny> we cant take any chances yet weve been griefed too much[m
-
-[05:52:36] [Async Chat Thread - #20/INFO]: <caden> mb[m
-
-[05:52:53] [Async Chat Thread - #20/INFO]: <Infinity> its my first day on the server[m
-
-[05:53:00] [Async Chat Thread - #20/INFO]: <Infinity> why would I grief ur base[m
-
-[05:53:04] [Async Chat Thread - #20/INFO]: <Danny> thats why we cant take any chances lol[m
-
-[05:53:08] [Async Chat Thread - #20/INFO]: <Danny> we dont know you yet[m
-
-[05:53:10] [Async Chat Thread - #20/INFO]: <Infinity> the rules are simple, no griefing[m
-
-[05:53:12] [Async Chat Thread - #20/INFO]: <Steven> he doesnt have anything tho[m
-
-[05:53:19] [Async Chat Thread - #20/INFO]: <Infinity> IM literally in ur class[m
-
-[05:53:36] [Async Chat Thread - #20/INFO]: <caden> chat nodont give them[m
-
-[05:53:39] [Async Chat Thread - #20/INFO]: <Steven> i had alot of my cadd class join and they griefed[m
-
-[05:53:43] [Async Chat Thread - #20/INFO]: <Danny> lol ill tp to you and get you some loot[m
-
-[05:53:44] [Server thread/INFO]: Infinity has just earned the achievement [Benchmarking]
-[05:53:46] [Async Chat Thread - #20/INFO]: <Steven> i was right next to them[m
-
-[05:53:49] [Async Chat Thread - #20/INFO]: <Danny> but i cant share the cords of the base[m
-
-[05:54:00] [Async Chat Thread - #20/INFO]: <Steven> give him a stack of iron[m
-
-[05:54:16] [Async Chat Thread - #20/INFO]: <Infinity> yall that sensitive?[m
-
-[05:54:27] [Async Chat Thread - #20/INFO]: <Steven> ill delever it[m
-
-[05:54:33] [Async Chat Thread - #20/INFO]: <Danny> nah ive already got it[m
-
-[05:54:33] [Async Chat Thread - #20/INFO]: <Infinity> I dont think tnt even exists in this version[m
-
-[05:54:33] [Server thread/INFO]: Steven issued server command: /tpa Infinity
-[05:54:37] [Server thread/INFO]: Infinity issued server command: /tpaccept
-[05:54:39] [Server thread/INFO]: Danny issued server command: /tpa Infitu
-[05:54:44] [Server thread/INFO]: Danny issued server command: /tpa Infinity
-[05:54:48] [Server thread/INFO]: Infinity issued server command: /tpaccept
-[05:55:02] [Async Chat Thread - #20/INFO]: <Steven> i delevered it already[m
-
-[05:55:04] [Async Chat Thread - #20/INFO]: <Infinity> how u get that skin[m
-
-[05:55:11] [Async Chat Thread - #20/INFO]: <Infinity> ty[m
-
-[05:55:13] [Async Chat Thread - #20/INFO]: <Steven> i forgot the website name[m
-
-[05:55:20] [Async Chat Thread - #20/INFO]: <Steven> i also have a hitler skin[m
-
-[05:55:24] [Async Chat Thread - #20/INFO]: <Infinity> :skull:[m
-
-[05:55:34] [Async Chat Thread - #20/INFO]: <Danny> way to make a good impression steven....[m
-
-[05:55:59] [Server thread/INFO]: Steven issued server command: /home HOME
-[05:56:19] [Server thread/INFO]: Danny issued server command: /home <home>
-[05:56:28] [Async Chat Thread - #20/INFO]: <Steven> bro really tried to get me[m
-
-[05:56:31] [Async Chat Thread - #20/INFO]: <Infinity> Im so not ready for the chem 1st final exam[m
-
-[05:56:40] [Async Chat Thread - #20/INFO]: <Steven> infinity watch this[m
-
-[05:56:41] [Async Chat Thread - #20/INFO]: <Infinity> its on the 16th :sob:[m
-
-[05:56:42] [Server thread/INFO]: Steven issued server command: /suicide
-[05:56:42] [Server thread/INFO]: Steven died
-[05:56:42] [Server thread/INFO]: [0;31;1m[21mSteven slipped on a banana[m
-
-[05:56:42] [Server thread/ERROR]: [Suicide] The sound you're trying to play isn't registered in this Minecraft Version: ENTITY_ZOMBIE_HURT
-[05:56:49] [Async Chat Thread - #20/INFO]: <Danny> WTF LMAO[m
-
-[05:56:50] [Async Chat Thread - #20/INFO]: <Infinity> how lol[m
-
-[05:56:57] [Async Chat Thread - #20/INFO]: <Steven> do /suicide[m
-
-[05:57:01] [Server thread/INFO]: Steven issued server command: /home HOME
-[05:57:02] [Async Chat Thread - #20/INFO]: <Infinity> :skull:[m
-
-[05:57:16] [Async Chat Thread - #20/INFO]: <Steven> evan added it for me[m
-
-[05:57:23] [Server thread/INFO]: Infinity issued server command: /suicide
-[05:57:23] [Server thread/INFO]: Infinity died
-[05:57:23] [Server thread/INFO]: [0;31;1m[21mInfinity killed himself[m
-
-[05:57:23] [Server thread/ERROR]: [Suicide] The sound you're trying to play isn't registered in this Minecraft Version: ENTITY_ZOMBIE_HURT
-[05:57:26] [Async Chat Thread - #20/INFO]: <Steven> lol[m
-
-[05:57:29] [Server thread/INFO]: Infinity issued server command: /back
-[05:57:44] [Async Chat Thread - #20/INFO]: <Infinity> lol[m
-
-[05:58:09] [Async Chat Thread - #20/INFO]: <Steven> you doing any sports?[m
-
-[05:58:20] [Server thread/INFO]: Infinity has just earned the achievement [Time to Strike!]
-[05:58:24] [Async Chat Thread - #20/INFO]: <Infinity> nope[m
-
-[05:58:28] [Async Chat Thread - #20/INFO]: <Infinity> not the sportive guy[m
-
-[05:58:35] [Async Chat Thread - #20/INFO]: <Infinity> I just take classes req for grad[m
-
-[05:58:39] [Async Chat Thread - #20/INFO]: <Danny> you should join cross country next year[m
-
-[05:58:43] [Async Chat Thread - #20/INFO]: <Infinity> but im taking running start[m
-
-[05:58:47] [Async Chat Thread - #20/INFO]: <Danny> sam[m
-
-[05:58:51] [Async Chat Thread - #20/INFO]: <Steven> what[m
-
-[05:58:53] [Async Chat Thread - #20/INFO]: <Danny> same[m
-
-[05:58:57] [Async Chat Thread - #20/INFO]: <Steven> oh[m
-
-[05:59:18] [Async Chat Thread - #20/INFO]: <Steven> damn it the hamster fell into the fireplace again[m
-
-[05:59:33] [Async Chat Thread - #20/INFO]: <Danny> at least i didnt eat it[m
-
-[05:59:42] [Async Chat Thread - #20/INFO]: <Infinity> oo nametags[m
-
-[05:59:46] [Async Chat Thread - #20/INFO]: <Steven> ima hop off[m
-
-[06:00:12] [Async Chat Thread - #20/INFO]: <Infinity> alr[m
-
-[06:00:19] [Async Chat Thread - #20/INFO]: <Steven> see yall later[m
-
-[06:00:24] [Async Chat Thread - #20/INFO]: <Infinity> see ya[m
-
-[06:00:29] [Async Chat Thread - #20/INFO]: <Danny> cya[m
-
-[06:00:32] [Async Chat Thread - #20/INFO]: <Infinity> happy nightmares[m
-
-[06:00:38] [Async Chat Thread - #20/INFO]: <caden> cya[m
-
-[06:00:46] [Server thread/INFO]: Steven lost connection: Disconnected
-[06:00:47] [Server thread/INFO]: Steven left the game.
-[06:00:48] [Thread-26/INFO]: UUID of player Steven is 944d2caf-d932-3441-b30c-7e43d402ec4b
-[06:00:48] [Server thread/INFO]: Steven[/[0:0:0:0:0:0:0:1]:56942] logged in with entity id 48663 at ([world]153.65054911118992, 76.0, 1215.8921715730758)
-[06:00:49] [Craft Scheduler Thread - 28/INFO]: [0;31;1mWarning: Steven has the same IP as the following banned players:
-[0;33;22mGeep[m
-
-[06:00:49] [Craft Scheduler Thread - 29/INFO]: [0;31;1mWarning: Steven has the same IP as the following players:
-[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet, scarlet_r, yarquesh, Ethonian, Jank_Boteko, ViggYee174, caden_da_gangsta, caden, John_MinecraftPC, glep, junkler3000, neaga, DANKBEEF, Cowboy, nigge, nigge_, bob_the_builder, Everett, YiggVigg282, Curry_Muncher, _sentientIMAC, ViggEagl622, Danny1, geep_, LittleBoyLover10, cadens, YeegDarver179, SpiceMonkey, skibidi_jizzler9, Curry_Muncher_[m
-
-[06:00:55] [Async Chat Thread - #20/INFO]: <Infinity> blud cant leave[m
-
-[06:00:58] [Async Chat Thread - #20/INFO]: <Danny> back allready?[m
-
-[06:01:01] [Server thread/INFO]: Steven was slain by caden using [skibidi slicer]
-[06:01:08] [Async Chat Thread - #20/INFO]: <Steven> Nigga what[m
-
-[06:01:13] [Async Chat Thread - #20/INFO]: <caden> mb[m
-
-[06:01:14] [Async Chat Thread - #20/INFO]: <Steven> oh mb chat[m
-
-[06:01:14] [Async Chat Thread - #20/INFO]: <Infinity> CIVIL WAR[m
-
-[06:01:18] [Async Chat Thread - #20/INFO]: <Danny> bro you fag no kiling[m
-
-[06:01:24] [Async Chat Thread - #20/INFO]: <Steven> no its fine[m
-
-[06:01:29] [Async Chat Thread - #20/INFO]: <Steven> i kill all the time[m
-
-[06:01:39] [Async Chat Thread - #20/INFO]: <caden> i tryed to hit a zombie[m
-
-[06:01:57] [Async Chat Thread - #20/INFO]: <Infinity> any one have a bucket of water?[m
-
-[06:02:21] [Server thread/INFO]: Steven lost connection: Disconnected
-[06:02:21] [Server thread/INFO]: Steven left the game.
-[06:02:30] [Server thread/INFO]: Infinity has just earned the achievement [Time to Mine!]
-[06:02:30] [Server thread/INFO]: Infinity has just earned the achievement [Getting an Upgrade]
-[06:03:09] [Async Chat Thread - #21/INFO]: <Infinity> alr I gotta hop off aswell[m
-
-[06:03:11] [Async Chat Thread - #21/INFO]: <Infinity> see ya[m
-
-[06:03:15] [Async Chat Thread - #21/INFO]: <Danny> later[m
-
-[06:03:17] [Server thread/INFO]: Infinity lost connection: Disconnected
-[06:03:17] [Server thread/INFO]: Infinity left the game.
-[06:06:04] [Server thread/INFO]: Danny has just earned the achievement [Librarian]
-[06:10:39] [Async Chat Thread - #22/INFO]: <Danny> splat[m
-
-[06:10:41] [Async Chat Thread - #22/INFO]: <caden> lol[m
-
-[06:14:16] [Async Chat Thread - #23/INFO]: <caden> what you makeing[m
-
-[06:16:20] [Async Chat Thread - #24/INFO]: <Danny> lol is there any way you can center your fountian[m
-
-[06:16:50] [Async Chat Thread - #24/INFO]: <caden> ya[m
-
-[06:16:55] [Async Chat Thread - #24/INFO]: <Danny> ok[m
-
-[06:17:11] [Async Chat Thread - #24/INFO]: <Danny> hold up do you think a spawn platform would look tough right there[m
-
-[06:17:20] [Async Chat Thread - #24/INFO]: <Danny> so we all set home on one block[m
-
-[06:19:54] [Async Chat Thread - #25/INFO]: <caden> we should make aarch at storaage[m
-
-[06:21:11] [Server thread/INFO]: Danny issued server command: /delhome <home>
+[15:52:52] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[15:52:52] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
+[15:52:52] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.141
+[15:52:52] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
+[15:52:52] [Server thread/INFO]: [Sudo] Loading Sudo v1
+[15:52:52] [Server thread/INFO]: [Suicide] Loading Suicide v1.4.6
+[15:52:52] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
+[15:52:52] [Server thread/INFO]: [OnePlayerSleep] Loading OnePlayerSleep v1.3
+[15:52:52] [Server thread/INFO]: [InvSee++] Loading InvSeePlusPlus v0.29.4
+[15:52:52] [Server thread/INFO]: [BanManager] Loading BanManager v7.9.0
+[15:52:52] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v5.2.0-SNAPSHOT-679
+[15:52:54] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
+[15:52:54] [Server thread/INFO]: [InvSee++_Clear] Loading InvSeePlusPlus_Clear v0.29.4
+[15:52:54] [Server thread/INFO]: [InvSee++_Give] Loading InvSeePlusPlus_Give v0.29.4
+[15:52:54] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.141
+[15:52:55] [Server thread/INFO]: [0;36;1m       [0;36;22m __    [m
+
+[15:52:55] [Server thread/INFO]: [0;36;1m  |    [0;36;22m|__)   [0;32;22mLuckPerms[m [0;36;1mv5.4.141[m
+
+[15:52:55] [Server thread/INFO]: [0;36;1m  |___ [0;36;22m|      [0;30;1mRunning on Bukkit - CraftBukkit[m
+
+[15:52:55] [Server thread/INFO]: [m
+
+[15:52:55] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[15:52:56] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[15:52:58] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[15:52:58] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[15:52:59] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 4104ms)
+[15:52:59] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.2.0-SNAPSHOT-679
+[15:52:59] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[15:52:59] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[15:52:59] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[15:52:59] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[15:52:59] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[15:52:59] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[15:52:59] [Server thread/INFO]: Preparing level "world"
+[15:52:59] [Server thread/INFO]: -------- World Settings For [world] --------
+[15:52:59] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[15:52:59] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[15:52:59] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[15:52:59] [Server thread/INFO]: Random Lighting Updates: false
+[15:52:59] [Server thread/INFO]: Structure Info Saving: true
+[15:52:59] [Server thread/INFO]: Sending up to 10 chunks per packet
+[15:52:59] [Server thread/INFO]: Max Entity Collisions: 8
+[15:52:59] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[15:52:59] [Server thread/INFO]: Max TNT Explosions: 100
+[15:52:59] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[15:52:59] [Server thread/INFO]: Mob Spawn Range: 4
+[15:52:59] [Server thread/INFO]: Anti X-Ray: true
+[15:52:59] [Server thread/INFO]: 	Engine Mode: 1
+[15:52:59] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[15:52:59] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[15:52:59] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[15:52:59] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[15:52:59] [Server thread/INFO]: Cane Growth Modifier: 100%
+[15:52:59] [Server thread/INFO]: Melon Growth Modifier: 100%
+[15:52:59] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[15:52:59] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[15:52:59] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[15:52:59] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[15:52:59] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[15:52:59] [Server thread/INFO]: Item Despawn Rate: 6000
+[15:52:59] [Server thread/INFO]: Item Merge Radius: 2.5
+[15:52:59] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[15:52:59] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[15:52:59] [Server thread/INFO]: View Distance: 4
+[15:52:59] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[15:52:59] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[15:52:59] [Server thread/INFO]: Clear tick list: false
+[15:52:59] [Server thread/INFO]: Experience Merge Radius: 3.0
+[15:52:59] [Server thread/INFO]: -------- World Settings For [world] --------
+[15:52:59] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[15:52:59] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[15:52:59] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[15:52:59] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[15:52:59] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[15:52:59] [Server thread/INFO]: Water over lava flow speed: 5
+[15:52:59] [Server thread/INFO]: Fix TNT cannons: false
+[15:52:59] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[15:52:59] [Server thread/INFO]: Keep spawn chunk loaded: true
+[15:52:59] [Server thread/INFO]: World async lighting: false
+[15:52:59] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[15:52:59] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[15:52:59] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[15:52:59] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[15:52:59] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[15:52:59] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[15:52:59] [Server thread/INFO]: Random Lighting Updates: false
+[15:52:59] [Server thread/INFO]: Structure Info Saving: true
+[15:52:59] [Server thread/INFO]: Sending up to 10 chunks per packet
+[15:52:59] [Server thread/INFO]: Max Entity Collisions: 8
+[15:52:59] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[15:52:59] [Server thread/INFO]: Max TNT Explosions: 100
+[15:52:59] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[15:52:59] [Server thread/INFO]: Mob Spawn Range: 4
+[15:52:59] [Server thread/INFO]: Anti X-Ray: true
+[15:52:59] [Server thread/INFO]: 	Engine Mode: 1
+[15:52:59] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[15:52:59] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[15:52:59] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[15:52:59] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[15:52:59] [Server thread/INFO]: Cane Growth Modifier: 100%
+[15:52:59] [Server thread/INFO]: Melon Growth Modifier: 100%
+[15:52:59] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[15:52:59] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[15:52:59] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[15:52:59] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[15:52:59] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[15:52:59] [Server thread/INFO]: Item Despawn Rate: 6000
+[15:52:59] [Server thread/INFO]: Item Merge Radius: 2.5
+[15:52:59] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[15:52:59] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[15:52:59] [Server thread/INFO]: View Distance: 4
+[15:52:59] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[15:52:59] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[15:52:59] [Server thread/INFO]: Clear tick list: false
+[15:52:59] [Server thread/INFO]: Experience Merge Radius: 3.0
+[15:53:00] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[15:53:00] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[15:53:00] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[15:53:00] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[15:53:00] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[15:53:00] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[15:53:00] [Server thread/INFO]: Water over lava flow speed: 5
+[15:53:00] [Server thread/INFO]: Fix TNT cannons: false
+[15:53:00] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[15:53:00] [Server thread/INFO]: Keep spawn chunk loaded: true
+[15:53:00] [Server thread/INFO]: World async lighting: false
+[15:53:00] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[15:53:00] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[15:53:00] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[15:53:00] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[15:53:00] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[15:53:00] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[15:53:00] [Server thread/INFO]: Random Lighting Updates: false
+[15:53:00] [Server thread/INFO]: Structure Info Saving: true
+[15:53:00] [Server thread/INFO]: Sending up to 10 chunks per packet
+[15:53:00] [Server thread/INFO]: Max Entity Collisions: 8
+[15:53:00] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[15:53:00] [Server thread/INFO]: Max TNT Explosions: 100
+[15:53:00] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[15:53:00] [Server thread/INFO]: Mob Spawn Range: 4
+[15:53:00] [Server thread/INFO]: Anti X-Ray: true
+[15:53:00] [Server thread/INFO]: 	Engine Mode: 1
+[15:53:00] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[15:53:00] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[15:53:00] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[15:53:00] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[15:53:00] [Server thread/INFO]: Cane Growth Modifier: 100%
+[15:53:00] [Server thread/INFO]: Melon Growth Modifier: 100%
+[15:53:00] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[15:53:00] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[15:53:00] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[15:53:00] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[15:53:00] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[15:53:00] [Server thread/INFO]: Item Despawn Rate: 6000
+[15:53:00] [Server thread/INFO]: Item Merge Radius: 2.5
+[15:53:00] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[15:53:00] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[15:53:00] [Server thread/INFO]: View Distance: 4
+[15:53:00] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[15:53:00] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[15:53:00] [Server thread/INFO]: Clear tick list: false
+[15:53:00] [Server thread/INFO]: Experience Merge Radius: 3.0
+[15:53:00] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[15:53:00] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[15:53:00] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[15:53:00] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[15:53:00] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[15:53:00] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[15:53:00] [Server thread/INFO]: Water over lava flow speed: 5
+[15:53:00] [Server thread/INFO]: Fix TNT cannons: false
+[15:53:00] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[15:53:00] [Server thread/INFO]: Keep spawn chunk loaded: true
+[15:53:00] [Server thread/INFO]: World async lighting: false
+[15:53:00] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[15:53:00] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[15:53:00] [Server thread/INFO]: Preparing start region for level 0 (Seed: 8746604822408410148)
+[15:53:01] [Server thread/INFO]: Preparing spawn area: 2%
+[15:53:02] [Server thread/INFO]: Preparing spawn area: 13%
+[15:53:03] [Server thread/INFO]: Preparing spawn area: 25%
+[15:53:04] [Server thread/INFO]: Preparing spawn area: 57%
+[15:53:05] [Server thread/INFO]: Preparing spawn area: 79%
+[15:53:05] [Server thread/INFO]: Preparing start region for level 1 (Seed: 8746604822408410148)
+[15:53:06] [Server thread/INFO]: Preparing spawn area: 4%
+[15:53:07] [Server thread/INFO]: Preparing spawn area: 10%
+[15:53:08] [Server thread/INFO]: Preparing spawn area: 18%
+[15:53:09] [Server thread/INFO]: Preparing spawn area: 40%
+[15:53:10] [Server thread/INFO]: Preparing spawn area: 58%
+[15:53:11] [Server thread/INFO]: Preparing spawn area: 67%
+[15:53:12] [Server thread/INFO]: Preparing spawn area: 78%
+[15:53:13] [Server thread/INFO]: Preparing start region for level 2 (Seed: 8746604822408410148)
+[15:53:14] [Server thread/INFO]: Preparing spawn area: 38%
+[15:53:14] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
+[15:53:14] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+
+[15:53:14] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
+
+[15:53:14] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[15:53:14] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
+[15:53:15] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[15:53:15] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
+[15:53:15] [Server thread/INFO]: [Sudo] Enabling Sudo v1
+[15:53:15] [Server thread/INFO]: [Suicide] Enabling Suicide v1.4.6
+[15:53:15] [Server thread/INFO]: [Suicide] Plugin Enabled!
+[15:53:15] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
+[15:53:15] [Server thread/INFO]: [OnePlayerSleep] Enabling OnePlayerSleep v1.3
+[15:53:15] [Server thread/INFO]: [InvSee++] Enabling InvSeePlusPlus v0.29.4
+[15:53:15] [Server thread/INFO]: [BanManager] Enabling BanManager v7.9.0
+[15:53:16] [Server thread/WARN]: [Server thread] INFO me.confuser.banmanager.common.hikari.HikariDataSource - bm-local - Starting...
+
+[15:53:17] [Server thread/WARN]: [Server thread] INFO me.confuser.banmanager.common.hikari.HikariDataSource - bm-local - Start completed.
+
+[15:53:17] [Server thread/INFO]: [BanManager] Loaded 1 bans into memory
+[15:53:17] [Server thread/INFO]: [BanManager] Loaded 0 mutes into memory
+[15:53:17] [Server thread/INFO]: [BanManager] Loaded 0 ip bans into memory
+[15:53:17] [Server thread/INFO]: [BanManager] Loaded 0 ip mutes into memory
+[15:53:17] [Server thread/INFO]: [BanManager] Loaded 0 ip range bans into memory
+[15:53:18] [Server thread/INFO]: [BanManager] Loaded 0 name bans into memory
+[15:53:18] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
+[15:53:18] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[15:53:18] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[15:53:18] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[15:53:18] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[15:53:18] [Server thread/INFO]: [InvSee++_Clear] Enabling InvSeePlusPlus_Clear v0.29.4
+[15:53:18] [Server thread/INFO]: [InvSee++_Give] Enabling InvSeePlusPlus_Give v0.29.4
+[15:53:18] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:53:18] [Server thread/INFO]: Done (19.253s)! For help, type "help" or "?"
+[15:53:18] [Server thread/INFO]: Timings Reset
+[15:53:18] [Server thread/INFO]: [BanManager] The following commands are blocked whilst muted:
+[15:53:18] [Server thread/INFO]: [BanManager] msg
+[15:53:18] [Server thread/INFO]: [BanManager] The following commands are blocked whilst soft muted:
+[15:53:18] [Server thread/INFO]: [BanManager] msg
+[15:53:18] [Craft Scheduler Thread - 1/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
+
+[15:53:18] [Craft Scheduler Thread - 1/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
+
+[15:53:18] [Craft Scheduler Thread - 1/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
+
+[15:53:18] [Server thread/INFO]: [Suicide] You are using the latest version of Suicide.
