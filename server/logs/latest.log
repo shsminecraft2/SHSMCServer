@@ -2762,3 +2762,5 @@ Caused by: java.lang.NullPointerException: type cannot be null
 
 [21:10:23] [Server thread/INFO]: John_Minecraft lost connection: Disconnected
 [21:10:23] [Server thread/INFO]: John_Minecraft left the game.
+[21:10:29] [Server thread/INFO]: jewburner lost connection: Disconnected
+[21:10:29] [Server thread/INFO]: jewburner left the game.
