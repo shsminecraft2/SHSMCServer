@@ -727,3 +727,9 @@
 [21:10:19] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:51272|scarlet_r] -> UpstreamBridge has disconnected
 [21:10:19] [Netty Worker IO Thread #2/INFO]: [scarlet_r] disconnected with: Proxy lost connection to server.
 [21:10:19] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:51272|scarlet_r] <-> DownstreamBridge <-> [lobby] has disconnected
+[21:10:21] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:37476|Curry_Muncher] -> UpstreamBridge has disconnected
+[21:10:21] [Netty Worker IO Thread #1/INFO]: [Curry_Muncher] disconnected with: Proxy lost connection to server.
+[21:10:21] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:37476|Curry_Muncher] <-> DownstreamBridge <-> [lobby] has disconnected
+[21:10:23] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:35172|John_Minecraft] -> UpstreamBridge has disconnected
+[21:10:23] [Netty Worker IO Thread #2/INFO]: [John_Minecraft] disconnected with: Proxy lost connection to server.
+[21:10:23] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:35172|John_Minecraft] <-> DownstreamBridge <-> [lobby] has disconnected
