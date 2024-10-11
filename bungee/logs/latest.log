@@ -154,3 +154,18 @@
 [03:09:12] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:40136]: Logged in as 'Rysen'
 [03:09:12] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:40136|Rysen] -> UpstreamBridge has connected
 [03:09:12] [Netty Worker IO Thread #3/INFO]: [Rysen|/[0:0:0:0:0:0:0:1%0]:40136] <-> ServerConnector [lobby] has connected
+[03:21:33] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:55196]: Connected via websocket
+[03:21:33] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:55196]: Origin header is http://localhost:8081
+[03:21:38] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50614]: Connected via websocket
+[03:21:38] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50614]: Origin header is http://localhost:8081
+[03:24:13] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:40136|Rysen] -> UpstreamBridge has disconnected
+[03:24:13] [Netty Worker IO Thread #3/INFO]: [Rysen] disconnected with: Proxy lost connection to server.
+[03:24:13] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:40136|Rysen] <-> DownstreamBridge <-> [lobby] has disconnected
+[03:28:26] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:44174]: Connected via websocket
+[03:28:26] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:44174]: Origin header is http://localhost:8081
+[03:28:26] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:44174]: Logged in as 'Steven'
+[03:28:26] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:44174|Steven] -> UpstreamBridge has connected
+[03:28:26] [Netty Worker IO Thread #3/INFO]: [Steven|/[0:0:0:0:0:0:0:1%0]:44174] <-> ServerConnector [lobby] has connected
+[03:52:01] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:49526|caden] -> UpstreamBridge has disconnected
+[03:52:01] [Netty Worker IO Thread #1/INFO]: [caden] disconnected with: Proxy lost connection to server.
+[03:52:01] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:49526|caden] <-> DownstreamBridge <-> [lobby] has disconnected
