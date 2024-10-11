@@ -741,3 +741,42 @@ Caused by: java.lang.NullPointerException: type cannot be null
 
 [22:32:19] [Server thread/INFO]: Wonder was shot by Skeleton
 [22:35:35] [Server thread/INFO]: Wonder was slain by Zombie
+[22:46:55] [Server thread/INFO]: Wonder has just earned the achievement [Getting Wood]
+[22:49:57] [Server thread/INFO]: Wonder has just earned the achievement [Benchmarking]
+[22:50:24] [Thread-32/INFO]: UUID of player ECLIPSE is 7e7cff96-6ea9-3e32-bf46-96ffac1df874
+[22:50:24] [Server thread/INFO]: ECLIPSE[/[0:0:0:0:0:0:0:1]:54974] logged in with entity id 60485 at ([world]187.60418233398525, 64.0, 283.732318079351)
+[22:50:25] [Craft Scheduler Thread - 39/INFO]: [0;31;1mWarning: ECLIPSE has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet, scarlet_r, yarquesh, Ethonian, Jank_Boteko, ViggYee174, caden_da_gangsta, caden, John_MinecraftPC, glep, junkler3000, neaga, DANKBEEF, Cowboy, nigge, nigge_, bob_the_builder, Everett, YiggVigg282, Curry_Muncher, _sentientIMAC, ViggEagl622, Danny1, geep_, LittleBoyLover10, cadens, YeegDarver179, SpiceMonkey, skibidi_jizzler9, Curry_Muncher_, IhaveaDUI_547, YeegVool605, anyston, Placingblocks, niggaboy69, YeeVigg254, YeeishVool390, Peel, GETOOUUTT, Gilzbert, EaglerVigg473, YeeYeeish749, KP_, ur_mom, BedzGamer, WrongUser2803, Dashing, TimeBomb, littlelillylooho, ViggVool586, thegdtrrggeeyeef, ViggVigg409, gilzberto, Rysen, YeelerEagler186, adolf_rizzler, gilzbertio, mason, YeeishYeeish779, YeelerYee656, em0nt0p25, GETOOUUTT_, nigas, Im_A_Nigger, John_Minecraft2, Johann_Minecraft, pussslayer69, Junkler5000, SHRIMP, E__, bouttacome, Dashingsmomishot, DANKBEEF_, Wonder, BaconMania_, steve, TYYYYYY19, niggeracious, Jimmy_Green, steve_, HOTDADDYRANDY, gleven, epstien_victem, Davey_FN[m
+
+[22:51:10] [Async Chat Thread - #17/INFO]: <ECLIPSE> yo who is on[m
+
+[22:51:27] [Async Chat Thread - #17/INFO]: <Wonder> just me i think[m
+
+[22:51:58] [Async Chat Thread - #17/INFO]: <ECLIPSE> and who are you[m
+
+[22:52:17] [Async Chat Thread - #17/INFO]: <Wonder> Wonder[m
+
+[22:52:26] [Async Chat Thread - #17/INFO]: <ECLIPSE> what is you real name[m
+
+[22:52:43] [Async Chat Thread - #17/INFO]: <Wonder> who r u[m
+
+[22:52:49] [Async Chat Thread - #17/INFO]: <ECLIPSE> im jaxson[m
+
+[22:53:02] [Async Chat Thread - #17/INFO]: <Wonder> haley[m
+
+[22:53:13] [Async Chat Thread - #17/INFO]: <ECLIPSE> fresman?[m
+
+[22:53:23] [Async Chat Thread - #17/INFO]: <Wonder> nope[m
+
+[22:53:32] [Async Chat Thread - #17/INFO]: <ECLIPSE> do i know you[m
+
+[22:53:45] [Async Chat Thread - #17/INFO]: <Wonder> i don't think so[m
+
+[22:53:55] [Async Chat Thread - #17/INFO]: <Wonder> im in a village rn[m
+
+[22:54:02] [Async Chat Thread - #17/INFO]: <ECLIPSE> oh[m
+
+[22:54:04] [Server thread/INFO]: ECLIPSE lost connection: Disconnected
+[22:54:04] [Server thread/INFO]: ECLIPSE left the game.
+[22:56:24] [Server thread/INFO]: There are 1/20000 players online:
+[22:56:24] [Server thread/INFO]: Wonder

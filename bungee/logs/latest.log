@@ -179,3 +179,11 @@
 [22:27:44] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:35706]: Logged in as 'Wonder'
 [22:27:44] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:35706|Wonder] -> UpstreamBridge has connected
 [22:27:44] [Netty Worker IO Thread #3/INFO]: [Wonder|/[0:0:0:0:0:0:0:1%0]:35706] <-> ServerConnector [lobby] has connected
+[22:50:24] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:60704]: Connected via websocket
+[22:50:24] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:60704]: Origin header is http://localhost:8081
+[22:50:24] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:60704]: Logged in as 'ECLIPSE'
+[22:50:24] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:60704|ECLIPSE] -> UpstreamBridge has connected
+[22:50:24] [Netty Worker IO Thread #0/INFO]: [ECLIPSE|/[0:0:0:0:0:0:0:1%0]:60704] <-> ServerConnector [lobby] has connected
+[22:54:04] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:60704|ECLIPSE] -> UpstreamBridge has disconnected
+[22:54:04] [Netty Worker IO Thread #0/INFO]: [ECLIPSE] disconnected with: Proxy lost connection to server.
+[22:54:04] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:60704|ECLIPSE] <-> DownstreamBridge <-> [lobby] has disconnected
