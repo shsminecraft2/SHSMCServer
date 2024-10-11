@@ -1257,3 +1257,74 @@ Caused by: java.lang.NullPointerException: type cannot be null
 [04:19:28] [Server thread/INFO]: Steven issued server command: /home HOME
 [04:23:06] [Async Chat Thread - #30/INFO]: <Steven> i got you[m
 
+[04:23:25] [Server thread/INFO]: There are 4/20000 players online:
+[04:23:25] [Server thread/INFO]: Danny, Steven, caden, mason
+[04:24:55] [Server thread/INFO]: Steven issued server command: /delhome Cave
+[04:25:01] [Server thread/INFO]: Steven issued server command: /sethome Village
+[04:25:34] [Async Chat Thread - #31/INFO]: <Danny> the bridge is just ok[m
+
+[04:25:57] [Async Chat Thread - #31/INFO]: <Danny> i should have build it out of wood but i didnt want to spend any bc we spent so much on the fences[m
+
+[04:26:07] [Async Chat Thread - #31/INFO]: <Steven> villages are usless there is no chests[m
+
+[04:26:25] [Async Chat Thread - #31/INFO]: <Danny> are there villagers there tho[m
+
+[04:26:30] [Async Chat Thread - #31/INFO]: <Steven> ye[m
+
+[04:26:35] [Async Chat Thread - #31/INFO]: <Danny> can you trade with them?[m
+
+[04:26:47] [Server thread/INFO]: Steven issued server command: /home HOME
+[04:26:49] [Async Chat Thread - #31/INFO]: <Steven> idk[m
+
+[04:27:27] [Server thread/INFO]: Steven issued server command: /home Village
+[04:28:01] [Async Chat Thread - #32/INFO]: <Danny> what do you guys think of the bridge[m
+
+[04:28:09] [Async Chat Thread - #32/INFO]: <caden> it looks good[m
+
+[04:28:41] [Async Chat Thread - #32/INFO]: <caden> are we just going to plant the whole thing[m
+
+[04:29:52] [Async Chat Thread - #33/INFO]: <Danny> do you have some sticks i could borrow[m
+
+[04:29:58] [Server thread/INFO]: Danny issued server command: /home <home>
+[04:32:39] [Async Chat Thread - #34/INFO]: <Steven> are you guys lagging[m
+
+[04:32:43] [Async Chat Thread - #34/INFO]: <Danny> yeah[m
+
+[04:35:12] [Server thread/INFO]: [Suicide] You are using the latest version of Suicide.
+[04:37:02] [Async Chat Thread - #35/INFO]: <Danny> i need another row of water[m
+
+[04:37:14] [Async Chat Thread - #35/INFO]: <Danny> ill plant some[m
+
+[04:37:15] [Async Chat Thread - #35/INFO]: <Steven> thhere is litterly a ocean[m
+
+[04:37:16] [Async Chat Thread - #35/INFO]: <caden> we dont haave enogh seeds[m
+
+[04:37:21] [Async Chat Thread - #35/INFO]: <Steven> in front of you][m
+
+[04:37:33] [Async Chat Thread - #35/INFO]: <Danny> ok but could you do the water tho[m
+
+[04:37:42] [Async Chat Thread - #35/INFO]: <Steven> im getting wood[m
+
+[04:37:45] [Server thread/INFO]: Danny issued server command: /home <home>
+[04:37:46] [Async Chat Thread - #35/INFO]: <Steven> i have 3 stacks[m
+
+[04:38:34] [Server thread/INFO]: Danny lost connection: Disconnected
+[04:38:34] [Server thread/INFO]: Danny left the game.
+[04:38:36] [Thread-36/INFO]: UUID of player Danny is ddcda591-f59a-39fa-ae6e-6744024d2256
+[04:38:36] [Server thread/INFO]: Danny[/[0:0:0:0:0:0:0:1]:48054] logged in with entity id 107138 at ([world]145.9133773997458, 84.0, 1207.699999988079)
+[04:38:37] [Craft Scheduler Thread - 51/INFO]: [0;31;1mWarning: Danny has the same IP as the following players:
+[0;33;22ma__, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet, scarlet_r, yarquesh, Ethonian, Jank_Boteko, ViggYee174, caden_da_gangsta, caden, John_MinecraftPC, glep, junkler3000, neaga, DANKBEEF, Cowboy, nigge, nigge_, bob_the_builder, Everett, YiggVigg282, Curry_Muncher, _sentientIMAC, ViggEagl622, Danny1, geep_, LittleBoyLover10, cadens, YeegDarver179, SpiceMonkey, skibidi_jizzler9, Curry_Muncher_, IhaveaDUI_547, YeegVool605, anyston, Placingblocks, niggaboy69, YeeVigg254, YeeishVool390, Peel, GETOOUUTT, Gilzbert, EaglerVigg473, YeeYeeish749, KP_, ur_mom, BedzGamer, WrongUser2803, Dashing, TimeBomb, littlelillylooho, ViggVool586, thegdtrrggeeyeef, ViggVigg409, gilzberto, Rysen, YeelerEagler186, adolf_rizzler, gilzbertio, mason[m
+
+[04:38:51] [Server thread/INFO]: Danny lost connection: Disconnected
+[04:38:51] [Server thread/INFO]: Danny left the game.
+[04:38:55] [Async Chat Thread - #36/INFO]: <Steven> can someone go to bed[m
+
+[04:39:28] [Thread-37/INFO]: UUID of player Danny is ddcda591-f59a-39fa-ae6e-6744024d2256
+[04:39:28] [Server thread/INFO]: Danny[/[0:0:0:0:0:0:0:1]:51090] logged in with entity id 107556 at ([world]142.60304713495648, 84.0, 1206.5596006119736)
+[04:39:29] [Craft Scheduler Thread - 52/INFO]: [0;31;1mWarning: Danny has the same IP as the following players:
+[0;33;22ma__, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet, scarlet_r, yarquesh, Ethonian, Jank_Boteko, ViggYee174, caden_da_gangsta, caden, John_MinecraftPC, glep, junkler3000, neaga, DANKBEEF, Cowboy, nigge, nigge_, bob_the_builder, Everett, YiggVigg282, Curry_Muncher, _sentientIMAC, ViggEagl622, Danny1, geep_, LittleBoyLover10, cadens, YeegDarver179, SpiceMonkey, skibidi_jizzler9, Curry_Muncher_, IhaveaDUI_547, YeegVool605, anyston, Placingblocks, niggaboy69, YeeVigg254, YeeishVool390, Peel, GETOOUUTT, Gilzbert, EaglerVigg473, YeeYeeish749, KP_, ur_mom, BedzGamer, WrongUser2803, Dashing, TimeBomb, littlelillylooho, ViggVool586, thegdtrrggeeyeef, ViggVigg409, gilzberto, Rysen, YeelerEagler186, adolf_rizzler, gilzbertio, mason[m
+
+[04:39:53] [Async Chat Thread - #36/INFO]: <Steven> thanks[m
+
+[04:42:40] [Async Chat Thread - #37/INFO]: <Danny> could you move the chest[m
+
