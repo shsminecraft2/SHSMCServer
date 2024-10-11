@@ -1122,3 +1122,136 @@ Caused by: java.lang.NullPointerException: type cannot be null
 [03:54:08] [Server thread/INFO]: There are 3/20000 players online:
 [03:54:08] [Server thread/INFO]: mason, Danny, Steven
 [03:54:08] [Server thread/INFO]: Steven issued server command: /home HOME
+[03:54:16] [Server thread/INFO]: Steven was slain by Zombie
+[03:54:19] [Server thread/INFO]: Steven issued server command: /back
+[03:54:21] [Async Chat Thread - #25/INFO]: <Steven> bro[m
+
+[03:54:46] [Server thread/INFO]: Steven was slain by Zombie
+[03:54:50] [Server thread/INFO]: Steven issued server command: /back
+[03:54:50] [Async Chat Thread - #25/INFO]: <Danny> bro[m
+
+[03:54:59] [Async Chat Thread - #25/INFO]: <Steven> hes spawn camping me[m
+
+[03:55:00] [Server thread/WARN]: Steven moved wrongly!
+[03:55:00] [Server thread/WARN]: Steven moved wrongly!
+[03:55:02] [Server thread/WARN]: Steven moved wrongly!
+[03:55:07] [Server thread/INFO]: Steven issued server command: /home HOME
+[03:55:14] [Server thread/INFO]: Steven issued server command: /home HOME
+[03:55:51] [Thread-32/INFO]: UUID of player caden is 1c17e1b0-26ef-3067-b20b-aebc29283c98
+[03:55:51] [Server thread/INFO]: caden[/[0:0:0:0:0:0:0:1]:38806] logged in with entity id 86150 at ([world]241.79470612609666, 13.0, 1334.1592781991149)
+[03:55:52] [Craft Scheduler Thread - 45/INFO]: [0;31;1mWarning: caden has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet, scarlet_r, yarquesh, Ethonian, Jank_Boteko, ViggYee174, caden_da_gangsta, John_MinecraftPC, glep, junkler3000, neaga, DANKBEEF, Cowboy, nigge, nigge_, bob_the_builder, Everett, YiggVigg282, Curry_Muncher, _sentientIMAC, ViggEagl622, Danny1, geep_, LittleBoyLover10, cadens, YeegDarver179, SpiceMonkey, skibidi_jizzler9, Curry_Muncher_, IhaveaDUI_547, YeegVool605, anyston, Placingblocks, niggaboy69, YeeVigg254, YeeishVool390, Peel, GETOOUUTT, Gilzbert, EaglerVigg473, YeeYeeish749, KP_, ur_mom, BedzGamer, WrongUser2803, Dashing, TimeBomb, littlelillylooho, ViggVool586, thegdtrrggeeyeef, ViggVigg409, gilzberto, Rysen, YeelerEagler186, adolf_rizzler, gilzbertio, mason[m
+
+[03:55:56] [Async Chat Thread - #25/INFO]: <Danny> where did you go?[m
+
+[03:56:04] [Async Chat Thread - #25/INFO]: <Steven> back to the surface[m
+
+[03:56:10] [Async Chat Thread - #25/INFO]: <Steven> oh[m
+
+[03:56:14] [Server thread/INFO]: caden issued server command: /tpa steven
+[03:56:21] [Server thread/INFO]: Steven issued server command: /accept
+[03:56:59] [Async Chat Thread - #25/INFO]: <Danny> i was talking to caden lol but nice[m
+
+[03:57:10] [Server thread/INFO]: mason lost connection: Disconnected
+[03:57:10] [Server thread/INFO]: mason left the game.
+[03:57:52] [Async Chat Thread - #25/INFO]: <Steven> what should i build[m
+
+[03:57:59] [Async Chat Thread - #25/INFO]: <Danny> i found a mineshaft[m
+
+[03:58:12] [Async Chat Thread - #25/INFO]: <Steven> reallty?[m
+
+[03:58:16] [Async Chat Thread - #25/INFO]: <Danny> really really[m
+
+[03:58:50] [Async Chat Thread - #25/INFO]: <Danny> you guys should tp to me[m
+
+[03:58:50] [Async Chat Thread - #25/INFO]: <Steven> whos house is all stone[m
+
+[03:58:54] [Async Chat Thread - #25/INFO]: <Steven> okay[m
+
+[03:59:01] [Async Chat Thread - #25/INFO]: <Danny> cadens friend[m
+
+[03:59:03] [Async Chat Thread - #25/INFO]: <caden> mason[m
+
+[03:59:13] [Server thread/INFO]: caden issued server command: /tpa danny
+[03:59:21] [Server thread/INFO]: Danny issued server command: /tpaccept
+[03:59:27] [Server thread/INFO]: Steven issued server command: /tp Danny
+[03:59:31] [Server thread/INFO]: Steven issued server command: /tpa Danny
+[03:59:51] [Async Chat Thread - #25/INFO]: <Steven> sent[m
+
+[03:59:57] [Server thread/INFO]: Steven issued server command: /tpa Danny
+[04:00:20] [Server thread/INFO]: Steven issued server command: /tpa Danny
+[04:00:22] [Server thread/INFO]: Danny issued server command: /tpaccept
+[04:00:27] [Async Chat Thread - #25/INFO]: <Steven> ok[m
+
+[04:01:47] [Async Chat Thread - #26/INFO]: <caden> emrald[m
+
+[04:02:49] [Server thread/INFO]: Danny issued server command: /home <home>
+[04:03:30] [Thread-33/INFO]: UUID of player mason is 905956b9-1794-36a8-861a-4904eae0994d
+[04:03:30] [Server thread/INFO]: mason[/[0:0:0:0:0:0:0:1]:33886] logged in with entity id 89724 at ([world]373.30000001192104, 12.0, 1261.699999988079)
+[04:03:31] [Craft Scheduler Thread - 48/INFO]: [0;31;1mWarning: mason has the same IP as the following players:
+[0;33;22ma__, Danny, XxTenderFlyxX, rocco, BaconMania, the_sigma, Steven, Geep, IhaveaDUI_998, YeeishYeeish841, Danny_, jewburner, Infinity, YeeVigg971, John_Minecraft, scarlet, scarlet_r, yarquesh, Ethonian, Jank_Boteko, ViggYee174, caden_da_gangsta, caden, John_MinecraftPC, glep, junkler3000, neaga, DANKBEEF, Cowboy, nigge, nigge_, bob_the_builder, Everett, YiggVigg282, Curry_Muncher, _sentientIMAC, ViggEagl622, Danny1, geep_, LittleBoyLover10, cadens, YeegDarver179, SpiceMonkey, skibidi_jizzler9, Curry_Muncher_, IhaveaDUI_547, YeegVool605, anyston, Placingblocks, niggaboy69, YeeVigg254, YeeishVool390, Peel, GETOOUUTT, Gilzbert, EaglerVigg473, YeeYeeish749, KP_, ur_mom, BedzGamer, WrongUser2803, Dashing, TimeBomb, littlelillylooho, ViggVool586, thegdtrrggeeyeef, ViggVigg409, gilzberto, Rysen, YeelerEagler186, adolf_rizzler, gilzbertio[m
+
+[04:03:35] [Async Chat Thread - #27/INFO]: <caden> ender perl[m
+
+[04:06:36] [Server thread/INFO]: Steven issued server command: /homes
+[04:06:41] [Server thread/INFO]: Steven issued server command: /del Mega
+[04:06:46] [Server thread/INFO]: Steven issued server command: /delhome Mega
+[04:06:57] [Server thread/INFO]: Steven issued server command: /home Cave
+[04:07:03] [Server thread/INFO]: Steven issued server command: /sethome Cave
+[04:07:21] [Server thread/INFO]: Steven issued server command: /home Mega
+[04:07:26] [Server thread/INFO]: Steven issued server command: /home Mega
+[04:07:30] [Server thread/INFO]: Steven issued server command: /homes
+[04:07:41] [Server thread/INFO]: Steven issued server command: /home HOME
+[04:07:46] [Server thread/INFO]: [0;33;1m[ProtocolLib] The updater found an update: 5.2.0 (Running 5.2.0-SNAPSHOT-679). Download at https://www.spigotmc.org/resources/protocollib.1997/[m
+
+[04:08:00] [Server thread/INFO]: caden issued server command: /tpa danny
+[04:08:04] [Server thread/INFO]: Danny issued server command: /tpaccept
+[04:08:12] [Server thread/INFO]: Steven issued server command: /home Cave
+[04:10:10] [Async Chat Thread - #28/INFO]: <Danny> good farm spot?[m
+
+[04:10:14] [Async Chat Thread - #28/INFO]: <caden> ya[m
+
+[04:10:24] [Async Chat Thread - #28/INFO]: <Danny> that flat area[m
+
+[04:10:28] [Async Chat Thread - #28/INFO]: <Steven> emarlds[m
+
+[04:10:29] [Async Chat Thread - #28/INFO]: <Danny> across the river[m
+
+[04:10:46] [Async Chat Thread - #28/INFO]: <Danny> you start on the farm ill build a bridge[m
+
+[04:10:54] [Async Chat Thread - #28/INFO]: <caden> k[m
+
+[04:10:55] [Async Chat Thread - #28/INFO]: <Danny> dw about stairs ive got that[m
+
+[04:11:06] [Async Chat Thread - #28/INFO]: <Steven> emarelds go in the rare chest right?[m
+
+[04:11:15] [Async Chat Thread - #28/INFO]: <Danny> yeah[m
+
+[04:11:29] [Server thread/INFO]: caden has just earned the achievement [Time to Farm!]
+[04:14:43] [Server thread/INFO]: Steven issued server command: /delhome Cave
+[04:14:47] [Server thread/INFO]: Steven issued server command: /sethome Cave
+[04:14:51] [Server thread/INFO]: Steven issued server command: /home HOME
+[04:16:19] [Async Chat Thread - #29/INFO]: <caden> can someome make me like 4 staks of fence[m
+
+[04:16:30] [Async Chat Thread - #29/INFO]: <Steven> yeah[m
+
+[04:17:17] [Async Chat Thread - #29/INFO]: <mason> where would redstone go[m
+
+[04:17:32] [Async Chat Thread - #29/INFO]: <Danny> in the redstone chest by the brewing stand[m
+
+[04:17:35] [Async Chat Thread - #29/INFO]: <Steven> here[m
+
+[04:17:36] [Async Chat Thread - #29/INFO]: <Danny> at the end[m
+
+[04:17:37] [Async Chat Thread - #29/INFO]: <caden> its[m
+
+[04:18:20] [Server thread/INFO]: Steven issued server command: /wya caden
+[04:18:25] [Async Chat Thread - #29/INFO]: <Steven> wya caden[m
+
+[04:18:32] [Async Chat Thread - #29/INFO]: <caden> jus tp[m
+
+[04:18:53] [Server thread/INFO]: Steven issued server command: /tpa caden
+[04:19:06] [Server thread/INFO]: caden issued server command: /tpaccept
+[04:19:25] [Async Chat Thread - #29/INFO]: <Steven> almost for stacks[m
+
+[04:19:28] [Server thread/INFO]: Steven issued server command: /home HOME
