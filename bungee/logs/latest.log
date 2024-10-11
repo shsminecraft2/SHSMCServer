@@ -58,3 +58,7 @@
 [16:32:47] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:39496]: Logged in as 'jewburner'
 [16:32:47] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:39496|jewburner] -> UpstreamBridge has connected
 [16:32:47] [Netty Worker IO Thread #2/INFO]: [jewburner|/[0:0:0:0:0:0:0:1%0]:39496] <-> ServerConnector [lobby] has connected
+[16:34:09] [Netty Worker IO Thread #1/WARN] [EaglercraftXBungee]: Server icon is not a file: /workspaces/SHSMCServer/bungee/server-icon.png
+[16:34:43] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:39496|jewburner] -> UpstreamBridge has disconnected
+[16:34:43] [Netty Worker IO Thread #2/INFO]: [jewburner] disconnected with: Proxy lost connection to server.
+[16:34:43] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:39496|jewburner] <-> DownstreamBridge <-> [lobby] has disconnected
