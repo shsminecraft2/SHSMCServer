@@ -5,7 +5,7 @@ register:
   required: true
   # When enabled, users need to enter a captcha upon registration.
   captcha: false
-  # When enabled, requires users to enter their password twice upon registration.
+  # When enabled/, requires users to enter their password twice upon registration.
   confirm-password: false
 login:
   max-tries: 5
