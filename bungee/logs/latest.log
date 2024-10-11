@@ -701,3 +701,8 @@ It expires in 23 hours 59 minutes 52 seconds
 [18:48:01] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:33462|John_Minecraft] -> UpstreamBridge has disconnected
 [18:48:01] [Netty Worker IO Thread #0/INFO]: [John_Minecraft] disconnected with: Proxy lost connection to server.
 [18:48:01] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:33462|John_Minecraft] <-> DownstreamBridge <-> [lobby] has disconnected
+[18:51:24] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:35912]: Connected via websocket
+[18:51:24] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:35912]: Origin header is http://localhost:8081
+[18:51:24] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:35912]: Logged in as 'steve_'
+[18:51:24] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:35912|steve_] -> UpstreamBridge has connected
+[18:51:24] [Netty Worker IO Thread #3/INFO]: [steve_|/[0:0:0:0:0:0:0:1%0]:35912] <-> ServerConnector [lobby] has connected
