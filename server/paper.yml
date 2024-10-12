@@ -49,7 +49,7 @@ world-settings:
       cactus: 3
       reeds: 3
     fishing-time-range:
-      MinimumTicks: 50/. 
+      MinimumTicks: 50
       MaximumTicks: 450
     player-exhaustion:
       block-break: 0.002500000037252903
@@ -59,11 +59,11 @@ world-settings:
       hard: 128
     falling-block-height-nerf: 0
     remove-unloaded:
-      enderpearls: true
-      tnt-entities: true
-      falling-blocks: true
+      enderpearls: false
+      tnt-entities: false
+      falling-blocks: false
     game-mechanics:
-      boats-drop-boats: false
+      boats-drop-boats: true
       disable-player-crits: false
       disable-chest-cat-detection: false
       disable-end-credits: false
@@ -84,14 +84,14 @@ world-settings:
     tnt-entity-height-nerf: 0
     use-hopper-check: false
     all-chunks-are-slime-chunks: false
-    allow-undead-horse-leashing: false
-    keep-spawn-loaded: true
+    allow-undead-horse-leashing: true
     container-update-tick-rate: 1
+    keep-spawn-loaded: true
+    falling-blocks-collide-with-signs: false
+    disable-mood-sounds: false
+    use-async-lighting: false
     portal-search-radius: 128
     disable-thunder: false
     disable-ice-and-snow: false
     tick-next-tick-list-cap: 10000
     tick-next-tick-list-cap-ignores-redstone: false
-    falling-blocks-collide-with-signs: false
-    disable-mood-sounds: false
-    use-async-lighting: false
