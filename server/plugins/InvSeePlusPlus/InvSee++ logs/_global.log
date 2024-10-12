@@ -76,3 +76,15 @@ Spectator Name: BaconMania
 Taken         : []
 Given         : [COOKED_BEEF x 64]
 Target        : SpiceMonkey
+[2024-10-12 00:13:41] [INFO]:
+Spectator UUID: e7c24215-dfa4-3c38-a935-0a08fc511456
+Spectator Name: a__
+Taken         : []
+Given         : [DIAMOND_SWORD & UNSPECIFIC_META:{meta-type=UNSPECIFIC, display-name=Asian Chopstick, enchants={DAMAGE_ALL=1}, repair-cost=3} x 1, IRON_BOOTS & UNSPECIFIC_META:{meta-type=UNSPECIFIC, enchants={PROTECTION_ENVIRONMENTAL=2, PROTECTION_FALL=2}} x 1, IRON_LEGGINGS & UNSPECIFIC_META:{meta-type=UNSPECIFIC, enchants={PROTECTION_ENVIRONMENTAL=1}} x 1, DIAMOND_CHESTPLATE & UNSPECIFIC_META:{meta-type=UNSPECIFIC, enchants={DURABILITY=3}} x 1, IRON_SPADE x 1, WOOD x 52, IRON_HELMET & UNSPECIFIC_META:{meta-type=UNSPECIFIC, enchants={PROTECTION_ENVIRONMENTAL=1}} x 1, DIAMOND_PICKAXE & UNSPECIFIC_META:{meta-type=UNSPECIFIC, display-name=tool for jewish kids, enchants={DIG_SPEED=2, DURABILITY=1}, repair-cost=15} x 1, SAPLING x 5, BONE x 1, QUARTZ x 8, COBBLESTONE x 54, STICK x 5, ROTTEN_FLESH x 3, STONE x 1, WATER_BUCKET x 1, TORCH x 92, IRON_INGOT x 37, BREAD x 22, IRON_PICKAXE x 1, DIRT x 8, STONE_PICKAXE x 1, GOLD_NUGGET x 3, IRON_AXE x 1, NETHERRACK x 2]
+Target        : Danny
+[2024-10-12 00:20:46] [INFO]:
+Spectator UUID: 94cc9361-df90-3d70-a09d-55ea0279e1a1
+Spectator Name: BaconMania
+Taken         : []
+Given         : [SEEDS x 1]
+Target        : the_sigma
