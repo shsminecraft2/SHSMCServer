@@ -49,21 +49,21 @@ world-settings:
       cactus: 3
       reeds: 3
     fishing-time-range:
-      MinimumTicks: 50
-      MaximumTicks: 450
+      MinimumTicks: 100
+      MaximumTicks: 900
     player-exhaustion:
-      block-break: 0.002500000037252903
-      swimming: 0.0014999999664723873
+      block-break: 0.02500000037252903
+      swimming: 0.014999999664723873
     despawn-ranges:
       soft: 32
       hard: 128
     falling-block-height-nerf: 0
     remove-unloaded:
-      enderpearls: false
-      tnt-entities: false
-      falling-blocks: false
+      enderpearls: true
+      tnt-entities: true
+      falling-blocks: true
     game-mechanics:
-      boats-drop-boats: true
+      boats-drop-boats: false
       disable-player-crits: false
       disable-chest-cat-detection: false
       disable-end-credits: false
@@ -84,12 +84,12 @@ world-settings:
     tnt-entity-height-nerf: 0
     use-hopper-check: false
     all-chunks-are-slime-chunks: false
-    allow-undead-horse-leashing: true
+    allow-undead-horse-leashing: false
     keep-spawn-loaded: true
+    container-update-tick-rate: 1
     falling-blocks-collide-with-signs: false
     disable-mood-sounds: false
     use-async-lighting: false
-    container-update-tick-rate: 1
     portal-search-radius: 128
     disable-thunder: false
     disable-ice-and-snow: false
