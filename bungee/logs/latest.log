@@ -59,3 +59,6 @@
 [19:31:51] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:35398]: Logged in as 'Curry_Muncher'
 [19:31:51] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:35398|Curry_Muncher] -> UpstreamBridge has connected
 [19:31:51] [Netty Worker IO Thread #2/INFO]: [Curry_Muncher|/[0:0:0:0:0:0:0:1%0]:35398] <-> ServerConnector [lobby] has connected
+[19:57:37] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:35398|Curry_Muncher] -> UpstreamBridge has disconnected
+[19:57:37] [Netty Worker IO Thread #2/INFO]: [Curry_Muncher] disconnected with: Proxy lost connection to server.
+[19:57:37] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:35398|Curry_Muncher] <-> DownstreamBridge <-> [lobby] has disconnected

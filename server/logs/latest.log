@@ -299,3 +299,6 @@ Caused by: java.util.zip.ZipException: zip END header not found
 [19:33:48] [Server thread/INFO]: Curry_Muncher issued server command: /back
 [19:37:15] [Server thread/INFO]: There are 1/20000 players online:
 [19:37:15] [Server thread/INFO]: Curry_Muncher
+[19:42:50] [Server thread/INFO]: §7Player§8: §fCurry_Muncher has just earned the achievement [Time to Farm!]
+[19:57:37] [Server thread/INFO]: Curry_Muncher lost connection: Disconnected
+[19:57:37] [Server thread/INFO]: Curry_Muncher left the game.
