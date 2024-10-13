@@ -70,3 +70,35 @@
 [22:30:09] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:45348|a__] -> UpstreamBridge has disconnected
 [22:30:09] [Netty Worker IO Thread #1/INFO]: [a__] disconnected with: Proxy lost connection to server.
 [22:30:09] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:45348|a__] <-> DownstreamBridge <-> [lobby] has disconnected
+[22:38:40] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:34278]: Connected via websocket
+[22:38:40] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:34278]: Origin header is http://localhost:8081
+[22:38:40] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:34278]: Logged in as 'Steven'
+[22:38:40] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:34278|Steven] -> UpstreamBridge has connected
+[22:38:40] [Netty Worker IO Thread #2/INFO]: [Steven|/[0:0:0:0:0:0:0:1%0]:34278] <-> ServerConnector [lobby] has connected
+[22:39:10] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50140]: Connected via websocket
+[22:39:10] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50140]: Origin header is http://localhost:8081
+[22:39:11] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50140]: Logged in as 'a__'
+[22:39:11] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:50140|a__] -> UpstreamBridge has connected
+[22:39:11] [Netty Worker IO Thread #0/INFO]: [a__|/[0:0:0:0:0:0:0:1%0]:50140] <-> ServerConnector [lobby] has connected
+[22:40:05] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:50140|a__] -> UpstreamBridge has disconnected
+[22:40:05] [Netty Worker IO Thread #0/INFO]: [a__] disconnected with: Proxy lost connection to server.
+[22:40:05] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:50140|a__] <-> DownstreamBridge <-> [lobby] has disconnected
+[22:40:50] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:40952]: Connected via websocket
+[22:40:50] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:40952]: Origin header is http://localhost:8081
+[22:40:50] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:40952]: Logged in as 'a__'
+[22:40:50] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:40952|a__] -> UpstreamBridge has connected
+[22:40:50] [Netty Worker IO Thread #3/INFO]: [a__|/[0:0:0:0:0:0:0:1%0]:40952] <-> ServerConnector [lobby] has connected
+[22:41:59] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:40952|a__] -> UpstreamBridge has disconnected
+[22:41:59] [Netty Worker IO Thread #3/INFO]: [a__] disconnected with: Proxy lost connection to server.
+[22:41:59] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:40952|a__] <-> DownstreamBridge <-> [lobby] has disconnected
+[22:41:59] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:34278|Steven] -> UpstreamBridge has disconnected
+[22:41:59] [Netty Worker IO Thread #2/INFO]: [Steven] disconnected with: Proxy lost connection to server.
+[22:41:59] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:34278|Steven] <-> DownstreamBridge <-> [lobby] has disconnected
+[22:45:32] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:43906]: Connected via websocket
+[22:45:32] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:43906]: Origin header is http://localhost:8081
+[22:45:32] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:43906]: Logged in as 'a__'
+[22:45:32] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:43906|a__] -> UpstreamBridge has connected
+[22:45:32] [Netty Worker IO Thread #3/INFO]: [a__|/[0:0:0:0:0:0:0:1%0]:43906] <-> ServerConnector [lobby] has connected
+[22:46:48] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:43906|a__] -> UpstreamBridge has disconnected
+[22:46:48] [Netty Worker IO Thread #3/INFO]: [a__] disconnected with: Proxy lost connection to server.
+[22:46:48] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:43906|a__] <-> DownstreamBridge <-> [lobby] has disconnected
